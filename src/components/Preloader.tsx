@@ -26,11 +26,10 @@ export function Preloader({
     const complete = () => {
       if (home) {
         const target = document.querySelector(".home-hero__wrapper");
-        if (target) {
-          const logo = wrapper.cloneNode(true) as HTMLElement;
-          logo.style.opacity = "1";
-          target.replaceChildren(logo);
-        }
+        if (target)
+          target.querySelector<HTMLElement>(
+            ".preloader__wrapper",
+          )!.style.opacity = "1";
         document
           .querySelector(".home-hero")
           ?.classList.add("home-hero--preloader-done");

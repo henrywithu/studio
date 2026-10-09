@@ -63,6 +63,7 @@ export function setupControls(root: HTMLElement) {
       transformOrigin: "bottom left",
     });
     const close = () => {
+      footer.classList.remove("footer--credits-open");
       gsap.to(credits, {
         yPercent: 110,
         rotation: 8,
@@ -72,6 +73,9 @@ export function setupControls(root: HTMLElement) {
     };
     listen(footer.querySelector(".footer__credits"), "click", () => {
       lenis.scrollTo("bottom", { duration: 0.8 });
+      gsap.delayedCall(0.82, () =>
+        footer.classList.add("footer--credits-open"),
+      );
       gsap.to(credits, {
         yPercent: 0,
         rotation: 0,

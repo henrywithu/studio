@@ -1,6 +1,10 @@
 import { gsap, ScrollTrigger, reducedMotion } from "./engine";
 /** Transforms and trigger ranges transcribed from the inspected home module. */
 export function setupHome(root: HTMLElement) {
+  root.querySelector(".home-hero")?.classList.add("home-hero--preloader-done");
+  root
+    .querySelector(".home-hero__fig")
+    ?.classList.add("home-hero__fig--visible");
   if (reducedMotion) return;
   const q = (s: string) => root.querySelector<HTMLElement>(s);
   const hero = q(".home-hero"),

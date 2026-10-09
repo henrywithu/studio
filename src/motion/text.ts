@@ -1,12 +1,31 @@
 import { SplitText } from "gsap/SplitText";
 import { gsap, ScrollTrigger, reducedMotion, blink } from "./engine";
+import { splitMeasuredLines } from "./lines";
 gsap.registerPlugin(SplitText);
 /** Recreate line, word and character splitting, including the font's first-letter correction. */
 export function setupText(root: HTMLElement) {
-  const splits: SplitText[] = [],
+  const media = gsap.matchMedia();
+  media.add("(max-width:767px)", () => setupTextPass(root));
+  media.add("(min-width:768px)", () => setupTextPass(root));
+  return () => media.revert();
+}
+function setupTextPass(root: HTMLElement) {
+  const splits: Pick<SplitText, "lines" | "chars" | "revert">[] = [],
     cleanup: (() => void)[] = [];
   root.querySelectorAll<HTMLElement>(".text-splitter").forEach((element) => {
     if (!element.textContent?.trim()) return;
+    const originalHTML = element.innerHTML;
+    let removedBreak = false;
+    element.querySelectorAll("br").forEach((br) => {
+      if (getComputedStyle(br).display === "none") {
+        br.replaceWith(document.createTextNode(" "));
+        removedBreak = true;
+      }
+    });
+    if (removedBreak)
+      cleanup.push(() => {
+        element.innerHTML = originalHTML;
+      });
     const paragraphs = element.querySelectorAll("p");
     const targets = paragraphs.length ? Array.from(paragraphs) : element;
     const heading = !!element.closest(
@@ -18,27 +37,33 @@ export function setupText(root: HTMLElement) {
     const excerpt = element.closest(
       ".work-item-meta-bot__excerpt,.news-item__excerpt",
     );
-    const split = SplitText.create(targets, {
-      type:
-        element.dataset.splitType ||
-        (footerCTA ? "chars" : heading ? "lines,words" : "lines"),
-      linesClass:
-        element.dataset.splitLine ||
-        (excerpt ? "work-item-meta-bot__line" : "anim-line"),
-      wordsClass: "anim-word",
-      charsClass: "anim-char",
-      autoSplit: true,
-      onSplit(self) {
-        if (element.dataset.splitFont === "true")
-          self.lines.forEach((line) => {
-            const char = line.textContent?.trim().charAt(0);
-            if (char) line.classList.add("letter-" + char);
+    const split =
+      excerpt && !element.childElementCount
+        ? splitMeasuredLines(
+            element,
+            element.dataset.splitLine || "work-item-meta-bot__line",
+          )
+        : SplitText.create(targets, {
+            type:
+              element.dataset.splitType ||
+              (footerCTA ? "chars" : heading ? "lines,words" : "lines"),
+            linesClass:
+              element.dataset.splitLine ||
+              (excerpt ? "work-item-meta-bot__line" : "anim-line"),
+            wordsClass: "anim-word",
+            charsClass: "anim-char",
+            autoSplit: true,
+            onSplit(self) {
+              if (element.dataset.splitFont === "true")
+                self.lines.forEach((line) => {
+                  const char = line.textContent?.trim().charAt(0);
+                  if (char) line.classList.add("letter-" + char);
+                });
+              if (element.dataset.splitDisplay === "true")
+                gsap.set(self.lines, { display: "inline-flex" });
+              if (excerpt) gsap.set(self.lines, { opacity: 0 });
+            },
           });
-        if (element.dataset.splitDisplay === "true")
-          gsap.set(self.lines, { display: "inline-flex" });
-        if (excerpt) gsap.set(self.lines, { opacity: 0 });
-      },
-    });
     splits.push(split);
     element.classList.add("text-splitter--splitted");
     if (footerCTA && !reducedMotion) {
@@ -107,7 +132,7 @@ export function setupText(root: HTMLElement) {
   });
   ScrollTrigger.refresh();
   return () => {
-    cleanup.forEach((fn) => fn());
     splits.forEach((split) => split.revert());
+    cleanup.forEach((fn) => fn());
   };
 }

@@ -1,0 +1,125 @@
+{
+  "report": [
+    {
+      "route": "/",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "route": "/work",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "route": "/entertainment",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "route": "/blog",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "route": "/podcast",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "route": "/contact",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "route": "/shop",
+      "width": 320,
+      "documentWidth": 320
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "route": "/work",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "route": "/entertainment",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "route": "/blog",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "route": "/podcast",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "route": "/shop",
+      "width": 768,
+      "documentWidth": 768
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "route": "/work",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "route": "/about",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "route": "/entertainment",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "route": "/blog",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "route": "/podcast",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "route": "/contact",
+      "width": 1024,
+      "documentWidth": 1024
+    },
+    {
+      "route": "/shop",
+      "width": 1024,
+      "documentWidth": 1024
+    }
+  ],
+  "errors": []
+}

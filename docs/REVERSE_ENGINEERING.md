@@ -13,7 +13,7 @@ Reference: https://thelinestudio.com/ (snapshot captured 2026-10-09).
 
 ## Global geometry and color
 
-Root font size 62.5% (1rem=10px). Mobile gutter 8px; desktop gutter 0.46296vw. Desktop grid 9 columns (5 on mobile); responsive boundaries include 768px and 1024px. Body #dddee2, paper #f8f8f8, ink #0b0b0b, accent #ff391e. Translucent acetates use pure red and `mix-blend-mode:multiply`; this is the red hero effect, not a color grading shader. Native scrollbars are hidden only for hover-capable pointers; a 0.46296vw custom handle is draggable.
+Root font size 62.5% (1rem=10px). Mobile gutter 8px; desktop gutter 0.46296vw. Desktop grid 9 columns (5 on mobile); responsive boundaries include 768px and 1024px. Body #dddee2, paper #f8f8f8, ink #0b0b0b, accent #ff391e. Translucent acetates use pure red and `mix-blend-mode:multiply`; this is the red hero effect, not a color grading shader. Native scrollbars are hidden only for hover-capable pointers; a 0.46296vw custom handle is draggable, with fixed minimum height 4.62963vw.
 
 ## Preloader (original application entry module)
 
@@ -49,8 +49,44 @@ Each of the 114 routes was inspected through its original Vue component tree. Me
 
 The client uses React 19, TypeScript, Vite HMR, GSAP and Lenis. It renders typed declarative content, with separate controllers for media, text splitting, route motion, galleries, filters, cursor and controls. Content and production JavaScript remain separate. Original SVG geometry and CSS are preserved, including component scope attributes where selectors require them.
 
-The local library contains 2,924 exact image crop variants, the original font, favicon, scribble, eight homepage background videos and 30 podcast previews. Large case films remain progressive streams at their original public URLs; embedded films retain their YouTube IDs. Repeated image URLs are canonicalized by sorted crop parameters to avoid storing the same transformation twice.
+The local library contains 3,006 exact image crop variants, the original font, favicon, scribble, eight homepage background videos and 30 podcast previews. Large case films remain progressive streams at their original public URLs; embedded films retain their YouTube IDs. Repeated image URLs are canonicalized by sorted crop parameters to avoid storing the same transformation twice.
 
 Source investigation found no application WebGL, WGSL, GLSL or shader pipeline. The visual sheets, acetates, grading, clipping and mouse previews use SVG, DOM transforms and CSS blending. There are consequently no invented shader files.
 
-Detailed visual and interaction validation is ongoing at this milestone.
+Final validation results and remaining limits are recorded in [VALIDATION.md](VALIDATION.md).
+
+## Work catalog and control state (D9wrofva.js, ONgAZZxY.js)
+
+The source global catalog contains 85 cases, while its rendered grid/list contains 77 published cards. Filter counts come from the global catalog, so `All [85]` with 77 cards is intentional source behavior. Selecting a filter moves it into the first list position; the original first-item CSS hides that button behind the large current-filter toggle. All remains available after selecting another type.
+
+Every filter rebuilds the visible grid using column spans `[5,4,3,3,3,9,4,5,3,3,3,9]`, repeating across nine columns. Its corresponding crop sizes are `[medium,small,extra-small,extra-small,extra-small,big,small,medium,extra-small,extra-small,extra-small,big]`. All four original asset variants and the separate cursor thumbnail are extracted per case. The list uses the source cursor crop (1130×634 for the current records), rather than the grid image.
+
+Each sorting control cycles default → ascending → descending → default. The first year state sorts newest first using the complete date. Title sorting uses the original title. Director sorting uses first/last alphabetical names, and changes the displayed director-name order. Type sorting uses first/last alphabetical tag slugs. A director query opens list layout and puts matching projects first while retaining every published row. Reset clears the query. Floating layout/back-to-top buttons appear between scroll 200px and the footer; director-query mode displays Reset.
+
+Filter sheets move from `translate(-50%,115%) rotate(8deg)` on mobile or `translate(-10%,115%) rotate(8deg)` on desktop over .8s with cubic(.14,1,.34,1). Grid/list entry moves from X20%, Y120lvh, rotation8 over .8s after .6s delay. Source page entry uses X−10%, Y105lvh, rotation−4 over .8s with pageOut; outgoing content then moves Y−25lvh, rotation4 over .78s. Next-project navigation uses the case-footer hero sheet.
+
+## Other route motion and conditional controls
+
+- About directional carousel: right-half click advances, left-half click goes back, wrapping ten original images. Next sheets enter/leave from X−110%,Y30%,rotation−10; previous from X110%,Y−40%,rotation10. Entry is 1.4s cubic(.19,1,.22,1); exit is 1s cubic(1,0,.25,.995). The next/previous thumbnail is 15.74074vw with aspect272/153, alongside `previous / [n/10]` or `next / [n/10]`. Pointer translation and rotation interpolate .1 per frame. Initial horizontal rotation range is −10…10; resize changes it to −30…30.
+- Contact entrance: .5s delay; text sheet enters from Y100% over1s. Foreground image enters from Y120%,X−10%,rotation6, origin top-right over1.3s at offset.2. Acetate/content layers enter from Y120%,X−20%,rotation8, origin top-left over1s at offset.3. On completion, scroll from hero top-top to bottom-top scrubs .5: text Y−20%,X10%,rotation8; figure Y−40%,X10%,rotation8; acetates Y−50%,rotation8; background Y−10%.
+- Entertainment hero: scroll moves its sheets Y−80%,X−15%,rotation−8. Artwork has distinct desktop/mobile transforms, transcribed in `motion/pages.ts`.
+- Feed hero link moves Y60%,X10%,rotation8 from top-top+1 to bottom-top; article figures themselves remain static. Native line geometry is preserved for excerpts, including hyphenated words that can break within a line.
+- Case hero: its sheets move Y−30%,X15%,rotation8; figure Y−10%, scrub.5. Crew opening moves main acetate/content Y−180px and clone Y−100%; the captured original crew panel enters X15%,Y120%,rotation−10 over1s. Scrolling beyond150px closes it.
+- Fourteen original director notes open X−15%,Y115%,rotation10 over1s, stop smooth scrolling, and provide close/director-work controls. Their original HTML, signatures and images are extracted.
+- Case footer scrolls from rotation−16,Y28%,X−15% to rotation−8,Y−10%,X−8%, origin top-right, from top-bottom to document max with scrub.5.
+- Footer reserves measured content height +8px. Wordmark moves X−7%,rotation−6 on desktop and X−14%,Y−40%,rotation−6 on mobile; sticky content rises Y15%→0. Credits first scroll to bottom over.8s, then reveal after.82s. The original open class shifts the sticky sheet X5%,Y−16.2037vw,rotation−6 on desktop or X5%,Y−24rem,rotation−3 on mobile.
+- FAQ starts with the first answer expanded, permits one open answer, and animates height over.6s power2.out. Mobile footer sections also use exclusive height expansion.
+- Gallery drag clamps to the original content width, calculates figure width from source aspect ratios, and interpolates horizontal motion .15 per frame. Numbered case carousels retain original navigation labels, thumbnails and sheet geometry.
+- Shop images travel along the original SVG path using MotionPathPlugin, five-second motion with staggered repeats; alternating images rotate through360°.
+
+## Media, text and responsiveness
+
+Background videos use original desktop/small-screen URLs, muted looping playback and viewport-driven loading. Full-length video playback starts only on the original Play control, enables the source's native controls and unmuted audio, and closes on Escape/ended. YouTube IDs remain original embeds. Thirty original podcast MP3 previews are local; selecting another preview stops the previous one. Sixteen source equalizer bars animate independently with repeated random scaleY values at .5s intervals and .025s stagger. Playback volume is .5.
+
+Original TextSplitter props are captured per instance: split type, line class, font correction and inline-flex display. Denim's first-letter offsets are preserved. Hidden `<br>` elements under768px are treated as spaces so current SplitText does not impose a mobile line break absent from the source. Plain excerpts use browser Range geometry to retain native kerning and word-break positions. Resizing remeasures those lines and rebuilds breakpoint-dependent splits.
+
+Responsive images preserve exact original crop dimensions instead of uncropped file dimensions; this prevents native lazy placeholders from increasing section height. Vue client-only teleport placeholders are removed where hydration removes them. Two targeted CSS cascade corrections preserve source route loading order: mobile Entertainment metadata is relative, and the Contact opportunities dot is absolute. These changes derive from computed style comparisons, rather than compensating spacers.
+
+## Provenance artifacts
+
+`docs/evidence/assets.json` records every stored asset's original URL, local path, bytes and SHA-256. `reference-resources.json` records all89 inspected module/style URLs and their hashes without copying application code into the client. Route, viewport and motion validation summaries are committed beside them. Extraction scripts can regenerate the content from the ignored research snapshots.

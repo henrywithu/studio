@@ -1,5 +1,19 @@
 import { createElement, type CSSProperties, type ReactNode } from "react";
-import type { ContentNode } from "../content/types";
+import chrome from "../content/chrome.json";
+import type { ElementNode, ContentNode } from "../content/types";
+function findWordmark(node: ContentNode): ElementNode | undefined {
+  if (typeof node === "string") return;
+  if (node.attrs.class === "preloader__wrapper") return node;
+  for (const child of node.children) {
+    const result = findWordmark(child);
+    if (result) return result;
+  }
+}
+const wordmark = structuredClone(findWordmark(chrome.loader as ElementNode)!);
+wordmark.attrs.style = "opacity:1";
+for (const child of wordmark.children)
+  if (typeof child === "object" && child.attrs.class === "preloader__r")
+    child.attrs.style = "opacity:1";
 const names: Record<string, string> = {
   datetime: "dateTime",
   class: "className",
@@ -32,6 +46,7 @@ const booleans = new Set([
   "readOnly",
   "disabled",
   "multiple",
+  "hidden",
 ]);
 function style(input: string): CSSProperties {
   const result: Record<string, string> = {};
@@ -70,7 +85,16 @@ export function renderContent(
         ? name.replace(/-([a-z])/g, (_, c: string) => c.toUpperCase())
         : name);
     props[attribute] =
-      name === "style" ? style(value) : booleans.has(attribute) ? true : value;
+      name === "style"
+        ? style(value)
+        : booleans.has(attribute)
+          ? true
+          : name === "href" &&
+              /^https?:\/\/(?:www\.)?thelinestudio\.com\//.test(value)
+            ? new URL(value).pathname +
+              new URL(value).search +
+              new URL(value).hash
+            : value;
   }
   if (node.tag === "img" && String(props.src || "").startsWith("/assets/"))
     props.onLoad = (event: React.SyntheticEvent<HTMLImageElement>) =>
@@ -107,7 +131,10 @@ export function renderContent(
     props,
     ...(voidTags.has(node.tag)
       ? []
-      : node.children.map((child, index) => renderContent(child, index))),
+      : node.attrs.class?.includes("home-hero__wrapper") &&
+          !node.children.length
+        ? [renderContent(wordmark, "wordmark")]
+        : node.children.map((child, index) => renderContent(child, index))),
   );
 }
 export function Content({ node }: { node: ContentNode }) {

@@ -13,22 +13,24 @@ const browser = await chromium.launch({
   ],
   proxy: { server: process.env.HTTPS_PROXY, bypass: "localhost,127.0.0.1" },
 });
-const jobs = [
-  "/",
-  "/work",
-  "/about",
-  "/entertainment",
-  "/blog",
-  "/podcast",
-  "/contact",
-  "/shop",
-  "/work/gorillaz-the-mountain-the-mooncave-and-the-sad-god",
-].flatMap((route) => [1440, 390].map((width) => ({ route, width })));
+const jobs = (
+  process.env.COMPARE_ROUTES?.split(",") || [
+    "/",
+    "/work",
+    "/about",
+    "/entertainment",
+    "/blog",
+    "/podcast",
+    "/contact",
+    "/shop",
+    "/work/gorillaz-the-mountain-the-mooncave-and-the-sad-god",
+  ]
+).flatMap((route) => [1440, 390].map((width) => ({ route, width })));
 const results = [];
 let index = 0;
 await mkdir("research/screenshots/comparison", { recursive: true });
 await Promise.all(
-  Array.from({ length: 3 }, async () => {
+  Array.from({ length: 1 }, async () => {
     while (index < jobs.length) {
       const job = jobs[index++],
         name =
@@ -37,10 +39,10 @@ await Promise.all(
           job.width;
       const pair = { ...job };
       for (const origin of [
-        "https://thelinestudio.com",
+        process.env.REFERENCE_ORIGIN || "https://thelinestudio.com",
         "http://localhost:5173",
       ]) {
-        const label = origin.includes("localhost") ? "studio" : "reference",
+        const label = origin.endsWith(":5173") ? "studio" : "reference",
           page = await browser.newPage({
             viewport: {
               width: job.width,
@@ -115,6 +117,10 @@ await Promise.all(
         }
       }
       results.push(pair);
+      await writeFile(
+        "research/browser/comparison-report.json",
+        JSON.stringify(results, null, 2),
+      );
     }
   }),
 );

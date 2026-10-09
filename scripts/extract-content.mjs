@@ -70,8 +70,20 @@ function mediaNode($, element, a) {
     $("<img>").attr({
       class: "base-image__img",
       src: localImage(src),
-      width: info.width || "",
-      height: info.height || "",
+      width:
+        responsive?.width ||
+        Number(
+          new URL(src, "https://thelinestudio.com").searchParams.get("w"),
+        ) ||
+        info.width ||
+        "",
+      height:
+        responsive?.height ||
+        Number(
+          new URL(src, "https://thelinestudio.com").searchParams.get("h"),
+        ) ||
+        info.height ||
+        "",
       alt: info.alt || "",
       loading: "lazy",
       decoding: "async",
@@ -165,10 +177,22 @@ for (const file of (await readdir(root + "/pages")).filter((f) =>
       if (other.length) $(e).replaceWith(other.clone());
     });
   }
-  if (name === "about" && componentData)
+  if (name === "about" && componentData) {
+    const previews = componentData.media.filter((m) =>
+      m.class.includes("carousel-cursor"),
+    );
+    $(".carousel-cursor").attr(
+      "data-previews",
+      JSON.stringify(
+        previews.map((m) =>
+          localImage(m.asset.responsiveImage?.src || m.asset.src),
+        ),
+      ),
+    );
     componentData.media = componentData.media.filter(
       (m) => !m.class.includes("carousel-cursor"),
     );
+  }
   if (name === "podcast" && componentData) {
     const previews = componentData.media.slice(1, 32);
     $(".podcast-list-item").each((i, e) => {
@@ -192,6 +216,29 @@ for (const file of (await readdir(root + "/pages")).filter((f) =>
         .html(
           `<span class="work-filter__bracket">[</span>${count}<span class="work-filter__bracket">]</span>`,
         );
+    });
+  if (name === "work")
+    $(".work-list-item").each((i, e) => {
+      const c = cases.find(
+        (c) => $(e).find("a").attr("href") === "/work/" + c.slug,
+      );
+      if (!c) return;
+      const thumbnail = c.cursorThumbnailExtraSmall?.image;
+      const directors =
+        c.information?.find((entry) => entry.addDirector)?.directors || [];
+      $(e).attr({
+        "data-preview": localImage(
+          thumbnail?.responsiveImage?.src || thumbnail?.url,
+        ),
+        "data-sort-date": c.date,
+        "data-sort-title": c.title,
+        "data-sort-directors": JSON.stringify(
+          directors.map((d) => d.name).sort((a, b) => a.localeCompare(b)),
+        ),
+        "data-sort-tags": JSON.stringify(
+          c.tags?.map((t) => t.slug).sort((a, b) => a.localeCompare(b)) || [],
+        ),
+      });
     });
   const media = $("main picture.base-image,main .base-video").toArray();
   let measuredIndex = 0;
@@ -415,6 +462,7 @@ for (const file of (await readdir(root + "/pages")).filter((f) =>
   }
   // Source HTML contains no executable scripts after extraction. Inline layout is preserved; generated motion styles are removed.
   $("script,.cookie-consent,.cookies").remove();
+  $(".news-list > span:empty").remove();
   $("main [style]").each((i, e) => {
     const style = $(e).attr("style") || "";
     if (name === "work")
@@ -433,6 +481,26 @@ for (const file of (await readdir(root + "/pages")).filter((f) =>
     const href = $(e).closest("a").attr("href");
     const c = cases.find((c) => href?.endsWith("/" + c.slug));
     if (c) {
+      const card = $(e).closest(".work-grid-item");
+      const thumbnails = {};
+      for (const size of ["Big", "Medium", "Small", "ExtraSmall"]) {
+        const asset = c["thumbnail" + size];
+        const container = $(
+          asset.isVideo ? "<div><video></video></div>" : "<picture></picture>",
+        );
+        mediaNode(
+          $,
+          container,
+          asset.isVideo
+            ? { type: "video", src: asset.videoUrl, small: asset.videoUrlSmall }
+            : asset,
+        );
+        thumbnails[size] = asset.isVideo
+          ? { video: true, src: asset.videoUrl, small: asset.videoUrlSmall }
+          : container.find("img")[0]?.attribs;
+      }
+      card.attr("data-thumbnails", JSON.stringify(thumbnails));
+      card.attr("data-tags", JSON.stringify(c.tags?.map((t) => t.label) || []));
       $(e)
         .closest(".work-grid-item")
         .attr(

@@ -1,0 +1,33 @@
+{
+  "reducedMotion": [
+    "work filters restore All and preserve source counts",
+    "list sorting completes three-state cycle",
+    "client navigation and returning home preserve logo",
+    "FAQ switches answers exclusively",
+    "newsletter rejects invalid email without submission",
+    "project crew opens and closes",
+    "directional carousel advances original image",
+    "original podcast previews play exclusively and stop",
+    "director note opens and closes",
+    "original full film player opens and Escape closes",
+    "next-project transition reaches the original linked project",
+    "footer credits reveal and close",
+    "mobile menu opens, Escape closes, link navigates"
+  ],
+  "normalMotion": [
+    "work filters restore All and preserve source counts",
+    "list sorting completes three-state cycle",
+    "client navigation and returning home preserve logo",
+    "FAQ switches answers exclusively",
+    "newsletter rejects invalid email without submission",
+    "project crew opens and closes",
+    "directional carousel advances original image",
+    "original podcast previews play exclusively and stop",
+    "director note opens and closes",
+    "original full film player opens and Escape closes",
+    "next-project transition reaches the original linked project",
+    "footer credits reveal and close",
+    "mobile menu opens, Escape closes, link navigates"
+  ],
+  "errors": []
+}

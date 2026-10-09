@@ -1,0 +1,432 @@
+[
+  {
+    "route": "/",
+    "reference": [
+      {
+        "y": 1800,
+        "height": 9613,
+        "layers": [
+          {
+            "class": "home-hero__wrapper",
+            "transform": "matrix(0.965926, -0.258819, 0.258819, 0.965926, -144, 0)",
+            "top": -2142
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.99679, 0.0800597, -0.0800597, 0.99679, 88.1669, 358.176)",
+            "top": 692
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.965926, 0.258819, -0.258819, 0.965926, 288, 1170)",
+            "top": 1389
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.965926, 0.258819, -0.258819, 0.965926, 288, 1170)",
+            "top": 1389
+          },
+          {
+            "class": "module-subtitle-title gutters home-about__header",
+            "transform": "none",
+            "top": 3039
+          }
+        ]
+      },
+      {
+        "y": 2850,
+        "height": 9613,
+        "layers": [
+          {
+            "class": "home-hero__wrapper",
+            "transform": "matrix(0.965926, -0.258819, 0.258819, 0.965926, -144, 0)",
+            "top": -3192
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996962, -0.0778901, 0.0778901, 0.996962, -64.3291, -402.053)",
+            "top": -313
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.999511, 0.0312712, -0.0312712, 0.999511, 34.4059, 139.776)",
+            "top": 261
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.965926, 0.258819, -0.258819, 0.965926, 288, 1170)",
+            "top": 1143
+          },
+          {
+            "class": "module-subtitle-title gutters home-about__header",
+            "transform": "none",
+            "top": 1989
+          }
+        ]
+      },
+      {
+        "y": 5200,
+        "height": 9613,
+        "layers": [
+          {
+            "class": "home-hero__wrapper",
+            "transform": "matrix(0.965926, -0.258819, 0.258819, 0.965926, -144, 0)",
+            "top": -5542
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, -72, -450)",
+            "top": -1721
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, -72, -450)",
+            "top": -1721
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, -36, 360)",
+            "top": -875
+          },
+          {
+            "class": "module-subtitle-title gutters home-about__header",
+            "transform": "none",
+            "top": -454
+          }
+        ]
+      },
+      {
+        "y": 7200,
+        "height": 9613,
+        "layers": [
+          {
+            "class": "home-hero__wrapper",
+            "transform": "matrix(0.965926, -0.258819, 0.258819, 0.965926, -144, 0)",
+            "top": -7542
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, -72, -450)",
+            "top": -3721
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, -72, -450)",
+            "top": -3721
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, -36, 360)",
+            "top": -2875
+          },
+          {
+            "class": "module-subtitle-title gutters home-about__header",
+            "transform": "none",
+            "top": -2454
+          }
+        ]
+      }
+    ],
+    "studio": [
+      {
+        "y": 1800,
+        "height": 9613,
+        "layers": [
+          {
+            "class": "home-hero__wrapper",
+            "transform": "matrix(0.965926, -0.258819, 0.258819, 0.965926, -144, 0)",
+            "top": -2142
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.99679, 0.0800597, -0.0800597, 0.99679, 88.1669, 358.176)",
+            "top": 692
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.965926, 0.258819, -0.258819, 0.965926, 288, 1170)",
+            "top": 1389
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.965926, 0.258819, -0.258819, 0.965926, 288, 1170)",
+            "top": 1389
+          },
+          {
+            "class": "module-subtitle-title gutters home-about__header",
+            "transform": "none",
+            "top": 3039
+          }
+        ]
+      },
+      {
+        "y": 2850,
+        "height": 9613,
+        "layers": [
+          {
+            "class": "home-hero__wrapper",
+            "transform": "matrix(0.965926, -0.258819, 0.258819, 0.965926, -144, 0)",
+            "top": -3192
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996962, -0.0778901, 0.0778901, 0.996962, -64.3291, -402.053)",
+            "top": -313
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.999511, 0.0312712, -0.0312712, 0.999511, 34.4059, 139.776)",
+            "top": 261
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.965926, 0.258819, -0.258819, 0.965926, 288, 1170)",
+            "top": 1143
+          },
+          {
+            "class": "module-subtitle-title gutters home-about__header",
+            "transform": "none",
+            "top": 1989
+          }
+        ]
+      },
+      {
+        "y": 5200,
+        "height": 9613,
+        "layers": [
+          {
+            "class": "home-hero__wrapper",
+            "transform": "matrix(0.965926, -0.258819, 0.258819, 0.965926, -144, 0)",
+            "top": -5542
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, -72, -450)",
+            "top": -1721
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, -72, -450)",
+            "top": -1721
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, -36, 360)",
+            "top": -875
+          },
+          {
+            "class": "module-subtitle-title gutters home-about__header",
+            "transform": "none",
+            "top": -454
+          }
+        ]
+      },
+      {
+        "y": 7200,
+        "height": 9613,
+        "layers": [
+          {
+            "class": "home-hero__wrapper",
+            "transform": "matrix(0.965926, -0.258819, 0.258819, 0.965926, -144, 0)",
+            "top": -7542
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, -72, -450)",
+            "top": -3721
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.996195, -0.0871557, 0.0871557, 0.996195, -72, -450)",
+            "top": -3721
+          },
+          {
+            "class": "home-featured-work-asset__fig-wrapper",
+            "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, -36, 360)",
+            "top": -2875
+          },
+          {
+            "class": "module-subtitle-title gutters home-about__header",
+            "transform": "none",
+            "top": -2454
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/about",
+    "reference": [
+      {
+        "y": 2000,
+        "height": 10567,
+        "layers": [
+          {
+            "class": "about-hero__fg-inner",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, -26.6666, -449.991)",
+            "top": 46
+          },
+          {
+            "class": "about-intro",
+            "transform": "none",
+            "top": -678
+          }
+        ]
+      }
+    ],
+    "studio": [
+      {
+        "y": 2000,
+        "height": 10567,
+        "layers": [
+          {
+            "class": "about-hero__fg-inner",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, -26.6666, -449.991)",
+            "top": 46
+          },
+          {
+            "class": "about-intro",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "top": -678
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/entertainment",
+    "reference": [
+      {
+        "y": 900,
+        "height": 17505,
+        "layers": [
+          {
+            "class": "acetate originals-hero__wrapper",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, -182.123, -576)",
+            "top": -565
+          },
+          {
+            "class": "originals-hero__wrapper originals-hero__wrapper--content",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, -182.123, -576)",
+            "top": -565
+          }
+        ]
+      }
+    ],
+    "studio": [
+      {
+        "y": 900,
+        "height": 17505,
+        "layers": [
+          {
+            "class": "acetate originals-hero__wrapper",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, -182.123, -576)",
+            "top": -565
+          },
+          {
+            "class": "originals-hero__wrapper originals-hero__wrapper--content",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, -182.123, -576)",
+            "top": -565
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/contact",
+    "reference": [
+      {
+        "y": 1300,
+        "height": 5750,
+        "layers": [
+          {
+            "class": "contact-hero__wrapper",
+            "transform": "matrix(0.990268, 0.139173, -0.139173, 0.990268, 126.744, -147.834)",
+            "top": -563
+          }
+        ]
+      }
+    ],
+    "studio": [
+      {
+        "y": 1300,
+        "height": 5750,
+        "layers": [
+          {
+            "class": "contact-hero__wrapper",
+            "transform": "matrix(0.990268, 0.139173, -0.139173, 0.990268, 126.744, -147.834)",
+            "top": -563
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/blog",
+    "reference": [
+      {
+        "y": 1200,
+        "height": 10020,
+        "layers": [
+          {
+            "class": "blog-featured-article__link",
+            "transform": "matrix(0.990268, 0.139173, -0.139173, 0.990268, 144, 427.997)",
+            "top": -869
+          }
+        ]
+      }
+    ],
+    "studio": [
+      {
+        "y": 1200,
+        "height": 10020,
+        "layers": [
+          {
+            "class": "blog-featured-article__link",
+            "transform": "matrix(0.990268, 0.139173, -0.139173, 0.990268, 144, 427.997)",
+            "top": -869
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "/work/gorillaz-the-mountain-the-mooncave-and-the-sad-god",
+    "reference": [
+      {
+        "y": 1800,
+        "height": 8380,
+        "layers": [
+          {
+            "class": "case-hero__container case-hero__container--acetate",
+            "transform": "matrix(0.990268, 0.139173, -0.139173, 0.990268, 189.748, -208.978)",
+            "top": -1082
+          },
+          {
+            "class": "case-hero__container",
+            "transform": "matrix(0.990268, 0.139173, -0.139173, 0.990268, 189.748, -208.978)",
+            "top": -1082
+          }
+        ]
+      }
+    ],
+    "studio": [
+      {
+        "y": 1800,
+        "height": 8380,
+        "layers": [
+          {
+            "class": "case-hero__container case-hero__container--acetate",
+            "transform": "matrix(0.990268, 0.139173, -0.139173, 0.990268, 189.748, -208.978)",
+            "top": -1082
+          },
+          {
+            "class": "case-hero__container",
+            "transform": "matrix(0.990268, 0.139173, -0.139173, 0.990268, 189.748, -208.978)",
+            "top": -1082
+          }
+        ]
+      }
+    ]
+  }
+]

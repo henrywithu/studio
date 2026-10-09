@@ -39,6 +39,8 @@ export function App() {
   const root = useRef<HTMLElement>(null);
   const navigating = useRef(false);
   const first = useRef(true);
+  const transition = useRef<"page" | "case-next">("page");
+  const outgoing = useRef<HTMLElement | null>(null);
   useEffect(() => {
     let canceled = false;
     setError(false);
@@ -66,28 +68,53 @@ export function App() {
     };
   }, [route]);
   useEffect(() => {
-    const navigate = async (path: string, push = true) => {
+    const navigate = async (path: string, seamless = false) => {
       if (navigating.current || path === location.pathname) return;
       navigating.current = true;
       try {
         await fetchPage(path);
         const element = root.current?.querySelector<HTMLElement>(".page-root");
-        if (push) history.pushState({}, "", path);
-        if (element && !reducedMotion)
-          await gsap.to(element, {
-            y: -innerHeight * 0.25,
-            rotation: 4,
-            duration: 0.78,
-            ease: "pageOut",
-            transformOrigin: "center top",
-          });
-        lenis.scrollTo(0, { immediate: true });
+        lenis.stop();
+        window.dispatchEvent(
+          new CustomEvent("studio:transition", { detail: true }),
+        );
+        transition.current = seamless ? "case-next" : "page";
+        if (seamless && !reducedMotion) {
+          const footer = element?.querySelector<HTMLElement>(
+            ".case-footer__inner",
+          );
+          if (footer) {
+            await gsap.to(footer, {
+              y: -footer.getBoundingClientRect().top,
+              duration: 1,
+              ease: "expoOut",
+            });
+            gsap.set(footer.querySelectorAll(".case-footer__content"), {
+              xPercent: 0,
+              yPercent: 0,
+              rotation: 0,
+            });
+          }
+        }
+        if (element && !reducedMotion && !seamless) {
+          const overlay = document.createElement("div");
+          overlay.className = "studio-transition";
+          overlay.setAttribute("aria-hidden", "true");
+          const snapshot = element.cloneNode(true) as HTMLElement;
+          snapshot.style.transform = `translateY(${-scrollY}px)`;
+          overlay.append(snapshot);
+          document.body.append(overlay);
+          outgoing.current = overlay;
+        }
+        history.pushState({}, "", path);
+        lenis.scrollTo(0, { immediate: true, force: true });
         setRoute(path);
-        setTimeout(() => {
-          navigating.current = false;
-        }, 100);
       } catch {
+        window.dispatchEvent(
+          new CustomEvent("studio:transition", { detail: false }),
+        );
         navigating.current = false;
+        lenis.start();
       }
     };
     const click = (event: MouseEvent) => {
@@ -109,7 +136,11 @@ export function App() {
         return;
       if (url.hash && url.pathname === location.pathname) return;
       event.preventDefault();
-      void navigate(url.pathname);
+      if (url.search) {
+        location.href = url.pathname + url.search;
+        return;
+      }
+      void navigate(url.pathname, !!link.closest(".case-footer"));
     };
     const pop = () => {
       lenis.scrollTo(0, { immediate: true });
@@ -160,19 +191,63 @@ export function App() {
       setupHeaderTheme(container);
       if (page.route === "/") setupHome(container);
       cleanups.push(setupSharedMotion(container));
-      if (!first.current && !reducedMotion)
+      if (!first.current && !reducedMotion && transition.current === "page") {
+        const element = container.querySelector<HTMLElement>(".page-root")!;
+        gsap.set(element, {
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          zIndex: 200,
+        });
         gsap.fromTo(
-          container.querySelector(".page-root"),
-          { xPercent: -10, y: innerHeight * 1.05, rotation: -4 },
+          element,
+          {
+            xPercent: -10,
+            y: innerHeight * 1.05,
+            rotation: -4,
+            transformOrigin: "top right",
+          },
           {
             xPercent: 0,
             y: 0,
             rotation: 0,
             duration: 0.8,
             ease: "pageOut",
-            clearProps: "transform",
+            onComplete: () => {
+              gsap.set(element, {
+                clearProps:
+                  "position,top,left,width,zIndex,transform,transformOrigin",
+              });
+              lenis.scrollTo(0, { immediate: true, force: true });
+              lenis.start();
+              window.dispatchEvent(
+                new CustomEvent("studio:transition", { detail: false }),
+              );
+              navigating.current = false;
+              ScrollTrigger.refresh();
+              const old = outgoing.current;
+              if (old) {
+                gsap.to(old.firstElementChild, {
+                  y: -innerHeight * 0.25,
+                  rotation: 4,
+                  duration: 0.78,
+                  ease: "pageOut",
+                  transformOrigin: "center top",
+                  onComplete: () => old.remove(),
+                });
+                outgoing.current = null;
+              }
+            },
           },
         );
+      } else {
+        lenis.start();
+        window.dispatchEvent(
+          new CustomEvent("studio:transition", { detail: false }),
+        );
+        navigating.current = false;
+      }
       ScrollTrigger.refresh();
     }, container);
     first.current = false;

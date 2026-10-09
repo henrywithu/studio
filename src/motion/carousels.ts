@@ -124,6 +124,19 @@ export function setupCursorCarousels(root: HTMLElement) {
     let active = 0,
       busy = false;
     if (!button) return;
+    const previews: string[] = JSON.parse(carousel.dataset.previews || "[]");
+    const updatePreview = (event: PointerEvent | MouseEvent) => {
+      const previous = event.clientX < innerWidth / 2;
+      button.dataset.cursorLabel = `${previous ? "previous" : "next"} / [${active + 1}/${slides.length}]`;
+      button.dataset.preview =
+        previews[
+          (active + (previous ? -1 : 1) + slides.length) % slides.length
+        ] || "";
+    };
+    button.addEventListener("pointermove", updatePreview);
+    cleanup.push(() =>
+      button.removeEventListener("pointermove", updatePreview),
+    );
     const click = (event: MouseEvent) => {
       if (busy || slides.length < 2) return;
       busy = true;
@@ -152,7 +165,7 @@ export function setupCursorCarousels(root: HTMLElement) {
       gsap.to(old, {
         ...offset,
         duration: reducedMotion ? 0 : 1,
-        ease: "power4.in",
+        ease: "carouselOut",
         onComplete: () => {
           old.style.display = "none";
         },
@@ -161,6 +174,7 @@ export function setupCursorCarousels(root: HTMLElement) {
         "aria-label",
         `${previous ? "Previous" : "Next"} image (${active + 1}/${slides.length})`,
       );
+      updatePreview(event);
     };
     button.addEventListener("click", click);
     cleanup.push(() => button.removeEventListener("click", click));

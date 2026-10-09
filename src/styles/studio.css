@@ -1,7 +1,105 @@
 /* Application ownership and accessibility; visual design comes from extracted source CSS. */
-.chrome-root{display:contents}.studio-cursor-preview{display:none;position:absolute;left:0;top:0;transform:translate(-50%,-50%);width:26.96759vw;aspect-ratio:466/280;overflow:hidden}.studio-cursor-preview img{width:100%;height:100%;object-fit:cover}.studio-error{padding:15vh .8rem;background:#f8f8f8;min-height:100vh}.studio-error a{font-size:2rem;text-decoration:underline}.scrollbar__handle{touch-action:none}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid currentColor;outline-offset:4px}.module-carousel__wrapper{touch-action:pan-y}.player-alt--open .player-alt__video{pointer-events:auto}.work-item-meta-bot__excerpt{overflow:hidden}.header .nav-toggle{touch-action:manipulation}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}.home-client i,.home-client__wrapper{opacity:1}.home-hero__fig{transform:none}.about-hero__fg,.about-hero__bg{transform:none}}
+.chrome-root {
+  display: contents;
+}
+.studio-cursor-preview {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 26.96759vw;
+  aspect-ratio: 466/280;
+  overflow: hidden;
+}
+.studio-cursor-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.studio-error {
+  padding: 15vh 0.8rem;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+.studio-error a {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.scrollbar__handle {
+  touch-action: none;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+.module-carousel__wrapper {
+  touch-action: pan-y;
+}
+.player-alt--open .player-alt__video {
+  pointer-events: auto;
+}
+.work-item-meta-bot__excerpt {
+  overflow: hidden;
+}
+.header .nav-toggle {
+  touch-action: manipulation;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .home-client i,
+  .home-client__wrapper {
+    opacity: 1;
+  }
+  .home-hero__fig {
+    transform: none;
+  }
+  .about-hero__fg,
+  .about-hero__bg {
+    transform: none;
+  }
+}
 
-.module-slider__wrapper{touch-action:pan-y}.studio-cursor-preview{pointer-events:none}
+.module-slider__wrapper {
+  touch-action: pan-y;
+}
+.studio-cursor-preview {
+  pointer-events: none;
+}
 
-[hidden]{display:none!important}
+[hidden] {
+  display: none !important;
+}
+
+.studio-transition {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+.studio-transition .page-root {
+  width: 100%;
+}
+.studio-cursor-preview--carousel {
+  width: 15.74074vw;
+  aspect-ratio: 272/153;
+}
+
+/* The original route loads MetaInfo after its page styles: preserve that mobile cascade. */
+@media (max-width: 1023px) {
+  .route-entertainment .originals-list-item__meta {
+    position: relative;
+  }
+}
+/* The shared dot rule is loaded before the contact route in the reference. */
+.route-contact .contact-jobs__dot {
+  position: absolute;
+}

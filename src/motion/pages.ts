@@ -44,54 +44,118 @@ export function setupPageMotion(root: HTMLElement) {
   }
   const contact = q(".contact-hero");
   if (contact && !reducedMotion) {
-    const title = q(".contact-hero__title"),
-      wrapper = q(".contact-hero__wrapper"),
+    const wrapper = q(".contact-hero__wrapper"),
       foreground = root.querySelectorAll(".contact-hero__fg-inner"),
       fig = q(".contact-hero__fg-fig"),
       bg = q(".contact-hero__bg");
+    const scrollMotion = () => {
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: contact,
+            start: "top top",
+            end: "bottom top",
+            scrub: 0.5,
+          },
+        })
+        .to(
+          wrapper,
+          {
+            yPercent: -20,
+            xPercent: 10,
+            rotation: 8,
+            transformOrigin: "top right",
+            ease: "none",
+          },
+          0,
+        )
+        .to(
+          fig,
+          {
+            yPercent: -40,
+            xPercent: 10,
+            rotation: 8,
+            transformOrigin: "top left",
+            ease: "none",
+          },
+          0,
+        )
+        .to(
+          foreground,
+          {
+            yPercent: -50,
+            rotation: 8,
+            transformOrigin: "top left",
+            ease: "none",
+          },
+          0,
+        )
+        .to(bg, { yPercent: -10, ease: "none" }, 0);
+    };
     gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: contact,
-          start: "top top",
-          end: "bottom top",
-          scrub: 0.5,
-        },
-      })
-      .to(
-        title,
-        {
-          yPercent: -20,
-          xPercent: 10,
-          rotation: 8,
-          transformOrigin: "top right",
-          ease: "none",
-        },
-        0,
-      )
-      .to(
+      .timeline({ delay: 0.5, onComplete: scrollMotion })
+      .fromTo(
         wrapper,
-        {
-          yPercent: -40,
-          xPercent: 10,
-          rotation: 8,
-          transformOrigin: "top left",
-          ease: "none",
-        },
+        { yPercent: 100 },
+        { yPercent: 0, duration: 1, clearProps: "all", ease: "expoOut" },
         0,
       )
-      .to(
+      .fromTo(
+        fig,
+        {
+          yPercent: 120,
+          xPercent: -10,
+          rotation: 6,
+          transformOrigin: "top right",
+        },
+        {
+          yPercent: 0,
+          xPercent: 0,
+          rotation: 0,
+          duration: 1.3,
+          clearProps: "all",
+          ease: "expoOut",
+        },
+        0.2,
+      )
+      .fromTo(
         foreground,
         {
-          yPercent: -50,
+          yPercent: 120,
+          xPercent: -20,
           rotation: 8,
           transformOrigin: "top left",
-          ease: "none",
         },
-        0,
-      )
-      .to(fig || bg, { yPercent: -10, ease: "none" }, 0);
+        {
+          yPercent: 0,
+          xPercent: 0,
+          rotation: 0,
+          duration: 1,
+          clearProps: "all",
+          ease: "expoOut",
+        },
+        0.3,
+      );
   }
+  const caseFooter = q(".case-footer__wrapper");
+  if (caseFooter && !reducedMotion)
+    gsap.fromTo(
+      caseFooter.querySelectorAll(".case-footer__content"),
+      { rotation: -16, yPercent: 28, xPercent: -15 },
+      {
+        rotation: -8,
+        yPercent: -10,
+        xPercent: -8,
+        transformOrigin: "top right",
+        ease: "none",
+        scrollTrigger: {
+          trigger: caseFooter,
+          start: "top bottom",
+          end: "max",
+          scrub: 0.5,
+        },
+      },
+    );
   root.querySelectorAll<HTMLElement>(".case-hero").forEach((hero) => {
     if (reducedMotion) return;
     const sheet = hero.querySelectorAll(".case-hero__container"),
@@ -262,7 +326,10 @@ export function setupPageMotion(root: HTMLElement) {
         gsap.delayedCall(0.2, () => toggle(true));
       } else toggle(true);
     };
-    const close = () => toggle(false);
+    const close = (event?: Event) => {
+      event?.stopPropagation();
+      toggle(false);
+    };
     hero
       .querySelectorAll(".case-hero__trigger,.case-hero-content__cta button")
       .forEach((button) => {

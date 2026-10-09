@@ -51,6 +51,11 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
     };
     window.addEventListener("keydown", escape);
     const hover = (event: Event) => {
+      gsap.to((event.currentTarget as Element).querySelector(".dot"), {
+        scale: 1,
+        duration: 0.4,
+        ease: "expoOut",
+      });
       const index = links.indexOf(event.currentTarget as HTMLAnchorElement);
       header
         .querySelectorAll(".nav-item")
@@ -58,10 +63,17 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
           li.classList.toggle("nav-item--translated", i >= index),
         );
     };
-    const leave = () =>
+    const leave = (event: Event) => {
+      const link = event.currentTarget as HTMLAnchorElement;
+      gsap.to(link.querySelector(".dot"), {
+        scale: link.classList.contains("router-link-active") ? 1 : 0,
+        duration: 0.4,
+        ease: "expoOut",
+      });
       header
         .querySelectorAll(".nav-item")
         .forEach((li) => li.classList.remove("nav-item--translated"));
+    };
     links.forEach((link) => {
       link.addEventListener("mouseenter", hover);
       link.addEventListener("mouseleave", leave);

@@ -1,5 +1,5 @@
 import { useLayoutEffect, useRef } from "react";
-import { lenis } from "../motion/engine";
+import { lenis, gsap } from "../motion/engine";
 export function Scrollbar() {
   const ref = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
@@ -7,15 +7,21 @@ export function Scrollbar() {
     let dragging = false,
       offset = 0;
     const update = () => {
-      const height = Math.max(
-        (innerHeight * innerHeight) / document.documentElement.scrollHeight,
-        innerWidth * 0.046296,
-      );
-      handle.style.height = height + "px";
-      handle.style.transform = `translateY(${lenis.progress * (innerHeight - height)}px)`;
+      const height = handle.getBoundingClientRect().height;
+      gsap.set(handle, {
+        y: lenis.progress * (innerHeight - height),
+        force3D: true,
+      });
     };
     lenis.on("scroll", update);
     window.addEventListener("resize", update);
+    const transition = (event: Event) =>
+      gsap.to(handle, {
+        xPercent: (event as CustomEvent<boolean>).detail ? 110 : 0,
+        duration: 1,
+        ease: "expoOut",
+      });
+    window.addEventListener("studio:transition", transition);
     const down = (event: PointerEvent) => {
       dragging = true;
       offset = event.offsetY;
@@ -40,6 +46,7 @@ export function Scrollbar() {
     return () => {
       lenis.off("scroll", update);
       window.removeEventListener("resize", update);
+      window.removeEventListener("studio:transition", transition);
       handle.removeEventListener("pointerdown", down);
       handle.removeEventListener("pointermove", move);
       handle.removeEventListener("pointerup", up);
