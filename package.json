@@ -10,6 +10,7 @@
     "preview": "vite preview --host 0.0.0.0",
     "inspect:reference": "node scripts/inspect-reference.mjs",
     "verify": "node scripts/verify-studio.mjs",
+    "verify:images": "node scripts/verify-journal-images.mjs",
     "compare": "node scripts/compare-reference.mjs",
     "research:replay": "node scripts/serve-reference.mjs",
     "evidence": "node scripts/export-evidence.mjs",

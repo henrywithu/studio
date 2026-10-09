@@ -96,7 +96,7 @@ export function renderContent(
               new URL(value).hash
             : value;
   }
-  if (node.tag === "img" && String(props.src || "").startsWith("/assets/"))
+  if (node.tag === "img")
     props.onLoad = (event: React.SyntheticEvent<HTMLImageElement>) =>
       event.currentTarget
         .closest("picture")

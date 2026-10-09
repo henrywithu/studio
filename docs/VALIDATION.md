@@ -71,3 +71,9 @@ The 317 R2 renditions were already verified in the preceding milestone; this tas
 ## Production deployment follow-up — 9 October 2026
 
 Cloudflare Workers Builds successfully deployed Worker `studio` to studio.henrywithu.com. The repository config now uses the same Worker name. The two oversized local-video URLs originally returned 404 because CI did not run the extra upload command. Inspection showed that both files already exist in the 317 verified Vimeo renditions, with exactly matching sizes and MD5 hashes. The URL mapping now reuses those existing R2 keys, eliminating the production upload step. Local seeding is explicitly local-only. Standard CI commands are `npm run build` and `npx wrangler deploy`.
+
+## Journal image visibility follow-up — 9 October 2026
+
+The two Home journal photos decoded successfully on production, but their red loading overlays remained visible. The image load handler only recognized the original `/assets/` paths, excluding the new `/images/journal/` files. It now handles every image path while retaining the existing overlay fade and all motion/media code.
+
+The production build passes. `npm run verify:images` checks decoded photos and transparent loading overlays at 1440px and 390px, on initial load, reload and client navigation back to Home, with normal animations. All six local checks pass. Run against deployment with `STUDIO_ORIGIN=https://studio.henrywithu.com npm run verify:images`.
