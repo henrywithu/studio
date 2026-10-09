@@ -240,37 +240,6 @@ export function setupPageMotion(root: HTMLElement) {
       })
       .to(link, { yPercent: 60, xPercent: 10, rotation: 8, ease: "none" }, 0);
   }
-  const path = root.querySelector<SVGPathElement>(".shop-gumroad path[stroke]");
-  const productImages =
-    root.querySelectorAll<HTMLElement>(".shop-gumroad__fig");
-  if (path && productImages.length && !reducedMotion && innerWidth >= 1024) {
-    const timeline = gsap.timeline();
-    timeline
-      .to(productImages, {
-        motionPath: {
-          path: path as SVGPathElement,
-          align: path as SVGPathElement,
-          alignOrigin: [0.5, 0.5],
-        },
-        duration: 5,
-        ease: "none",
-        stagger: {
-          each: 1,
-          repeat: -1,
-          repeatDelay: 1 + productImages.length * 0.2,
-        },
-      })
-      .progress(0.5);
-    gsap.to(
-      [...productImages].filter((_, i) => i % 2 !== 0),
-      {
-        rotation: 360,
-        duration: 10,
-        ease: "none",
-        stagger: { each: 1, repeat: -1 },
-      },
-    );
-  }
   root.querySelectorAll<HTMLElement>(".case-hero").forEach((hero) => {
     const team = hero.querySelector<HTMLElement>(".case-hero-team");
     if (!team) return;

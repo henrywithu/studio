@@ -33,7 +33,7 @@ export function Cursor() {
       target.x = event.clientX;
       target.y = event.clientY;
       const hit = (event.target as HTMLElement).closest<HTMLElement>(
-        ".home-hero__wrapper,.home-featured-work-asset__fig-wrapper,.work-grid-item__fig,.player-alt__btn,.news-item__fig,.news-list-item__fig,.work-list-item,.podcast-list-item,.module-carousel__fig,.module-slider__wrapper,.case-hero__trigger,.shop__col,.carousel-cursor__btn",
+        ".home-hero__wrapper,.home-featured-work-asset__fig-wrapper,.work-grid-item__fig,.player-alt__btn,.news-item__fig,.news-list-item__fig,.work-list-item,.module-carousel__fig,.module-slider__wrapper,.case-hero__trigger,.carousel-cursor__btn",
       );
       const text =
         hit?.dataset.cursorLabel ||
@@ -41,17 +41,13 @@ export function Cursor() {
           ? "Scroll to explore"
           : hit?.matches(".player-alt__btn")
             ? "Play"
-            : hit?.matches(".shop__col")
-              ? "Visit shop"
-              : hit?.matches(".case-hero__trigger")
-                ? "View crew"
-                : hit?.matches(".news-item__fig,.news-list-item__fig")
-                  ? "Read article"
-                  : hit?.matches(
-                        ".module-carousel__fig,.module-slider__wrapper",
-                      )
-                    ? "Drag to explore"
-                    : "View case study");
+            : hit?.matches(".case-hero__trigger")
+              ? "View crew"
+              : hit?.matches(".news-item__fig,.news-list-item__fig")
+                ? "Read article"
+                : hit?.matches(".module-carousel__fig,.module-slider__wrapper")
+                  ? "Drag to explore"
+                  : "View case study");
       const next = !!hit;
       hasRotation = !!hit?.matches(".carousel-cursor__btn");
       if (show !== next) {
@@ -65,9 +61,7 @@ export function Cursor() {
         "studio-cursor-preview--carousel",
         !!hit?.matches(".carousel-cursor__btn"),
       );
-      if (
-        hit?.matches(".work-list-item,.podcast-list-item,.carousel-cursor__btn")
-      ) {
+      if (hit?.matches(".work-list-item,.carousel-cursor__btn")) {
         const img = hit.dataset.preview
           ? Object.assign(new Image(), { src: hit.dataset.preview })
           : hit.querySelector("img") ||

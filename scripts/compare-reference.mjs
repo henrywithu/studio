@@ -20,9 +20,7 @@ const jobs = (
     "/about",
     "/entertainment",
     "/blog",
-    "/podcast",
     "/contact",
-    "/shop",
     "/work/gorillaz-the-mountain-the-mooncave-and-the-sad-god",
   ]
 ).flatMap((route) => [1440, 390].map((width) => ({ route, width })));

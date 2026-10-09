@@ -1,7 +1,7 @@
 # Video storage in Cloudflare R2
 
 Remote Vimeo MP4 renditions are migrated to the `studio` bucket under `videos/vimeo/`.
-Local `/media/` files stay local. Desktop and mobile renditions retain separate keys.
+Former local media files now live under `site/` in R2. Desktop and mobile renditions retain separate keys.
 The public, read-only `studio-media` Worker serves that prefix at
 `https://studio-media.henrywithu.workers.dev/videos/…`. The bucket itself stays private;
 other bucket prefixes are not exposed. The Worker supports streaming, HEAD, byte
@@ -67,6 +67,33 @@ execution environment's outbound proxy; the 16 YouTube source references remain 
 Three local MP4s were subsequently matched byte-for-byte to existing verified R2
 objects and removed from the working tree and rewritten Git history (73,514,454
 bytes). The application now uses those R2 URLs directly, and the site Worker
-supports their three old `/media/` URLs. Five other original local videos remain
-unchanged. The 317 verified objects, delivery Worker and original verification
+supports their three old `/media/` URLs. The five other original videos were subsequently migrated without changing their bytes. The 317 verified objects, delivery Worker and original verification
 records are preserved. See [deployment configuration](CLOUDFLARE.md).
+
+## Full site-media migration
+
+All 3,061 former local images, videos and audio files (639,924,419 bytes) are now in
+`studio/site/`, with their paths, MIME types, MD5/SHA-256 checksums and Git blob IDs
+recorded in `docs/evidence/r2-site-assets.json`. R2 validates each upload's checksum.
+An independent bucket inventory matched every key, byte count and MD5; all 3,061
+public URLs passed delivery verification, including audio/video range requests.
+`docs/evidence/r2-site-delivery.json` records this check. The original 317 Vimeo
+objects and verification records are preserved.
+
+The site Worker uses an explicit URL allowlist to serve existing `/assets/`,
+`/media/`, `/audio/` and `/images/` paths directly from R2. Build bundles under
+`/assets/` still use Workers Static Assets. `npm run dev` redirects known media
+paths to the read-only media Worker, so no binaries need to be downloaded for
+local development. `npm run media:site:verify` checks all migrated media.
+
+Podcast and Explore are removed from the live site's pages and navigation.
+Migrated archival media remains preserved in R2. The temporary authenticated
+upload Worker is deleted after migration; production requires no upload token.
+All four binary directories are excluded from Git and purged from its history.
+
+For future local-media additions, temporarily deploy `workers/asset-import/wrangler.jsonc`,
+set its `IMPORT_TOKEN` secret, add pending manifest entries, and run
+`STUDIO_IMPORT_TOKEN_FILE=/private/token python3 scripts/migrate-site-assets.py`.
+The importer only accepts authenticated PUTs in the `site/` prefix, checks MD5 during
+upload, and refuses to overwrite existing objects. Verify delivery before removing
+local files; delete the importer again when finished.

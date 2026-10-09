@@ -41,6 +41,35 @@ test("standard build prepares Wrangler assets without duplicate R2 video binarie
   }
 });
 
+test("all migrated site assets are verified and removed; retired modules have no routes or nav links", async () => {
+  const manifest = JSON.parse(
+    await readFile("docs/evidence/r2-site-assets.json", "utf8"),
+  );
+  assert.equal(manifest.entries.length, 3061);
+  for (const item of manifest.entries) {
+    assert.equal(item.status, "verified", item.path);
+    assert.equal(item.md5, item.etag, item.path);
+    await assert.rejects(stat("public" + item.path), { code: "ENOENT" });
+    await assert.rejects(stat("dist" + item.path), { code: "ENOENT" });
+  }
+  const routes = JSON.parse(
+    await readFile("public/content/routes.json", "utf8"),
+  );
+  assert.equal(routes.length, 112);
+  for (const { file, route } of routes) {
+    assert(!["/shop", "/podcast"].includes(route));
+    const text = await readFile("public/content/" + file, "utf8");
+    assert(
+      !text.includes('"href":"/shop"') && !text.includes('"href":"/podcast"'),
+      file,
+    );
+  }
+  for (const path of ["/podcast", "/shop"]) {
+    await assert.rejects(stat("dist" + path), { code: "ENOENT" });
+    assert(!(await readFile("dist/sitemap.xml", "utf8")).includes(path + "/"));
+  }
+});
+
 test("site serves oversized media at unchanged URLs with seeking and restricted R2 access", async () => {
   const bundle = await build({
     entryPoints: ["workers/site/index.mjs"],
@@ -65,6 +94,35 @@ test("site serves oversized media at unchanged URLs with seeking and restricted 
     const bytes = new Uint8Array(256).map((_, i) => i);
     await bucket.put("videos/vimeo/1168089886-1440p.mp4", bytes);
     await bucket.put("private.mp4", bytes);
+    const site = JSON.parse(
+      await readFile("docs/evidence/r2-site-assets.json", "utf8"),
+    );
+    const image = site.entries.find(
+      (item) => item.contentType === "image/webp",
+    );
+    const audio = site.entries.find(
+      (item) => item.contentType === "audio/mpeg",
+    );
+    const localVideo = site.entries.find(
+      (item) => item.contentType === "video/mp4",
+    );
+    for (const item of [image, audio, localVideo]) {
+      await bucket.put(item.key, bytes, {
+        httpMetadata: { contentType: item.contentType },
+      });
+      const asset = await mf.dispatchFetch("https://studio.test" + item.path);
+      assert.equal(asset.status, 200);
+      assert.equal(asset.headers.get("Content-Type"), item.contentType);
+      assert.deepEqual(new Uint8Array(await asset.arrayBuffer()), bytes);
+      const seek = await mf.dispatchFetch("https://studio.test" + item.path, {
+        headers: { Range: "bytes=10-19" },
+      });
+      assert.equal(seek.status, 206);
+      assert.deepEqual(
+        new Uint8Array(await seek.arrayBuffer()),
+        bytes.slice(10, 20),
+      );
+    }
     const url = "https://studio.test/media/748af0586f32345b.mp4";
     const full = await mf.dispatchFetch(url);
     assert.equal(full.status, 200);
@@ -88,6 +146,10 @@ test("site serves oversized media at unchanged URLs with seeking and restricted 
       "/brand/og.jpg",
       "/videos/vimeo/1168089886-1440p.mp4",
       "/private.mp4",
+      "/assets/index-test.js",
+      "/assets/index-test.css",
+      "/assets/unknown.webp",
+      "/site/assets/unknown.webp",
     ])
       assert.equal(
         await (await mf.dispatchFetch("https://studio.test" + path)).text(),

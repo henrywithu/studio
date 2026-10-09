@@ -6,9 +6,14 @@ const inventory = JSON.parse(
 const videos = JSON.parse(
   await readFile("docs/evidence/r2-videos.json", "utf8"),
 );
+const siteMedia = JSON.parse(
+  await readFile("docs/evidence/r2-site-assets.json", "utf8"),
+);
 for (const item of inventory) {
   if (item.storage === "r2") {
-    const object = videos.entries.find((entry) => entry.key === item.key);
+    const object = [...videos.entries, ...siteMedia.entries].find(
+      (entry) => entry.key === item.key,
+    );
     assert.equal(object?.status, "verified", item.path);
     assert.equal(object.bytes, item.bytes, item.path);
     await assert.rejects(stat(item.path), { code: "ENOENT" });
@@ -49,7 +54,13 @@ function walk(value) {
 for (const name of await readdir("public/content"))
   if (name.endsWith(".json"))
     walk(JSON.parse(await readFile("public/content/" + name, "utf8")));
-for (const path of resources) await stat(path);
+for (const path of resources) {
+  const remote = siteMedia.entries.find(
+    (item) => "public" + item.path === path,
+  );
+  if (remote) assert.equal(remote.status, "verified", path);
+  else await stat(path);
+}
 console.log({
   inventoriedFiles: inventory.length,
   localFiles: inventory.filter((item) => item.storage !== "r2").length,

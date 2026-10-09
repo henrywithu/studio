@@ -1,10 +1,11 @@
 {
   "imageCrops": 3006,
-  "localVideos": 5,
-  "localAudio": 30,
-  "files": 3044,
-  "bytes": 638971625,
+  "localVideos": 0,
+  "localAudio": 0,
+  "files": 2,
+  "bytes": 189756,
   "referenceResources": 89,
-  "r2BackedLocalUrls": 3,
-  "duplicateVideoBytesRemoved": 73514454
+  "r2BackedLocalUrls": 3064,
+  "duplicateVideoBytesRemoved": 73514454,
+  "siteMediaBytesMigrated": 639924419
 }

@@ -22,3 +22,9 @@ research/*.json
 /public/media/2fa5e6d065819f13.mp4
 /public/media/748af0586f32345b.mp4
 /public/media/e89d3045a7786331.mp4
+
+# Binary media live in R2; content and code remain versioned.
+/public/assets/
+/public/media/
+/public/audio/
+/public/images/

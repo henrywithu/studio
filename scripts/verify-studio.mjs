@@ -1,4 +1,4 @@
-import { chromium } from "playwright";
+import { chromium, request } from "playwright";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import assert from "node:assert/strict";
 const browser = await chromium.launch({
@@ -19,12 +19,20 @@ const page = await browser.newPage({
 page.on("pageerror", (e) =>
   report.errors.push({ route: page.url(), message: e.message }),
 );
-await page.route("**/*", (r) =>
-  r.request().resourceType() === "media" &&
-  !r.request().url().includes("/audio/")
-    ? r.abort()
-    : r.continue(),
-);
+const proxy = process.env.HTTPS_PROXY || process.env.HTTP_PROXY;
+const transport = proxy
+  ? await request.newContext({ proxy: { server: proxy } })
+  : null;
+await page.route("**/*", async (route) => {
+  if (route.request().resourceType() === "media") return route.abort();
+  if (transport && route.request().url().startsWith("https:")) {
+    const response = await transport.fetch(route.request());
+    await route.fulfill({ response });
+    await response.dispose();
+    return;
+  }
+  return route.continue();
+});
 const routes = JSON.parse(
   await readFile("public/content/routes.json", "utf8"),
 ).map((item) => item.route);
@@ -179,33 +187,6 @@ try {
       before,
     );
   });
-  await open("/podcast");
-  await check(
-    "original podcast previews play exclusively and stop",
-    async () => {
-      const buttons = page.locator(".sound-equalizer__btn[data-audio]");
-      await buttons.nth(0).click();
-      await page.waitForFunction(() =>
-        document.querySelector('.sound-equalizer__btn[aria-pressed="true"]'),
-      );
-      await buttons.nth(1).click();
-      await page.waitForFunction(
-        () =>
-          document
-            .querySelectorAll(".sound-equalizer__btn[data-audio]")[1]
-            .getAttribute("aria-pressed") === "true",
-      );
-      assert.equal(
-        await page.locator(".podcast-list-item--playing").count(),
-        1,
-      );
-      await buttons.nth(1).click();
-      assert.equal(
-        await page.locator(".podcast-list-item--playing").count(),
-        0,
-      );
-    },
-  );
   await open("/work/hero-marvel-snap");
   await check("director note opens and closes", async () => {
     await page.evaluate(() => window.scrollTo(0, 2000));
@@ -314,4 +295,5 @@ try {
     JSON.stringify(report, null, 2),
   );
   await browser.close();
+  await transport?.dispose();
 }

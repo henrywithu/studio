@@ -20,9 +20,7 @@ for (const route of [
   "about",
   "entertainment",
   "blog",
-  "podcast",
   "contact",
-  "shop",
   "work/gorillaz-the-mountain-the-mooncave-and-the-sad-god",
 ]) {
   const page = await browser.newPage({

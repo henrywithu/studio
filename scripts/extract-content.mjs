@@ -122,6 +122,7 @@ for (const file of (await readdir(root + "/pages")).filter((f) =>
   f.endsWith(".html"),
 )) {
   const name = file.slice(0, -5);
+  if (["podcast", "shop"].includes(name)) continue;
   const route = name === "home" ? "/" : "/" + name.replaceAll("__", "/");
   const $ = load(await readFile(root + "/pages/" + file, "utf8"));
   const payload = decodePayload(
@@ -193,18 +194,6 @@ for (const file of (await readdir(root + "/pages")).filter((f) =>
     componentData.media = componentData.media.filter(
       (m) => !m.class.includes("carousel-cursor"),
     );
-  }
-  if (name === "podcast" && componentData) {
-    const previews = componentData.media.slice(1, 32);
-    $(".podcast-list-item").each((i, e) => {
-      const a = previews[i]?.asset;
-      if (a)
-        $(e).attr("data-preview", localImage(a.responsiveImage?.src || a.src));
-    });
-    componentData.media = [
-      componentData.media[0],
-      ...componentData.media.slice(32),
-    ];
   }
   if (name === "work")
     $(".work-filter__btn").each((i, e) => {
@@ -441,28 +430,12 @@ for (const file of (await readdir(root + "/pages")).filter((f) =>
           `<iframe src="https://www.youtube.com/embed/${players[i].props.embedId}" allow="autoplay; fullscreen; encrypted-media" allowfullscreen></iframe>`,
         );
   });
-  if (name === "podcast") {
-    const sounds = [];
-    function walk(v) {
-      if (!v || typeof v !== "object") return;
-      if (v.soundPreview)
-        sounds.push(
-          typeof v.soundPreview === "string"
-            ? v.soundPreview
-            : v.soundPreview.url,
-        );
-      for (const x of Object.values(v)) if (typeof x === "object") walk(x);
-    }
-    walk(pageRaw);
-    $(".sound-equalizer__btn").each((i, e) => {
-      const equalizers =
-        componentData?.widgets.filter((w) => w.name === "Equalizer") || [];
-      const audio = equalizers[i]?.props.soundSrc || sounds[i];
-      if (audio) $(e).attr("data-audio", audio);
-    });
-  }
   // Source HTML contains no executable scripts after extraction. Inline layout is preserved; generated motion styles are removed.
   $("script,.cookie-consent,.cookies").remove();
+  $('a[href="/podcast"],a[href="/shop"]').each((_, node) => {
+    const item = $(node).closest("li");
+    (item.length ? item : $(node)).remove();
+  });
   $(".news-list > span:empty").remove();
   $("main [style]").each((i, e) => {
     const style = $(e).attr("style") || "";
@@ -607,6 +580,7 @@ for (const css of (await readdir(root + "/_nuxt")).filter((f) =>
 )) {
   const data = await readFile(root + "/_nuxt/" + css, "utf8");
   const name = css;
+  if (/^(podcast|shop)\./.test(name)) continue;
   await writeFile("src/styles/reference/" + name, data);
   n++;
 }

@@ -20,8 +20,8 @@ The content renderer preserves original SVG paths, scope attributes, semantics a
 | `motion/home.ts`                     | Hero, featured-project sheets, intro, photographs and client list scroll choreography                  |
 | `motion/pages.ts`                    | About, Contact, Entertainment, Feed, Shop, project hero, crew, director note, next project             |
 | `motion/header-theme.ts`             | Source component theme-trigger behavior                                                                |
-| `motion/shared.ts`                   | Footer geometry, sticky text, marquees, drag galleries and podcast layers                              |
-| `motion/controls.ts`                 | FAQ, credits, native full-film players, scroll controls, exclusive podcast previews                    |
+| `motion/shared.ts`                   | Footer geometry, sticky text, marquees, drag galleries                              |
+| `motion/controls.ts`                 | FAQ, credits, native full-film players, scroll controls                    |
 | `motion/carousels.ts`                | Numbered case carousels and directional About carousel                                                 |
 | `motion/work.ts`                     | Work grid/list transition, filters, exact crop variants, column sequence, sorting, director query      |
 | `motion/text.ts` / `motion/lines.ts` | Responsive splitting, original first-glyph corrections, native line measurement and hover choreography |
@@ -55,7 +55,7 @@ REFERENCE_ORIGIN=http://localhost:5174 npm run compare
 
 Browser scripts accept `CHROMIUM_PATH` where supported; the cloud default is `/usr/bin/chromium`. Route and screenshot reports are ignored scratch output; finalized evidence is recorded in `docs/evidence/`.
 
-`VITE_NEWSLETTER_ENDPOINT` can point to an authorized subscription service. The default is the reference’s original public endpoint. Valid subscriptions were not sent during verification. Remote Vimeo previews and case films now use the `studio` R2 bucket through the read-only `studio-media` Worker. Separate mobile and desktop renditions, lazy loading, and native full-film controls remain intact. YouTube sources retain their external URLs. All local images, font files, local homepage loop videos and podcast preview audio ship with the project. See [R2 media storage](R2_MEDIA.md) and its verified migration manifest for the source-to-object mappings.
+`VITE_NEWSLETTER_ENDPOINT` can point to an authorized subscription service. The default is the reference’s original public endpoint. Valid subscriptions were not sent during verification. Remote Vimeo previews and case films now use the `studio` R2 bucket through the read-only `studio-media` Worker. Separate mobile and desktop renditions, lazy loading, and native full-film controls remain intact. YouTube sources retain their external URLs. Images and homepage loop videos stream from R2 at their original URLs. Fonts and branding ship with the project. Podcast and Explore pages, navigation entries, styles and interaction code are removed. See [R2 media storage](R2_MEDIA.md) and its verified migration manifest for the source-to-object mappings.
 
 ## Trapnest identity and Workers hosting
 

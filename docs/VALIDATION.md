@@ -2,6 +2,26 @@
 
 Reference snapshot: 2026-10-09. Browser: Chromium. Studio build: React / strict TypeScript / Vite; original production application code is absent from the client build.
 
+## Current media migration and module removal
+
+- Podcast and Explore pages, nav/footer links, styles and control code are removed.
+- All 112 remaining routes pass at 1440px and 390px (224 checks), plus 12 interactive checks.
+- Six main routes fit 320px, 768px and 1024px (18 additional checks).
+- Fourteen navigation, transition, background and recovery checks pass with normal motion.
+- All 3,061 formerly local media files (639,924,419 bytes) are verified in R2 by upload
+  checksums, an independently matched inventory, and public delivery checks. SVGs are
+  checked after HTTP decompression; every video/audio also passes byte-range checks.
+- Browser checks confirm both portrait and journal images load at 1440px/390px, both removed
+  pages recover through 404, and all five formerly local videos play and seek from R2.
+- Five Workers tests and two media tests pass; the build and Wrangler dry run pass.
+- Static deployment assets shrink to 242 files and about 7 MB. Fonts and branding stay static.
+- All migrated binary directories are purged from Git history; existing media URLs remain valid.
+- Original 317 Vimeo objects, media source references for remaining pages and their verification
+  records are preserved. The temporary upload Worker and token are deleted after migration.
+
+See `r2-site-assets.json`, `r2-site-delivery.json` and the final browser/live records
+in `docs/evidence/`. Earlier sections below describe the earlier reference reconstruction.
+
 ## Completed checks
 
 - All 114 public routes render at 1440px and 390px (228 route/viewport checks).

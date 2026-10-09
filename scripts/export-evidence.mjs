@@ -18,9 +18,11 @@ const sources = [
   })),
 ];
 const inventory = [];
-const r2Media = JSON.parse(
-  await readFile("workers/site/local-media.json", "utf8"),
-);
+const r2Media = [
+  ...JSON.parse(await readFile("workers/site/local-media.json", "utf8")),
+  ...JSON.parse(await readFile("docs/evidence/r2-site-assets.json", "utf8"))
+    .entries,
+];
 for (const item of sources) {
   const remote = r2Media.find((video) => "public" + video.path === item.path);
   if (remote) {
@@ -74,7 +76,9 @@ const totals = {
     (v) => v.endsWith(".mp4") && !r2Media.some((video) => video.path === v),
   ).length,
   r2BackedLocalUrls: r2Media.length,
-  localAudio: Object.values(aliases).filter((v) => v.endsWith(".mp3")).length,
+  localAudio: Object.values(aliases).filter(
+    (v) => v.endsWith(".mp3") && !r2Media.some((item) => item.path === v),
+  ).length,
   files: inventory.filter((item) => item.storage !== "r2").length,
   bytes: inventory.reduce(
     (sum, item) => sum + (item.storage === "r2" ? 0 : item.bytes),

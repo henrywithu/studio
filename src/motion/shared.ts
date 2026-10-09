@@ -154,23 +154,5 @@ export function setupSharedMotion(root: HTMLElement) {
       },
     });
   });
-  const podcastFig = root.querySelector(".podcast-episodes__fig-wrapper");
-  if (podcastFig && !reducedMotion)
-    gsap.fromTo(
-      root.querySelectorAll(".podcast-episodes__fig-inner"),
-      { yPercent: 20, xPercent: 10, rotation: -2 },
-      {
-        yPercent: 50,
-        xPercent: 0,
-        rotation: -4,
-        ease: "none",
-        scrollTrigger: {
-          trigger: podcastFig,
-          start: "clamp(top 90%)",
-          end: "clamp(bottom top)",
-          scrub: 0.5,
-        },
-      },
-    );
   return () => cleanups.forEach((fn) => fn());
 }

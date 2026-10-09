@@ -1,0 +1,74 @@
+{
+  "origin": "http://localhost:5174",
+  "checks": [
+    {
+      "width": 1440,
+      "name": "six navigation links, portrait stack and both journal images load from R2"
+    },
+    {
+      "width": 1440,
+      "name": "removed module returns 404",
+      "path": "/podcast/"
+    },
+    {
+      "width": 1440,
+      "name": "removed module returns 404",
+      "path": "/shop/"
+    },
+    {
+      "width": 390,
+      "name": "six navigation links, portrait stack and both journal images load from R2"
+    },
+    {
+      "width": 390,
+      "name": "removed module returns 404",
+      "path": "/podcast/"
+    },
+    {
+      "width": 390,
+      "name": "removed module returns 404",
+      "path": "/shop/"
+    },
+    {
+      "name": "former local video plays and seeks",
+      "path": "/media/1ce819986eb7dfcb.mp4",
+      "duration": 17.428333,
+      "width": 1920,
+      "height": 1080,
+      "seekTime": 1
+    },
+    {
+      "name": "former local video plays and seeks",
+      "path": "/media/aa90c0f3fd9f0bbd.mp4",
+      "duration": 26.4,
+      "width": 1280,
+      "height": 720,
+      "seekTime": 1
+    },
+    {
+      "name": "former local video plays and seeks",
+      "path": "/media/bb9dc8e45ca08450.mp4",
+      "duration": 18.921667,
+      "width": 1280,
+      "height": 720,
+      "seekTime": 1
+    },
+    {
+      "name": "former local video plays and seeks",
+      "path": "/media/cc7efe3c96972000.mp4",
+      "duration": 5.973333,
+      "width": 1280,
+      "height": 720,
+      "seekTime": 1
+    },
+    {
+      "name": "former local video plays and seeks",
+      "path": "/media/d80d59e1e37d2725.mp4",
+      "duration": 23.806667,
+      "width": 1280,
+      "height": 720,
+      "seekTime": 1
+    }
+  ],
+  "errors": []
+}

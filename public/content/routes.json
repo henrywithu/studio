@@ -100,16 +100,8 @@
     "file": "home.json"
   },
   {
-    "route": "/podcast",
-    "file": "podcast.json"
-  },
-  {
     "route": "/privacy",
     "file": "privacy.json"
-  },
-  {
-    "route": "/shop",
-    "file": "shop.json"
   },
   {
     "route": "/work",

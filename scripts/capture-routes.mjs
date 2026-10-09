@@ -18,9 +18,7 @@ for (const route of [
   "about",
   "entertainment",
   "blog",
-  "podcast",
   "contact",
-  "shop",
   "work/gorillaz-the-mountain-the-mooncave-and-the-sad-god",
 ]) {
   const p = await browser.newPage({ viewport: { width: 1440, height: 900 } });

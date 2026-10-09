@@ -4,10 +4,9 @@ import { chromium, request } from "playwright";
 
 const origin = process.env.STUDIO_ORIGIN || "http://localhost:5173";
 const proxy = process.env.HTTPS_PROXY || process.env.HTTP_PROXY;
-const transport =
-  origin.startsWith("https:") && proxy
-    ? await request.newContext({ proxy: { server: proxy } })
-    : null;
+const transport = proxy
+  ? await request.newContext({ proxy: { server: proxy } })
+  : null;
 const browser = await chromium.launch({
   executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium",
   args: ["--no-sandbox", "--disable-dev-shm-usage"],
@@ -19,13 +18,7 @@ try {
     page.on("pageerror", (error) => report.errors.push(error.message));
     await page.route("**/*", async (route) => {
       if (route.request().resourceType() === "media") return route.abort();
-      if (
-        transport &&
-        route
-          .request()
-          .url()
-          .startsWith(origin + "/")
-      ) {
+      if (transport && route.request().url().startsWith("https:")) {
         const response = await transport.fetch(route.request());
         await route.fulfill({ response });
         await response.dispose();
@@ -71,7 +64,7 @@ try {
     await check(
       "rapid hover and navigation leave one correctly spaced active dot",
       async () => {
-        for (const path of ["/about", "/blog", "/podcast", "/contact", "/shop"])
+        for (const path of ["/about", "/blog", "/contact"])
           await page
             .locator(`.nav-item__link[href="${path}"]`)
             .dispatchEvent("mouseenter");

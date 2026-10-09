@@ -16,10 +16,6 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
       const path = route.replace(/\/$/, "") || "/";
       return href === path || (href !== "/" && path.startsWith(href + "/"));
     });
-    header.classList.toggle(
-      "header--shop",
-      route.replace(/\/$/, "") === "/shop",
-    );
     links.forEach((link, index) => {
       const href = link.getAttribute("href")!;
       const active = index === activeIndex;

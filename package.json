@@ -27,7 +27,8 @@
     "workers:dev": "npm run build && wrangler dev",
     "deploy:check": "npm run build && wrangler deploy --dry-run",
     "deploy": "npm run build && wrangler deploy",
-    "workers:test": "node --test scripts/test-site-worker.mjs"
+    "workers:test": "node --test scripts/test-site-worker.mjs",
+    "media:site:verify": "node scripts/verify-site-assets.mjs"
   },
   "dependencies": {
     "gsap": "^3.14.2",
