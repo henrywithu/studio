@@ -128,3 +128,12 @@ Home's inherited awards/press lists are replaced with real Trapnest project and 
 The production build and all five Worker tests pass. Chromium verified 224 route/viewport combinations, 12 controls, 14 normal-motion navigation/transition checks and 18 responsive checks. Targeted layout checks at 320, 390, 768, 1024 and 1440px found no horizontal overflow, checked Contact's desktop text/image separation, and verified About's hide/restore behavior. `npm run verify:trapnest` repeats these checks and confirms the homepage's Trapnest lists. Mobile screenshots and desktop layouts were visually inspected.
 
 The read-only R2 usage audit found 189 unused site objects totaling 41,747,158 bytes. Their exact sizes and ETags match an independent bucket inventory. All 317 original Vimeo renditions and the five additional site videos remain referenced. The replacement content and active media allowlist are deployed before deleting the audited keys.
+
+Cloudflare successfully deployed milestone `fe7f63a`. All ten targeted production
+layout checks and the homepage checks passed. All 2,872 active site-media URLs
+passed HEAD/MIME/size/checksum and media byte-range checks on the production domain.
+The 189 audited objects were then deleted; independent post-deletion inventory
+reconciliation confirmed all 3,189 retained keys, sizes and ETags exactly match
+the manifests and all 317 original videos remain. The runtime audit reports zero
+unused objects. Evidence: `r2-cleanup.json`, `r2-usage.json`, `r2-site-live.json`
+and `trapnest-layout.json` in `docs/evidence/`.

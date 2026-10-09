@@ -1,0 +1,962 @@
+{
+  "date": "2026-10-09T14:26:15.460Z",
+  "bucket": "studio",
+  "success": true,
+  "deleteApiSuccess": true,
+  "errors": [],
+  "deletedObjects": 189,
+  "deletedBytes": 41747158,
+  "remainingTargets": [],
+  "retainedObjects": 3189,
+  "retainedBytes": 9501281348,
+  "retainedInventorySHA256": "4a4eed0fd63ba6bf45172817ca2ed97b69d46818e088f9e05a6be422d3bfabb8",
+  "expectedInventorySHA256": "4a4eed0fd63ba6bf45172817ca2ed97b69d46818e088f9e05a6be422d3bfabb8",
+  "retainedOriginalVideos": 317,
+  "deleted": [
+    {
+      "key": "site/assets/1721315451-blizzard-d0ab825907.svg",
+      "bytes": 20832,
+      "etag": "f3e0e147bf749fe927563944a958c3a2"
+    },
+    {
+      "key": "site/assets/1721315452-honda-831470a0f9.svg",
+      "bytes": 3943,
+      "etag": "052e9b94dbd06a5171a661213c6ecc7d"
+    },
+    {
+      "key": "site/assets/1721315453-marvel-e33fa2ba7d.svg",
+      "bytes": 1213,
+      "etag": "a80c419ec5c2559a34fcf1f92d8a7eea"
+    },
+    {
+      "key": "site/assets/1721315454-mercedes-701d6e97e8.svg",
+      "bytes": 5029,
+      "etag": "279f1aa31cf9bcbeb62232271a02ee16"
+    },
+    {
+      "key": "site/assets/1721315455-riot-07ad89bc75.svg",
+      "bytes": 4538,
+      "etag": "493d438c455880def6413a0560f75079"
+    },
+    {
+      "key": "site/assets/1722269953-about-hero-2-2d065c05e8.webp",
+      "bytes": 72106,
+      "etag": "ea26d20d6ad5ef0d558bfd80941ac3ed"
+    },
+    {
+      "key": "site/assets/1722269953-about-hero-2-5239f00a78.webp",
+      "bytes": 173336,
+      "etag": "67e17e464ef2bf480637a6dcc3450478"
+    },
+    {
+      "key": "site/assets/1722269953-about-hero-2-a303c71efe.webp",
+      "bytes": 29028,
+      "etag": "cc9d4c45d1001b5243e2c6a7d6ccf809"
+    },
+    {
+      "key": "site/assets/1722351333-podcast-hero-2c1de4f5b7.webp",
+      "bytes": 111762,
+      "etag": "f17ab588c9b89b3485c75d95bfe93c58"
+    },
+    {
+      "key": "site/assets/1722351333-podcast-hero-42906e7a6b.webp",
+      "bytes": 19668,
+      "etag": "db1dc5d53e6ccbd3145b1c8013796b13"
+    },
+    {
+      "key": "site/assets/1722351333-podcast-hero-c6738b85eb.webp",
+      "bytes": 43946,
+      "etag": "b990c7c3cde2686725c561e8416e428a"
+    },
+    {
+      "key": "site/assets/1722502804-heavenly-vessel-a1f5fc7c79.webp",
+      "bytes": 48870,
+      "etag": "2b3c532f72758d73c9955a1044e152aa"
+    },
+    {
+      "key": "site/assets/1722502804-heavenly-vessel-e8ce6ef923.webp",
+      "bytes": 21980,
+      "etag": "c47abd8f9f90658a51716f0c8419ce86"
+    },
+    {
+      "key": "site/assets/1722502804-heavenly-vessel-fdcd60c3b1.webp",
+      "bytes": 10654,
+      "etag": "7d1ed3b8e6196cfd102ed61b226fefa2"
+    },
+    {
+      "key": "site/assets/1722502816-heavenly-vessel-2-1e5eda53dc.webp",
+      "bytes": 75328,
+      "etag": "bdd60f37fcd0d8bddc0382277ffb11fb"
+    },
+    {
+      "key": "site/assets/1722502816-heavenly-vessel-2-7a57517b92.webp",
+      "bytes": 31166,
+      "etag": "fdf361f402923a06eff4ecf1f9335d50"
+    },
+    {
+      "key": "site/assets/1722502816-heavenly-vessel-2-845c36581a.webp",
+      "bytes": 13144,
+      "etag": "e13af228adec7ffce0d1577b652e4b38"
+    },
+    {
+      "key": "site/assets/1722502826-artwork-book-51acecc701.webp",
+      "bytes": 115078,
+      "etag": "b6f78df83f82417605be10200070044c"
+    },
+    {
+      "key": "site/assets/1722502826-artwork-book-68d822210c.webp",
+      "bytes": 17692,
+      "etag": "f0939264cd43f5009884a6782451914f"
+    },
+    {
+      "key": "site/assets/1722502826-artwork-book-97588f22cc.webp",
+      "bytes": 44178,
+      "etag": "b4b2348b1c0d04154b932bae18493238"
+    },
+    {
+      "key": "site/assets/1722502846-grand-piton-443953c29c.webp",
+      "bytes": 14622,
+      "etag": "357f02944546c45416b9ffc07b58e4ee"
+    },
+    {
+      "key": "site/assets/1722502846-grand-piton-465829a6cd.webp",
+      "bytes": 34162,
+      "etag": "47fc2f57472c91c837206244dcb8884b"
+    },
+    {
+      "key": "site/assets/1722502846-grand-piton-c4d0d11bda.webp",
+      "bytes": 76088,
+      "etag": "f0112fa4f844010fa03221fce850ab6e"
+    },
+    {
+      "key": "site/assets/1724316805-the_great_british_bake_off_highresstills_thelineanimation_0-0019c4c753.webp",
+      "bytes": 46318,
+      "etag": "435a43f30e3309adf4b278742a3aaf09"
+    },
+    {
+      "key": "site/assets/1724316805-the_great_british_bake_off_highresstills_thelineanimation_0-60bd373b9e.webp",
+      "bytes": 274672,
+      "etag": "1a5a5654db4c9e9246583320e5793c64"
+    },
+    {
+      "key": "site/assets/1724316805-the_great_british_bake_off_highresstills_thelineanimation_0-a945c4be32.webp",
+      "bytes": 583014,
+      "etag": "6103847acf37230d60b19d6eec474a71"
+    },
+    {
+      "key": "site/assets/1724316805-the_great_british_bake_off_highresstills_thelineanimation_0-d9b0c07744.webp",
+      "bytes": 92964,
+      "etag": "62122c63d2ad83f7aea2989b88e27270"
+    },
+    {
+      "key": "site/assets/1724429460-animationstudiolondon_lil_nas_x-star-walkin-stillframe_09-96fdc05633.webp",
+      "bytes": 143556,
+      "etag": "772d0fa80a35c5128a38d13550b5cba4"
+    },
+    {
+      "key": "site/assets/1724429460-animationstudiolondon_lil_nas_x-star-walkin-stillframe_09-9cdb11d631.webp",
+      "bytes": 30222,
+      "etag": "37bef08e163c06eb8e55ce6b69618675"
+    },
+    {
+      "key": "site/assets/1724429460-animationstudiolondon_lil_nas_x-star-walkin-stillframe_09-c414dbb812.webp",
+      "bytes": 57310,
+      "etag": "17df979495329e1deff90182de684ac0"
+    },
+    {
+      "key": "site/assets/1724429460-animationstudiolondon_lil_nas_x-star-walkin-stillframe_09-eeb5a47b7a.webp",
+      "bytes": 310752,
+      "etag": "29070745a78ab454c44ba90ad325acaa"
+    },
+    {
+      "key": "site/assets/1724859245-rodneybay_stlucia_theline-13956f557c.webp",
+      "bytes": 36312,
+      "etag": "df395b94299d148ca5cf58ce839e2851"
+    },
+    {
+      "key": "site/assets/1724859245-rodneybay_stlucia_theline-5ec10f63b2.webp",
+      "bytes": 372794,
+      "etag": "aa4c23893529cf8f9f23eaa3012ce4b0"
+    },
+    {
+      "key": "site/assets/1724859245-rodneybay_stlucia_theline-833105225b.webp",
+      "bytes": 117220,
+      "etag": "4fab67145086e6226dc724202f30e2da"
+    },
+    {
+      "key": "site/assets/1724859245-rodneybay_stlucia_theline-f4a16a8848.webp",
+      "bytes": 19222,
+      "etag": "00c0f5b6f161a9ca47cbf689a9f290d9"
+    },
+    {
+      "key": "site/assets/1725023312-solar_punk_bg_paint_chobani_dear_alice_props_2d_animation_0-5e41ba9d04.webp",
+      "bytes": 67198,
+      "etag": "e5f0908ae2fb986542c66615531688ff"
+    },
+    {
+      "key": "site/assets/1725023312-solar_punk_bg_paint_chobani_dear_alice_props_2d_animation_0-82b3562a70.webp",
+      "bytes": 139186,
+      "etag": "0612fcd63deb6c89641e6168c5f6b809"
+    },
+    {
+      "key": "site/assets/1725023312-solar_punk_bg_paint_chobani_dear_alice_props_2d_animation_0-e753649025.webp",
+      "bytes": 960980,
+      "etag": "a7bcb137284b51d33adad04c2df3a0cc"
+    },
+    {
+      "key": "site/assets/1725023312-solar_punk_bg_paint_chobani_dear_alice_props_2d_animation_0-f46e64d42d.webp",
+      "bytes": 385806,
+      "etag": "abcf6fc895ea9bce5b7ce8ddd5563717"
+    },
+    {
+      "key": "site/assets/1725297480-alberto-mielgo-359e7aac56.webp",
+      "bytes": 105280,
+      "etag": "7e35fca1a1b34527b14480a9daefd0cc"
+    },
+    {
+      "key": "site/assets/1725297490-will-anderson-ainslie-henderson-af324c6b2c.webp",
+      "bytes": 42468,
+      "etag": "b4034821be19279e0be2b316e8d7b7f8"
+    },
+    {
+      "key": "site/assets/1725297502-fx-goby-d6e9173046.webp",
+      "bytes": 50462,
+      "etag": "fbce2c70579449df878a40a3cee58d32"
+    },
+    {
+      "key": "site/assets/1725297519-bxfts-audio-8a384c27e7.webp",
+      "bytes": 30748,
+      "etag": "57bbec4300085776dfa99448730cc663"
+    },
+    {
+      "key": "site/assets/1725297529-blue_zoo_founders-6d787f6d80.webp",
+      "bytes": 99774,
+      "etag": "f1ad762af92b0e2aa1b67cc6d3728574"
+    },
+    {
+      "key": "site/assets/1725297542-jonathan-topf-475e93d30b.webp",
+      "bytes": 36376,
+      "etag": "707e6250b8a940d3ae27df603656b0d7"
+    },
+    {
+      "key": "site/assets/1725297569-ben_bocquelet-img_0340-62e73e2f7f.webp",
+      "bytes": 90832,
+      "etag": "38744d768886b76932e5edfce416fe5f"
+    },
+    {
+      "key": "site/assets/1725297584-grant-orchard-31420e36f6.webp",
+      "bytes": 57974,
+      "etag": "277aeae664963378a08ede6fe73a1de6"
+    },
+    {
+      "key": "site/assets/1725297594-neil-boyle-headshot-scaled-9d8e152253.webp",
+      "bytes": 65516,
+      "etag": "1f617bc428c1d435d71115951335c7b8"
+    },
+    {
+      "key": "site/assets/1725297603-michael_dudock_de_wit-543214ce65.webp",
+      "bytes": 51372,
+      "etag": "49cc29d6e7065d5c6339c80ccb2a1927"
+    },
+    {
+      "key": "site/assets/1725297650-leseanthomas-52a94a8590.webp",
+      "bytes": 128416,
+      "etag": "2c301097374719c0f50f3c9bc5ab3dfd"
+    },
+    {
+      "key": "site/assets/1725297665-leseanthomas2-b952f63973.webp",
+      "bytes": 40744,
+      "etag": "7de90a092ca274a9880e7c7a0554e26e"
+    },
+    {
+      "key": "site/assets/1725297689-peter_millard-d815677cf1.webp",
+      "bytes": 107956,
+      "etag": "3136459740e700721358906df09aec92"
+    },
+    {
+      "key": "site/assets/1725297735-robertvalley-31c74dd261.webp",
+      "bytes": 86500,
+      "etag": "42eb8229b8937ba1a0ce1752501eb014"
+    },
+    {
+      "key": "site/assets/1725357232-animation_studios_london_beats3_stills_v08-76af5dbea1.webp",
+      "bytes": 40796,
+      "etag": "8d103e7fc5079732c9ab761e9bb71e54"
+    },
+    {
+      "key": "site/assets/1725357232-animation_studios_london_beats3_stills_v08-dc82824dda.webp",
+      "bytes": 16042,
+      "etag": "27af71418419a9b07f40aced4e7e5511"
+    },
+    {
+      "key": "site/assets/1725357232-animation_studios_london_beats3_stills_v08-f0a9070601.webp",
+      "bytes": 118706,
+      "etag": "7aeee17ba0d314056bd1f24223b36010"
+    },
+    {
+      "key": "site/assets/1725357622-alien_scifi_animation_eicsfh_still_03-93b2385653.webp",
+      "bytes": 19736,
+      "etag": "83d64cb6fa217488e109949a49993ac5"
+    },
+    {
+      "key": "site/assets/1725357622-alien_scifi_animation_eicsfh_still_03-a62f7ae0ca.webp",
+      "bytes": 81194,
+      "etag": "f2b267c1ac97077a8e1bd04260ad43b7"
+    },
+    {
+      "key": "site/assets/1725357622-alien_scifi_animation_eicsfh_still_03-be6c9d66ea.webp",
+      "bytes": 33852,
+      "etag": "e70765af81b575c3aed2f8e956e5893d"
+    },
+    {
+      "key": "site/assets/1725357622-alien_scifi_animation_eicsfh_still_03-c1722f8992.webp",
+      "bytes": 195730,
+      "etag": "6750b809e44cb55bd51e67255c9a4d2a"
+    },
+    {
+      "key": "site/assets/1725378685-ninja_rabbit_celuloid_stanr_bts_03-2c3062ee31.webp",
+      "bytes": 13032,
+      "etag": "fa7fc976201190b3e43677ca7fa1f9cf"
+    },
+    {
+      "key": "site/assets/1725378685-ninja_rabbit_celuloid_stanr_bts_03-97738dc4f7.webp",
+      "bytes": 29014,
+      "etag": "6a7e9d619ecdf6b3ea84f9da25284037"
+    },
+    {
+      "key": "site/assets/1725378685-ninja_rabbit_celuloid_stanr_bts_03-fe9b3aa44d.webp",
+      "bytes": 79852,
+      "etag": "d9557c8994ad49b45c77f0ad85704258"
+    },
+    {
+      "key": "site/assets/1725454643-buzz_02-5b9215574c.webp",
+      "bytes": 12808,
+      "etag": "56411a28fa6b17d4213e8d0b6ecf8003"
+    },
+    {
+      "key": "site/assets/1725454643-buzz_02-a694a7bb66.webp",
+      "bytes": 29436,
+      "etag": "7dc405c2a30407e836b0bce1324e74de"
+    },
+    {
+      "key": "site/assets/1725454643-buzz_02-c55c621014.webp",
+      "bytes": 69754,
+      "etag": "5d082076bb9bfa4e06ef509519228702"
+    },
+    {
+      "key": "site/assets/1725962883-partners_group_cropped_graded-copy-7f32177be6.webp",
+      "bytes": 65896,
+      "etag": "5f88783138d28bfbe82af5151d1d3bff"
+    },
+    {
+      "key": "site/assets/1725962883-partners_group_cropped_graded-copy-953de13bb8.webp",
+      "bytes": 230274,
+      "etag": "d6d1316ad75c7e60d5f6f496a046bfef"
+    },
+    {
+      "key": "site/assets/1725962883-partners_group_cropped_graded-copy-eb0510d523.webp",
+      "bytes": 733924,
+      "etag": "5c4ccd0922ba8a00683524975032425c"
+    },
+    {
+      "key": "site/assets/1727280495-screenshot-2024-09-25-at-17-02-44-5f810bc7a4.webp",
+      "bytes": 42296,
+      "etag": "48b869304d9edd92eedff9e6653d5fce"
+    },
+    {
+      "key": "site/assets/1727280575-tuna-bora-0faf17a70c.webp",
+      "bytes": 30546,
+      "etag": "783baf68c3d67737207225a4245ab6e3"
+    },
+    {
+      "key": "site/assets/1727280893-3586a2c0-feb2-412e-8a14-efc825134061-f48c5149a2.webp",
+      "bytes": 22302,
+      "etag": "a1a20d6194662afc3a9447e67260b0ce"
+    },
+    {
+      "key": "site/assets/1727540041-dscf7009-062144a849.webp",
+      "bytes": 434456,
+      "etag": "3de345327da61be36ad4a556470a2aba"
+    },
+    {
+      "key": "site/assets/1727540041-dscf7009-1b9b45a10c.webp",
+      "bytes": 49438,
+      "etag": "3e958db84bafce7eafdc82f1a0180a21"
+    },
+    {
+      "key": "site/assets/1727540041-dscf7009-5600d5ae76.webp",
+      "bytes": 115146,
+      "etag": "30923951e022187467da013b736b3b4e"
+    },
+    {
+      "key": "site/assets/1727540041-dscf7009-6d55953a75.webp",
+      "bytes": 1115144,
+      "etag": "1c165362de6259c3cebf392ea262c7db"
+    },
+    {
+      "key": "site/assets/1727540107-dscf6959-3c692c7dcb.webp",
+      "bytes": 54732,
+      "etag": "a387410610e4284b9e2a99df9f99e200"
+    },
+    {
+      "key": "site/assets/1727540107-dscf6959-3e2cc16ded.webp",
+      "bytes": 16262,
+      "etag": "c9d002f8b0127c05d5f612daf456eff3"
+    },
+    {
+      "key": "site/assets/1727540107-dscf6959-662b79ed3a.webp",
+      "bytes": 212090,
+      "etag": "dc0d6c7d25e0b60fe3d28f95d80e3289"
+    },
+    {
+      "key": "site/assets/1727540660-dscf7526-50df9a975c.webp",
+      "bytes": 247202,
+      "etag": "02346debff224061da30f8cff31cfe84"
+    },
+    {
+      "key": "site/assets/1727540660-dscf7526-9720899d8a.webp",
+      "bytes": 27678,
+      "etag": "7808763d9d8f0adde85bd79e53e37f5e"
+    },
+    {
+      "key": "site/assets/1727540660-dscf7526-b60eb8fea4.webp",
+      "bytes": 77528,
+      "etag": "c8d1b527f08d2fecb843c6cb2349b079"
+    },
+    {
+      "key": "site/assets/1727541002-dscf6689-15e0d0f920.webp",
+      "bytes": 11994,
+      "etag": "f05a802409b1a6eafdd2465924e6da00"
+    },
+    {
+      "key": "site/assets/1727541002-dscf6689-3e7f8e0ed2.webp",
+      "bytes": 36602,
+      "etag": "dac3645929fb742948d78948af1ba86a"
+    },
+    {
+      "key": "site/assets/1727541002-dscf6689-e3d71e8338.webp",
+      "bytes": 141044,
+      "etag": "9a5434bd20a491094d27588821d7c381"
+    },
+    {
+      "key": "site/assets/1727543303-dscf6450-039b5df486.webp",
+      "bytes": 1418432,
+      "etag": "ed076547c4561a2349a1e8254d7fee60"
+    },
+    {
+      "key": "site/assets/1727543303-dscf6450-a4e1f6ffe0.webp",
+      "bytes": 545602,
+      "etag": "928848890de671ce64263cc9e04592f3"
+    },
+    {
+      "key": "site/assets/1727543303-dscf6450-f11a5ba06c.webp",
+      "bytes": 140054,
+      "etag": "fc4e93dd2a999da2ca24d0489d4ab2ac"
+    },
+    {
+      "key": "site/assets/1727543332-dscf6577-2-0775b285a6.webp",
+      "bytes": 109038,
+      "etag": "4bbeecefa4e694609c5bca714574bebb"
+    },
+    {
+      "key": "site/assets/1727543332-dscf6577-2-202e6e1822.webp",
+      "bytes": 25158,
+      "etag": "5444c489863a7e3b94ed45e85a556721"
+    },
+    {
+      "key": "site/assets/1727543332-dscf6577-2-838534fc72.webp",
+      "bytes": 505640,
+      "etag": "3d0d7b994e5299cd36e0b6e364c40240"
+    },
+    {
+      "key": "site/assets/1727543355-dscf6991-7a615f6cda.webp",
+      "bytes": 522768,
+      "etag": "76ff426bcad6d0039ef859979fb71ed5"
+    },
+    {
+      "key": "site/assets/1727543355-dscf6991-b7340173d0.webp",
+      "bytes": 134198,
+      "etag": "8d0eb4a93551f9cfc1f5a5b65f16ed3c"
+    },
+    {
+      "key": "site/assets/1727543355-dscf6991-f59abe6ee3.webp",
+      "bytes": 1443508,
+      "etag": "3c795d21d170ee39795ccee094e2433f"
+    },
+    {
+      "key": "site/assets/1727543489-dscf7344-13e5fbb560.webp",
+      "bytes": 2258930,
+      "etag": "250b91ecb30578723809a68adc2e9e94"
+    },
+    {
+      "key": "site/assets/1727543489-dscf7344-346368f601.webp",
+      "bytes": 196308,
+      "etag": "0d608a1901aa40fac380fcbf3a03b06c"
+    },
+    {
+      "key": "site/assets/1727543489-dscf7344-6e4c2ce902.webp",
+      "bytes": 803260,
+      "etag": "dea5fdd30e3b8f4b67be2c949c294c97"
+    },
+    {
+      "key": "site/assets/1727544838-dscf6970-63aa94c811.webp",
+      "bytes": 349288,
+      "etag": "62bb5429b517826a65e969289cb7354b"
+    },
+    {
+      "key": "site/assets/1727544838-dscf6970-90163c6312.webp",
+      "bytes": 79312,
+      "etag": "d04d3aaecbb6bca5573ce2556a259ac6"
+    },
+    {
+      "key": "site/assets/1727544838-dscf6970-fc35faa006.webp",
+      "bytes": 20890,
+      "etag": "4fd976ff0a25eba4a22be0c1bfc1b742"
+    },
+    {
+      "key": "site/assets/1727545873-dscf6939-22618f6a3d.webp",
+      "bytes": 110842,
+      "etag": "0843413f7b70f9da3d0c474d83bb564d"
+    },
+    {
+      "key": "site/assets/1727545873-dscf6939-48be0bc272.webp",
+      "bytes": 400976,
+      "etag": "763bae3eef327c5e91519b04a94e9f63"
+    },
+    {
+      "key": "site/assets/1727545873-dscf6939-ab5f72bd24.webp",
+      "bytes": 45004,
+      "etag": "545cf71c7a1ce8c9703202792703d785"
+    },
+    {
+      "key": "site/assets/1727545873-dscf6939-c5da3998ba.webp",
+      "bytes": 1005648,
+      "etag": "6105c8b1384bbbeafcdcbef3f7742eb4"
+    },
+    {
+      "key": "site/assets/1727546452-dscf6448-1acbc2c079.webp",
+      "bytes": 112172,
+      "etag": "8edbf833aec23e99a76cf0ceeddd1a27"
+    },
+    {
+      "key": "site/assets/1727546452-dscf6448-3a86138158.webp",
+      "bytes": 32388,
+      "etag": "fc40f1c0c039d576d10824f272eb3b6d"
+    },
+    {
+      "key": "site/assets/1727546452-dscf6448-c5aebe6e9d.webp",
+      "bytes": 390278,
+      "etag": "2b7513d30539b3e4944946f39036de8d"
+    },
+    {
+      "key": "site/assets/1727553744-dscf7120-1-431a49d73e.webp",
+      "bytes": 50380,
+      "etag": "87f8869bf2c3428475bbd520fe0a718d"
+    },
+    {
+      "key": "site/assets/1727553744-dscf7120-1-8f89aa7054.webp",
+      "bytes": 569774,
+      "etag": "b0498a68b525461c6ed6d4b92090e079"
+    },
+    {
+      "key": "site/assets/1727553744-dscf7120-1-f80eadc2a0.webp",
+      "bytes": 176702,
+      "etag": "90c429f6f59d2b6377a3a558caa3b25b"
+    },
+    {
+      "key": "site/assets/1727560313-dscf6511-1-04c7805691.webp",
+      "bytes": 84992,
+      "etag": "86dc07df76f48dbeb29e982bbf765636"
+    },
+    {
+      "key": "site/assets/1727560313-dscf6511-1-61c9596677.webp",
+      "bytes": 12312,
+      "etag": "2e551e0a47ddd687805101bafc83f714"
+    },
+    {
+      "key": "site/assets/1727560313-dscf6511-1-e2e5aacb1e.webp",
+      "bytes": 28088,
+      "etag": "595c4bd0efadba619b52f8472f581aac"
+    },
+    {
+      "key": "site/assets/1728040435-alex-grigg-abf4a2b31e.webp",
+      "bytes": 54356,
+      "etag": "2b69c4ad53830a041eea68268f121ee9"
+    },
+    {
+      "key": "site/assets/1728040435-ant-blades-c29b39abb9.webp",
+      "bytes": 46454,
+      "etag": "2a5c44e3ccad88a9e86c7ab639b2e91a"
+    },
+    {
+      "key": "site/assets/1728040435-guillame-cassuto-06926539b5.webp",
+      "bytes": 76632,
+      "etag": "c9f92dd1a56de5e17d546d3157766059"
+    },
+    {
+      "key": "site/assets/1728040435-ken_wong-8001e4cbd0.webp",
+      "bytes": 18602,
+      "etag": "efec0a2233a3cf020ccffda194e25359"
+    },
+    {
+      "key": "site/assets/1728040435-michael-schlingmann-f7e5b950e5.webp",
+      "bytes": 80990,
+      "etag": "3f7689174969f79ac4930b1447fe882c"
+    },
+    {
+      "key": "site/assets/1728040435-mikey_please-b7613f4db6.webp",
+      "bytes": 66298,
+      "etag": "0ecd9ca0268e54eb2031a7369f92e2c3"
+    },
+    {
+      "key": "site/assets/1728040435-moth-collective-fe4b0a7f04.webp",
+      "bytes": 91630,
+      "etag": "536b9ae43b242c10a6a0083913ea4dc4"
+    },
+    {
+      "key": "site/assets/1728040435-peter-dodd-2a4cc1a06d.webp",
+      "bytes": 61570,
+      "etag": "7baaab8f9db2712ddf7b5a837c128e6c"
+    },
+    {
+      "key": "site/assets/1728040436-oliver_hamilton-1f3eccb7c9.webp",
+      "bytes": 34000,
+      "etag": "5eb233a67f7c77ecacc81eb45ea32236"
+    },
+    {
+      "key": "site/assets/1728040436-shynola-e1e131f80a.webp",
+      "bytes": 69404,
+      "etag": "2d76780e6f912a7a68772502719007c9"
+    },
+    {
+      "key": "site/assets/1728040505-aya-suzuki-be3ef3a1ba.webp",
+      "bytes": 76690,
+      "etag": "c3f798ae84f876fd277b340092ab3215"
+    },
+    {
+      "key": "site/assets/1728040645-stephen-vuillemin-193950b639.webp",
+      "bytes": 38636,
+      "etag": "54fe44dd8d306e37ea80ba1159dfc7c2"
+    },
+    {
+      "key": "site/assets/1728041670-animade-ddbcc3aad5.webp",
+      "bytes": 25552,
+      "etag": "e3974770ca06acbc192733d21a0fd13c"
+    },
+    {
+      "key": "site/assets/1728041692-benjamincook-sarahgomesharris-b1c9e96e02.webp",
+      "bytes": 75626,
+      "etag": "6eba52a0310618258a7197f554582488"
+    },
+    {
+      "key": "site/assets/1728329003-dscf6897-1-2b101e0e79.webp",
+      "bytes": 480540,
+      "etag": "b66f4e7738eb3a1c8aaae484c6f62834"
+    },
+    {
+      "key": "site/assets/1728329003-dscf6897-1-6fb2c92a8e.webp",
+      "bytes": 43220,
+      "etag": "d275087fa3dec22bd7d5706251fae706"
+    },
+    {
+      "key": "site/assets/1728329003-dscf6897-1-8635625ba2.webp",
+      "bytes": 138186,
+      "etag": "495d7f94017af8c45a1fc90532872e56"
+    },
+    {
+      "key": "site/assets/1728332459-dscf6464-1-429702412f.webp",
+      "bytes": 639580,
+      "etag": "4e0aeba80044a1cf3f493d9183816685"
+    },
+    {
+      "key": "site/assets/1728332459-dscf6464-1-e805c6ac56.webp",
+      "bytes": 148592,
+      "etag": "0549ff966dcb5ed3dd6fa1d2f39665cb"
+    },
+    {
+      "key": "site/assets/1728332459-dscf6464-1-f25f10fe5d.webp",
+      "bytes": 39106,
+      "etag": "1bc886dbd772948e0647ff9d324a557e"
+    },
+    {
+      "key": "site/assets/1728336409-dscf7063-2-2946d68234.webp",
+      "bytes": 582646,
+      "etag": "985ea70fecc53a29a1c3a4d994945f37"
+    },
+    {
+      "key": "site/assets/1728336409-dscf7063-2-7f1edbfca4.webp",
+      "bytes": 143234,
+      "etag": "4620d9bb7e7649d524adad5f27728839"
+    },
+    {
+      "key": "site/assets/1728336409-dscf7063-2-8a15689a1d.webp",
+      "bytes": 1660186,
+      "etag": "aa86ec36fbd30323bea5f6612d0f0a3f"
+    },
+    {
+      "key": "site/assets/1740313450-drop-1-8b98c38029.webp",
+      "bytes": 24666,
+      "etag": "bf1e517d071f7dc01bd3a49ab633c898"
+    },
+    {
+      "key": "site/assets/1740313450-drop-1-aa3bfe94e8.webp",
+      "bytes": 67066,
+      "etag": "da69655a4a0a3fb8bc71c9250ed7a2ce"
+    },
+    {
+      "key": "site/assets/1740313450-drop-1-f8b6cbcbef.webp",
+      "bytes": 10030,
+      "etag": "f54531ab1f8ca06b5a3a12f3bc8ab90f"
+    },
+    {
+      "key": "site/assets/1740758338-ignasi-paint-the-line-animation-0ddb024173.webp",
+      "bytes": 16684,
+      "etag": "0d013de2f1edc155064ddc3178b0c7a3"
+    },
+    {
+      "key": "site/assets/1740758338-ignasi-paint-the-line-animation-ad11e58b5b.webp",
+      "bytes": 50774,
+      "etag": "a7b1fe5c652c5f09a69d0518eee0b200"
+    },
+    {
+      "key": "site/assets/1740758338-ignasi-paint-the-line-animation-e77ce8677f.webp",
+      "bytes": 156916,
+      "etag": "9abe326abe9261f4ce3d74a351413439"
+    },
+    {
+      "key": "site/assets/1741869740-logo-edition-00e9a6d207.svg",
+      "bytes": 30128,
+      "etag": "5f5729281bef8737e86282f4f15c2553"
+    },
+    {
+      "key": "site/assets/1744206663-dscf1732-2-1-ac40c006ad.webp",
+      "bytes": 671280,
+      "etag": "4588e2664fcaacfa2ea1f214045f1f00"
+    },
+    {
+      "key": "site/assets/1744206663-dscf1732-2-1-bb48539368.webp",
+      "bytes": 66628,
+      "etag": "e265ab8b7ddee2ac9030971ea1d5bc87"
+    },
+    {
+      "key": "site/assets/1744206663-dscf1732-2-1-cf0303165a.webp",
+      "bytes": 25864,
+      "etag": "d13eb2a49b0cc39c89383b86099f7071"
+    },
+    {
+      "key": "site/assets/1744206663-dscf1732-2-1-f90923888b.webp",
+      "bytes": 276620,
+      "etag": "e54f28bf0c44dca4777b1aa23ddef401"
+    },
+    {
+      "key": "site/assets/1757946002-styleframe-2-05f94f8183.webp",
+      "bytes": 695266,
+      "etag": "615480bcbc70eec23df1ad6e95c6177b"
+    },
+    {
+      "key": "site/assets/1757946002-styleframe-2-1e425ce970.webp",
+      "bytes": 267298,
+      "etag": "14efcdbf0320f44a5d2391e9d1c33e4e"
+    },
+    {
+      "key": "site/assets/1757946002-styleframe-2-3f3853a797.webp",
+      "bytes": 99648,
+      "etag": "b47174bc259c223d7d9c47de9ff39180"
+    },
+    {
+      "key": "site/assets/1757946002-styleframe-2-de1c813923.webp",
+      "bytes": 47474,
+      "etag": "1b71c3b231df48d0c55afabee81eb17a"
+    },
+    {
+      "key": "site/assets/1768564052-screenshot-2026-01-16-at-11-44-12-165f322f62.webp",
+      "bytes": 112508,
+      "etag": "c07c127fd52b9eb72ec954c743b8e318"
+    },
+    {
+      "key": "site/assets/1768564052-screenshot-2026-01-16-at-11-44-12-3cbaaea573.webp",
+      "bytes": 1207100,
+      "etag": "e11fc2100f740667f746496d932529ba"
+    },
+    {
+      "key": "site/assets/1768564052-screenshot-2026-01-16-at-11-44-12-8dfc7adf05.webp",
+      "bytes": 466042,
+      "etag": "461b71b8a98a7d1c65c5c8aa2c827b1a"
+    },
+    {
+      "key": "site/assets/1768564052-screenshot-2026-01-16-at-11-44-12-da2bdbd88a.webp",
+      "bytes": 50648,
+      "etag": "6e86a384206300c73ded69e43a594cff"
+    },
+    {
+      "key": "site/assets/1771928253-gorilaz_themountain_youtube_4k_8_8_90128-223dacd1a1.webp",
+      "bytes": 370346,
+      "etag": "8511fc3925b1f7bb43b83fe2a1c70f0e"
+    },
+    {
+      "key": "site/assets/1771928253-gorilaz_themountain_youtube_4k_8_8_90128-24e39ddf19.webp",
+      "bytes": 156550,
+      "etag": "5440fe334bb908f2fa3e0c225b4bd758"
+    },
+    {
+      "key": "site/assets/1771928253-gorilaz_themountain_youtube_4k_8_8_90128-3861c33bda.webp",
+      "bytes": 53042,
+      "etag": "2cff2e32e5912c07cfd90df782df30fa"
+    },
+    {
+      "key": "site/audio/225e33ee20af7749.mp3",
+      "bytes": 301248,
+      "etag": "bb73980db5dcfacc1a58dfef64c06f61"
+    },
+    {
+      "key": "site/audio/420bdfcba655391a.mp3",
+      "bytes": 298045,
+      "etag": "afc6ca5c450d754e4ac0164228d215f8"
+    },
+    {
+      "key": "site/audio/46bd9a4ed26c6b34.mp3",
+      "bytes": 354770,
+      "etag": "ab0e0009aa568a1c4177b9342c19583c"
+    },
+    {
+      "key": "site/audio/52ac56d18170afea.mp3",
+      "bytes": 358532,
+      "etag": "686843b73eb5ce47fde89c6ac044153f"
+    },
+    {
+      "key": "site/audio/53fe5c1a6653b3d7.mp3",
+      "bytes": 314646,
+      "etag": "a2862d3190eefbe8e610d43e27824c20"
+    },
+    {
+      "key": "site/audio/5532a0cf538d1eda.mp3",
+      "bytes": 321751,
+      "etag": "f5dc5380c35f4f2d4539c5b507ec4795"
+    },
+    {
+      "key": "site/audio/583c354c25c7ad9c.mp3",
+      "bytes": 403842,
+      "etag": "4687bee3e538142b97bf56f9ec4679c3"
+    },
+    {
+      "key": "site/audio/5b17e9fb8154b317.mp3",
+      "bytes": 370027,
+      "etag": "0e206f6cc45f6dc820fe077a13fc36ec"
+    },
+    {
+      "key": "site/audio/6d512d96ef10ca87.mp3",
+      "bytes": 284965,
+      "etag": "68db6da463bcc22cba9df74af33d5b6c"
+    },
+    {
+      "key": "site/audio/7a268b1065d75ae6.mp3",
+      "bytes": 364868,
+      "etag": "1c4509faf4bf0da6ac7ed9c2cae7a208"
+    },
+    {
+      "key": "site/audio/84c7ab6531c92959.mp3",
+      "bytes": 320079,
+      "etag": "041aa041e17bc7a3ef0b52ff35ed42f8"
+    },
+    {
+      "key": "site/audio/8ac87bb7617afb28.mp3",
+      "bytes": 579062,
+      "etag": "94446902ebc1dbcac2f6e0b93e5e5351"
+    },
+    {
+      "key": "site/audio/8df4aa74726241ed.mp3",
+      "bytes": 331364,
+      "etag": "d7297e26568dfbb22f170eabcf60c586"
+    },
+    {
+      "key": "site/audio/9c408f84e722642d.mp3",
+      "bytes": 299147,
+      "etag": "effb60d0cd0095112354b29a046ad7e7"
+    },
+    {
+      "key": "site/audio/a0a5b650e2ea45d6.mp3",
+      "bytes": 313337,
+      "etag": "8e13024629d056a14204ddba82183e2c"
+    },
+    {
+      "key": "site/audio/a9bb647c7fdf31d0.mp3",
+      "bytes": 408407,
+      "etag": "3d6633c9130053ea536cc130dbff7207"
+    },
+    {
+      "key": "site/audio/b21e8b3714d325e7.mp3",
+      "bytes": 452270,
+      "etag": "65498c92ce4fbfcbaf0ce0a8d18ed16c"
+    },
+    {
+      "key": "site/audio/b696f40b2b85c7a5.mp3",
+      "bytes": 326349,
+      "etag": "d78575bd94b168ff6dd7f8c11e3118dd"
+    },
+    {
+      "key": "site/audio/c49527c78b8b7abe.mp3",
+      "bytes": 286225,
+      "etag": "432c3f9545fa3e80ee83ddfacd3f535d"
+    },
+    {
+      "key": "site/audio/ccffa36cadba0ef6.mp3",
+      "bytes": 440511,
+      "etag": "e9c6a3ceeaf4dd1d01288460b6eff138"
+    },
+    {
+      "key": "site/audio/d2f10d0680a705f5.mp3",
+      "bytes": 334708,
+      "etag": "9b112be19a5448172b7e9fa24c390f0a"
+    },
+    {
+      "key": "site/audio/d5bd87b9a3d5f2a3.mp3",
+      "bytes": 266021,
+      "etag": "7bb17a35b4a84a268dee81d5146dc214"
+    },
+    {
+      "key": "site/audio/e35c06db417b02f2.mp3",
+      "bytes": 236906,
+      "etag": "914c18007beb4b26bf3628d4289e0377"
+    },
+    {
+      "key": "site/audio/e84dfb79c3e909e4.mp3",
+      "bytes": 261438,
+      "etag": "fc800e2e2b69e2c5d371ed367f025280"
+    },
+    {
+      "key": "site/audio/e9a51aff95be9114.mp3",
+      "bytes": 416210,
+      "etag": "160e2b5b3dc9896f2a41e94caf9e683d"
+    },
+    {
+      "key": "site/audio/ef9199c47a75e532.mp3",
+      "bytes": 245266,
+      "etag": "1cbe466ffd0596cee8a52dcaf83ccfa2"
+    },
+    {
+      "key": "site/audio/f27a1864a6a32288.mp3",
+      "bytes": 320915,
+      "etag": "8f05bd8dc55aebf2fc1ec2ca8f14e20d"
+    },
+    {
+      "key": "site/audio/f9c77ce756d603df.mp3",
+      "bytes": 438848,
+      "etag": "e57f223c477c08ded5d7dc2bcbec1209"
+    },
+    {
+      "key": "site/audio/fe58e49cd54c619c.mp3",
+      "bytes": 398668,
+      "etag": "c89b80846835630d16f579c35705e7a2"
+    },
+    {
+      "key": "site/audio/ff1ba3ec3d9ef8dd.mp3",
+      "bytes": 484428,
+      "etag": "5dae3949f6775127a2eda9a5b546e17a"
+    },
+    {
+      "key": "site/images/scribble.png",
+      "bytes": 3242,
+      "etag": "58a83ce5518839c67f53c56db3f590c8"
+    }
+  ]
+}

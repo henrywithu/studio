@@ -1,0 +1,205 @@
+{
+  "checks": [
+    {
+      "route": "/contact",
+      "width": 320,
+      "overflow": 0,
+      "title": {
+        "x": 20,
+        "y": 119,
+        "width": 280,
+        "height": 105.25,
+        "top": 119,
+        "right": 300,
+        "bottom": 224.25,
+        "left": 20
+      },
+      "image": {
+        "x": 20,
+        "y": 630.03125,
+        "width": 280,
+        "height": 380,
+        "top": 630.03125,
+        "right": 300,
+        "bottom": 1010.03125,
+        "left": 20
+      }
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "overflow": 0,
+      "title": {
+        "x": 8,
+        "y": 72,
+        "width": 304,
+        "height": 98.78125,
+        "top": 72,
+        "right": 312,
+        "bottom": 170.78125,
+        "left": 8
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "overflow": 0,
+      "title": {
+        "x": 20,
+        "y": 119,
+        "width": 350,
+        "height": 105.25,
+        "top": 119,
+        "right": 370,
+        "bottom": 224.25,
+        "left": 20
+      },
+      "image": {
+        "x": 20,
+        "y": 612.4375,
+        "width": 350,
+        "height": 380,
+        "top": 612.4375,
+        "right": 370,
+        "bottom": 992.4375,
+        "left": 20
+      }
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "overflow": 0,
+      "title": {
+        "x": 8,
+        "y": 72,
+        "width": 374,
+        "height": 98.78125,
+        "top": 72,
+        "right": 382,
+        "bottom": 170.78125,
+        "left": 8
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "overflow": 0,
+      "title": {
+        "x": 20,
+        "y": 119,
+        "width": 728,
+        "height": 106.8125,
+        "top": 119,
+        "right": 748,
+        "bottom": 225.8125,
+        "left": 20
+      },
+      "image": {
+        "x": 20,
+        "y": 614,
+        "width": 728,
+        "height": 380,
+        "top": 614,
+        "right": 748,
+        "bottom": 994,
+        "left": 20
+      }
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "overflow": 0,
+      "title": {
+        "x": 8,
+        "y": 72,
+        "width": 752,
+        "height": 131.3125,
+        "top": 72,
+        "right": 760,
+        "bottom": 203.3125,
+        "left": 8
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 1024,
+      "overflow": 0,
+      "title": {
+        "x": 40.953125,
+        "y": 119.453125,
+        "width": 521.28125,
+        "height": 142.46875,
+        "top": 119.453125,
+        "right": 562.234375,
+        "bottom": 261.921875,
+        "left": 40.953125
+      },
+      "image": {
+        "x": 573.453125,
+        "y": 153,
+        "width": 409.59375,
+        "height": 648,
+        "top": 153,
+        "right": 983.046875,
+        "bottom": 801,
+        "left": 573.453125
+      }
+    },
+    {
+      "route": "/about",
+      "width": 1024,
+      "overflow": 0,
+      "title": {
+        "x": 4.734375,
+        "y": 72,
+        "width": 1014.53125,
+        "height": 147.84375,
+        "top": 72,
+        "right": 1019.265625,
+        "bottom": 219.84375,
+        "left": 4.734375
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 1440,
+      "overflow": 0,
+      "title": {
+        "x": 57.59375,
+        "y": 151.828125,
+        "width": 733.046875,
+        "height": 200.3125,
+        "top": 151.828125,
+        "right": 790.640625,
+        "bottom": 352.140625,
+        "left": 57.59375
+      },
+      "image": {
+        "x": 806.40625,
+        "y": 153,
+        "width": 576,
+        "height": 648,
+        "top": 153,
+        "right": 1382.40625,
+        "bottom": 801,
+        "left": 806.40625
+      }
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "overflow": 0,
+      "title": {
+        "x": 6.65625,
+        "y": 100.796875,
+        "width": 1426.6875,
+        "height": 207.90625,
+        "top": 100.796875,
+        "right": 1433.34375,
+        "bottom": 308.703125,
+        "left": 6.65625
+      }
+    }
+  ],
+  "homeListsVerified": true
+}

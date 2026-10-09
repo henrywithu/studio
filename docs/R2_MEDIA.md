@@ -111,3 +111,11 @@ Cleanup is limited to exact audited keys in the owned `studio` bucket, after dep
 and verifying their replacement content. Reconcile sizes and ETags against the bucket
 before deleting; independently list the bucket afterward to confirm removal. Preserve
 every referenced object and all 317 original video renditions. Do not use prefix deletion.
+
+The October 9, 2026 cleanup deleted 189 unused objects (41,747,158 bytes):
+152 WebP images, six SVGs, one PNG and 30 retired Podcast audio files.
+All 3,189 retained objects (9,501,281,348 bytes) matched the expected inventory
+by exact key, size and ETag after deletion, including all 317 original video
+renditions and five additional site videos. No unused objects remain in the audit.
+`docs/evidence/r2-cleanup.json` records exact deleted keys and reconciliation evidence.
+`docs/evidence/r2-site-live.json` verifies all 2,872 active site-media URLs on production.
