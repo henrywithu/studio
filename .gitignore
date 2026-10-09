@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env*
+!.env.example
+research/reference/
+research/screenshots/
+research/browser/
+playwright-report/
+test-results/
+.DS_Store
