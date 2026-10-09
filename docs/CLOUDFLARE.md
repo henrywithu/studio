@@ -13,7 +13,7 @@ npm run workers:test  # Local R2 delivery and metadata checks; run after the bui
 npm run deploy        # Build, upload two local files to R2, deploy the site Worker
 ```
 
-For Cloudflare Workers Builds connected to this repository, select `main`, use `npm run build && npm run workers:prepare` as the build command and `npm run workers:upload-media && npx wrangler deploy` as the deploy command. `npm run deploy` also supports deployment from a local authenticated machine or CI.
+For Cloudflare Workers Builds connected to this repository, select `main`, use `npm run build` as the build command and `npm run workers:upload-media && npx wrangler deploy` as the deploy command. The standard build automatically runs `postbuild` to create `.cloudflare/assets`; no separate preparation command is needed. The upload step handles only the two oversized local videos and requires R2 write permission. `npm run deploy` also supports deployment from a local authenticated machine or CI.
 
 Wrangler attaches `studio.henrywithu.com` as a custom domain and provisions its certificate. If an existing DNS record already occupies that exact hostname, resolve that record in the Cloudflare dashboard before attaching the custom domain. The main Trapnest site uses a different hostname.
 
@@ -30,7 +30,7 @@ Two original local MP4s exceed Workers' 25 MiB static asset limit:
 
 The deployment command uploads the unchanged files to those new keys. The site Worker streams them at their existing URLs, using the existing range/HEAD/conditional-request delivery implementation. Only those two URLs route through the Worker; it does not expose arbitrary R2 keys. Repeating deployment writes the same local bytes to the same two keys.
 
-The original local assets remain in `public/` and `dist/` for Vite development and preview. `workers:prepare` creates an ignored `.cloudflare/assets/` copy without the two oversized files and verifies all remaining files against the static asset size and count limits. Never deploy raw `dist/` with Wrangler, because it includes those oversized originals.
+The original local assets remain in `public/` and `dist/` for Vite development and preview. The build's `postbuild` lifecycle runs `scripts/prepare-workers.mjs`, creating an ignored `.cloudflare/assets/` copy without the two oversized files and verifying all remaining files against the static asset size and count limits. `workers:prepare` can also run this step independently. Never deploy raw `dist/` with Wrangler, because it includes those oversized originals.
 
 ## Routing and metadata
 

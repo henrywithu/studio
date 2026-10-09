@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build && node scripts/build-metadata.mjs",
+    "postbuild": "node scripts/prepare-workers.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "inspect:reference": "node scripts/inspect-reference.mjs",
     "verify": "node scripts/verify-studio.mjs",
@@ -22,9 +23,9 @@
     "media:deploy": "wrangler deploy --config workers/media/wrangler.jsonc",
     "workers:prepare": "node scripts/prepare-workers.mjs",
     "workers:upload-media": "node scripts/upload-local-media.mjs",
-    "workers:dev": "npm run build && npm run workers:prepare && node scripts/upload-local-media.mjs --local && wrangler dev",
-    "deploy:check": "npm run build && npm run workers:prepare && wrangler deploy --dry-run",
-    "deploy": "npm run build && npm run workers:prepare && npm run workers:upload-media && wrangler deploy",
+    "workers:dev": "npm run build && node scripts/upload-local-media.mjs --local && wrangler dev",
+    "deploy:check": "npm run build && wrangler deploy --dry-run",
+    "deploy": "npm run build && npm run workers:upload-media && wrangler deploy",
     "workers:test": "node --test scripts/test-site-worker.mjs"
   },
   "dependencies": {

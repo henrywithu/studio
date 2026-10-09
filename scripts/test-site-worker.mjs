@@ -1,9 +1,22 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 import { test } from "node:test";
 import { build } from "esbuild";
 import { Miniflare, convertV4MiniflareOptions } from "miniflare";
 import { load } from "cheerio";
+
+test("standard build prepares Wrangler assets while retaining original oversized videos", async () => {
+  const config = JSON.parse(await readFile("wrangler.jsonc", "utf8"));
+  const directory = config.assets.directory;
+  assert((await stat(directory + "/index.html")).isFile());
+  assert((await stat(directory + "/brand/og.jpg")).isFile());
+  const media = JSON.parse(await readFile("workers/site/local-media.json", "utf8"));
+  for (const item of media) {
+    await assert.rejects(stat(directory + item.path), { code: "ENOENT" });
+    assert((await stat("dist" + item.path)).size > 25 * 1024 * 1024);
+    assert.equal((await stat("dist" + item.path)).size, (await stat("public" + item.path)).size);
+  }
+});
 
 test("site serves oversized media at unchanged URLs with seeking and restricted R2 access", async () => {
   const bundle = await build({ entryPoints: ["workers/site/index.mjs"], bundle: true, write: false, format: "esm" });
