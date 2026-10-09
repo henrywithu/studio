@@ -1,10 +1,10 @@
-# Studio architecture
+# Trapnest Studio architecture
 
 ## Client ownership
 
 Studio is a React 19 / TypeScript application built with Vite. `npm run dev` provides native module HMR and React Fast Refresh; `npm run build` runs strict TypeScript compilation and produces a static client build. The GSAP ticker and Lenis instance are disposed during module replacement.
 
-`src/App.tsx` owns route fetching, prefetching, browser history, page transitions, controller lifetime and document metadata. Routes load independently from `public/content/`; shared header and original loading-wordmark geometry live in `src/content/chrome.json`. The content format is a typed element tree, rendered through `src/components/Content.tsx`. No Vue, Nuxt, reference application bundle, evaluated script or raw executable HTML is used by Studio.
+`src/App.tsx` owns route fetching, prefetching, browser history, page transitions, controller lifetime and document metadata. Routes load independently from `public/content/`; shared header and the Trapnest loading-wordmark geometry live in `src/content/chrome.json`. The content format is a typed element tree, rendered through `src/components/Content.tsx`. No Vue, Nuxt, reference application bundle, evaluated script or raw executable HTML is used by Studio.
 
 The content renderer preserves original SVG paths, scope attributes, semantics and CSS classes. React owns structure; narrowly scoped controllers own ephemeral transforms, text splitting and media playback. Controllers return cleanup functions, and GSAP contexts revert route motion on navigation.
 
@@ -56,3 +56,9 @@ REFERENCE_ORIGIN=http://localhost:5174 npm run compare
 Browser scripts accept `CHROMIUM_PATH` where supported; the cloud default is `/usr/bin/chromium`. Route and screenshot reports are ignored scratch output; finalized evidence is recorded in `docs/evidence/`.
 
 `VITE_NEWSLETTER_ENDPOINT` can point to an authorized subscription service. The default is the reference’s original public endpoint. Valid subscriptions were not sent during verification. Remote Vimeo previews and case films now use the `studio` R2 bucket through the read-only `studio-media` Worker. Separate mobile and desktop renditions, lazy loading, and native full-film controls remain intact. YouTube sources retain their external URLs. All local images, font files, local homepage loop videos and podcast preview audio ship with the project. See [R2 media storage](R2_MEDIA.md) and its verified migration manifest for the source-to-object mappings.
+
+## Trapnest identity and Workers hosting
+
+`src/metadata.ts` updates route metadata during client navigation. `scripts/build-metadata.mjs` emits route-specific HTML heads, a sitemap, robots rules and a 404 page. The original GSAP/Lenis transition system remains unchanged.
+
+`wrangler.jsonc` serves static assets at `studio.henrywithu.com`. Only two oversized local video URLs invoke `workers/site/index.mjs`, which uses the existing R2 streaming implementation. `scripts/prepare-workers.mjs` creates the upload copy; `scripts/upload-local-media.mjs` uploads only the two original local files under `videos/local/`, or seeds local simulated R2 for preview. The existing 317 Vimeo renditions and media Worker are unchanged. See [deployment](CLOUDFLARE.md).

@@ -15,3 +15,5 @@ workers/**/worker-configuration.d.ts
 worker-configuration.d.ts
 __pycache__/
 research/*.json
+
+.cloudflare/

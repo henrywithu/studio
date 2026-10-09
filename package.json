@@ -1,11 +1,11 @@
 {
-  "name": "studio",
+  "name": "trapnest-studio",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/build-metadata.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "inspect:reference": "node scripts/inspect-reference.mjs",
     "verify": "node scripts/verify-studio.mjs",
@@ -19,7 +19,13 @@
     "media:verify": "python3 scripts/r2-videos.py verify",
     "media:test": "node --test scripts/test-r2-media.mjs",
     "media:browser": "node scripts/verify-r2-browser.mjs",
-    "media:deploy": "wrangler deploy --config workers/media/wrangler.jsonc"
+    "media:deploy": "wrangler deploy --config workers/media/wrangler.jsonc",
+    "workers:prepare": "node scripts/prepare-workers.mjs",
+    "workers:upload-media": "node scripts/upload-local-media.mjs",
+    "workers:dev": "npm run build && npm run workers:prepare && node scripts/upload-local-media.mjs --local && wrangler dev",
+    "deploy:check": "npm run build && npm run workers:prepare && wrangler deploy --dry-run",
+    "deploy": "npm run build && npm run workers:prepare && npm run workers:upload-media && wrangler deploy",
+    "workers:test": "node --test scripts/test-site-worker.mjs"
   },
   "dependencies": {
     "gsap": "^3.14.2",
@@ -33,6 +39,7 @@
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.1.1",
     "cheerio": "^1.2.0",
+    "esbuild": "^0.28.2",
     "miniflare": "^5.20261006.1-alpha",
     "playwright": "^1.56.1",
     "prettier": "^3.6.2",

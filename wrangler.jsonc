@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "trapnest-studio",
+  "main": "workers/site/index.mjs",
+  "compatibility_date": "2026-10-09",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "routes": [{ "pattern": "studio.henrywithu.com", "custom_domain": true }],
+  "assets": {
+    "directory": "./.cloudflare/assets",
+    "binding": "ASSETS",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/media/748af0586f32345b.mp4", "/media/e89d3045a7786331.mp4"]
+  },
+  "r2_buckets": [{ "binding": "LOCAL_VIDEOS", "bucket_name": "studio" }],
+  "observability": { "enabled": true, "head_sampling_rate": 0.1 }
+}
