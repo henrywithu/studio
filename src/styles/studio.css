@@ -26,7 +26,9 @@
   font-size: 2rem;
   text-decoration: underline;
 }
-.route-error .header { color: #0b0b0b; }
+.route-error .header {
+  color: #0b0b0b;
+}
 .scrollbar__handle {
   touch-action: none;
 }
@@ -111,18 +113,273 @@ input:focus-visible {
 }
 
 /* Trapnest identity uses the existing animation hooks and layout. */
-.home-about__fig > .base-image { aspect-ratio: 2 / 3; overflow: hidden; }
-.home-about__fig .base-image__img { width: 100%; height: 100%; object-fit: cover; }
-.home-about__fig:first-child .base-image__img { object-position: 70% 50%; }
+.home-about__fig > .base-image {
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+}
+.home-about__fig .base-image__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home-about__fig:first-child .base-image__img {
+  object-position: 70% 50%;
+}
 .header--light .header-logo__svg image,
-.header--nav-open .header-logo__svg image { filter: brightness(0) invert(1); }
-.header-logo__link { width: 16.5rem; height: 4.4rem; }
-.header-logo__svg { width: 100%; height: 100%; overflow: visible; }
-.preloader__r { clip-path: none; width: auto; height: auto; font-size: 2rem; letter-spacing: .18em; font-weight: 470; }
-.studio-archive-credit { position: relative; z-index: 2; padding: 1rem .8rem; font-size: 1.2rem; line-height: 1.5; background: #e8e9ee; color: #202020; }
-.studio-archive-credit a { text-decoration: underline; }
+.header--nav-open .header-logo__svg image {
+  filter: brightness(0) invert(1);
+}
+.header-logo__link {
+  width: 16.5rem;
+  height: 4.4rem;
+}
+.header-logo__svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.preloader__r {
+  clip-path: none;
+  width: auto;
+  height: auto;
+  font-size: 2rem;
+  letter-spacing: 0.18em;
+  font-weight: 470;
+}
+.studio-archive-credit {
+  position: relative;
+  z-index: 2;
+  padding: 1rem 0.8rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background: #e8e9ee;
+  color: #202020;
+}
+.studio-archive-credit a {
+  text-decoration: underline;
+}
 @media (min-width: 1024px) {
-  .header-logo__link { width: 11.5vw; height: 3.06vw; }
-  .preloader__r { font-size: 2.1vw; }
-  .studio-archive-credit { font-size: .8vw; padding: .8vw; }
+  .header-logo__link {
+    width: 11.5vw;
+    height: 3.06vw;
+  }
+  .preloader__r {
+    font-size: 2.1vw;
+  }
+  .studio-archive-credit {
+    font-size: 0.8vw;
+    padding: 0.8vw;
+  }
+}
+
+/* Trapnest copy and artwork have their own proportions within the original moving sheets. */
+.studio-areas {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+}
+.studio-areas__column h4 {
+  margin-bottom: 1.6rem;
+}
+.studio-areas__column ul {
+  width: auto;
+}
+.studio-areas__column li {
+  margin-bottom: 0.5rem;
+}
+.studio-areas__note {
+  max-width: 24ch;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
+.home-clients__list {
+  text-wrap: pretty;
+}
+.home-client__wrapper:focus-visible {
+  opacity: 1;
+}
+.route-about .about-hero {
+  height: 100svh;
+  min-height: 66rem;
+  padding-top: clamp(7.2rem, 7vw, 11rem);
+}
+.route-about .about-hero__title {
+  position: relative;
+  z-index: 2;
+  font-size: clamp(5.6rem, 7.6vw, 13rem);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+  margin-bottom: 0;
+  text-wrap: initial;
+}
+.route-about .about-hero__fg {
+  position: absolute;
+  left: 0;
+  bottom: -7%;
+  width: 86vw;
+  aspect-ratio: 2 / 1;
+}
+.route-about .about-hero__fg-header {
+  padding: 1.2rem;
+}
+.route-about .about-hero__bg {
+  opacity: 0.045;
+}
+.route-about .about-process,
+.route-about .about-reel,
+.route-about .about-team {
+  position: relative;
+}
+.route-about .about-intro__header {
+  padding: 2rem;
+}
+.route-about .about-intro__wrapper {
+  padding-top: clamp(6rem, 10vw, 16rem);
+}
+.route-about .about-team__fig-big {
+  max-height: 76rem;
+  overflow: hidden;
+}
+.route-about .about-team__fig-big img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.studio-contact {
+  background: #f1eee7;
+}
+.studio-contact .contact-hero__bg {
+  background: #f1eee7;
+}
+.studio-contact .contact-hero__sticky {
+  padding: clamp(8rem, 8vw, 12rem) 4vw 4rem;
+}
+.studio-contact .contact-hero__wrapper {
+  grid-column: 1 / span 5;
+  margin: 0;
+  padding: 0;
+}
+.studio-contact .contact-hero__wrapper::before {
+  display: none;
+}
+.studio-contact .contact-hero__title-wrapper {
+  flex: none;
+}
+.studio-contact__title {
+  font-size: clamp(5.6rem, 7.4vw, 12rem);
+  line-height: 0.94;
+  letter-spacing: -0.045em;
+  margin: 2rem 0 3rem;
+}
+.studio-contact .contact-hero__details {
+  margin-top: 0;
+  padding-top: 0;
+}
+.studio-contact__intro {
+  max-width: 33ch;
+  margin-bottom: 3.2rem;
+  line-height: 1.4;
+}
+.studio-contact .contact-hero__copy {
+  font-size: clamp(2rem, 2vw, 3.4rem);
+  margin-bottom: 2.4rem;
+}
+.studio-contact__main-link {
+  display: inline-block;
+  margin-top: 1.6rem;
+}
+.studio-contact .contact-hero__btn {
+  width: 4.8rem;
+  height: 5.6rem;
+  margin-top: auto;
+}
+.studio-contact .contact-hero__fg {
+  top: 17%;
+  bottom: auto;
+  right: 4%;
+  width: 40%;
+  height: 72%;
+}
+.studio-contact .contact-hero__fg-fig img {
+  object-position: 78% 50%;
+}
+.studio-contact .contact-hero__fg-inner {
+  top: auto;
+  bottom: 0;
+  width: 100%;
+  height: 16%;
+}
+.studio-contact .contact-hero__fg-inner--content {
+  align-items: flex-end;
+  padding: 1.4rem;
+}
+.route-contact .contact-details__list {
+  margin-top: 8vw;
+  margin-bottom: 8vw;
+}
+.route-contact .contact-details__list-item-fig {
+  margin-bottom: 2rem;
+}
+.route-contact .contact-details__list-item-title {
+  margin-top: 0.8rem;
+}
+.route-contact .contact-details__list-item > .p5 {
+  max-width: 30ch;
+  line-height: 1.4;
+}
+@media (max-width: 1023px) {
+  .route-about .about-hero__fg {
+    width: 160vw;
+    top: 32%;
+    bottom: auto;
+    height: 62%;
+    aspect-ratio: auto;
+  }
+  .route-about .about-hero__fg-meta,
+  .route-about .about-hero__fg-header .copyrights {
+    display: none;
+  }
+  .route-about .about-hero__title {
+    font-size: clamp(5.2rem, 9vw, 8rem);
+  }
+  .studio-contact {
+    height: auto;
+    min-height: 100svh;
+  }
+  .studio-contact .contact-hero__scroller {
+    position: relative;
+    inset: auto;
+  }
+  .studio-contact .contact-hero__sticky {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 8rem 2rem 3rem;
+    gap: 3rem;
+  }
+  .studio-contact .contact-hero__wrapper {
+    width: 100%;
+  }
+  .studio-contact .contact-hero__btn {
+    margin-top: 2.4rem;
+  }
+  .studio-contact .contact-hero__fg {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    height: 38rem;
+  }
+  .studio-contact .contact-hero__fg-inner {
+    height: 18%;
+  }
+  .route-contact .contact-details__list {
+    margin: 8rem 0;
+    gap: 5rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .route-about .about-hero {
+    position: relative;
+  }
 }

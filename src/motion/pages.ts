@@ -8,6 +8,23 @@ export function setupPageMotion(root: HTMLElement) {
   const about = q(".about-hero");
   if (about) {
     about.classList.add("is-visible");
+    const intro = q(".about-intro");
+    if (intro && !reducedMotion) {
+      // The reference hides its sticky hero once the introduction reaches the top.
+      // Without this, later transparent sections reveal the hero behind their text.
+      ScrollTrigger.create({
+        trigger: intro,
+        start: "top top",
+        onEnter: () => about.classList.add("about-hero--hidden"),
+        onLeaveBack: () => about.classList.remove("about-hero--hidden"),
+        onRefresh: (self) =>
+          about.classList.toggle(
+            "about-hero--hidden",
+            self.scroll() >= self.start,
+          ),
+      });
+      cleanups.push(() => about.classList.remove("about-hero--hidden"));
+    }
     if (!reducedMotion) {
       gsap
         .timeline({

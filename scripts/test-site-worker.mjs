@@ -47,7 +47,7 @@ test("all migrated site assets are verified and removed; retired modules have no
   );
   assert.equal(manifest.entries.length, 3061);
   for (const item of manifest.entries) {
-    assert.equal(item.status, "verified", item.path);
+    assert(["verified", "retired", "deleted"].includes(item.status), item.path);
     assert.equal(item.md5, item.etag, item.path);
     await assert.rejects(stat("public" + item.path), { code: "ENOENT" });
     await assert.rejects(stat("dist" + item.path), { code: "ENOENT" });
@@ -98,15 +98,12 @@ test("site serves oversized media at unchanged URLs with seeking and restricted 
       await readFile("docs/evidence/r2-site-assets.json", "utf8"),
     );
     const image = site.entries.find(
-      (item) => item.contentType === "image/webp",
-    );
-    const audio = site.entries.find(
-      (item) => item.contentType === "audio/mpeg",
+      (item) => item.contentType === "image/webp" && item.status === "verified",
     );
     const localVideo = site.entries.find(
       (item) => item.contentType === "video/mp4",
     );
-    for (const item of [image, audio, localVideo]) {
+    for (const item of [image, localVideo]) {
       await bucket.put(item.key, bytes, {
         httpMetadata: { contentType: item.contentType },
       });
@@ -150,6 +147,7 @@ test("site serves oversized media at unchanged URLs with seeking and restricted 
       "/assets/index-test.css",
       "/assets/unknown.webp",
       "/site/assets/unknown.webp",
+      "/audio/ff1ba3ec3d9ef8dd.mp3",
     ])
       assert.equal(
         await (await mf.dispatchFetch("https://studio.test" + path)).text(),

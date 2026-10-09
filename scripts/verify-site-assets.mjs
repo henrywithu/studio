@@ -10,7 +10,7 @@ const proxy = process.env.HTTPS_PROXY || process.env.HTTP_PROXY;
 const transport = await request.newContext(
   proxy ? { proxy: { server: proxy } } : {},
 );
-const entries = manifest.entries;
+const entries = manifest.entries.filter((item) => item.status === "verified");
 let next = 0;
 let verified = 0;
 const errors = [];

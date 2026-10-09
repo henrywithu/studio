@@ -3,7 +3,10 @@ import localMedia from "./local-media.json";
 import siteMedia from "../../docs/evidence/r2-site-assets.json";
 
 const mediaKeys = new Map(
-  [...localMedia, ...siteMedia.entries].map((item) => [item.path, item.key]),
+  [
+    ...localMedia,
+    ...siteMedia.entries.filter((item) => item.status === "verified"),
+  ].map((item) => [item.path, item.key]),
 );
 
 /** Preserve original media URLs using an explicit R2 allowlist; pages and bundles stay static. */

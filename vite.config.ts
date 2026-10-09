@@ -2,7 +2,9 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import siteMedia from "./docs/evidence/r2-site-assets.json";
 const redirects = new Map(
-  siteMedia.entries.map((item) => [item.path, item.key]),
+  siteMedia.entries
+    .filter((item) => item.status === "verified")
+    .map((item) => [item.path, item.key]),
 );
 const r2Media = {
   name: "r2-media",

@@ -14,7 +14,7 @@ for (const item of inventory) {
     const object = [...videos.entries, ...siteMedia.entries].find(
       (entry) => entry.key === item.key,
     );
-    assert.equal(object?.status, "verified", item.path);
+    assert(["verified", "retired", "deleted"].includes(object?.status), item.path);
     assert.equal(object.bytes, item.bytes, item.path);
     await assert.rejects(stat(item.path), { code: "ENOENT" });
     continue;

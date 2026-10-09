@@ -120,3 +120,11 @@ Critical routing fixes normalize trailing-slash URLs so selecting the current se
 - The affected five content files differ only in those three URL replacements. All five other local videos are unchanged, as are the 317-object manifest, original verification evidence and media Worker. Targeted HEAD/32-byte range checks for the three replacements passed; no R2 object was uploaded, changed or deleted.
 
 The requested history cleanup removes those three binary paths from all local refs and publishes the rewritten `main` with an explicit force-with-lease. The deployment and asset-evidence workflows no longer require those files or local media seeding.
+
+## Trapnest content and layout follow-up — 9 October 2026
+
+Home's inherited awards/press lists are replaced with real Trapnest project and topic links. The client cloud now links to materials and ideas explored on Trapnest. About's collage, process imagery and project imagery use existing Trapnest journal artwork. Its sticky hero now follows the reference's introduction visibility toggle, preventing later headings from showing through the hero. Contact uses a warm paper background, restrained two-line title, direct email and one sculpture image with a small acetate caption. Original media and sheet/scroll motion remain intact.
+
+The production build and all five Worker tests pass. Chromium verified 224 route/viewport combinations, 12 controls, 14 normal-motion navigation/transition checks and 18 responsive checks. Targeted layout checks at 320, 390, 768, 1024 and 1440px found no horizontal overflow, checked Contact's desktop text/image separation, and verified About's hide/restore behavior. `npm run verify:trapnest` repeats these checks and confirms the homepage's Trapnest lists. Mobile screenshots and desktop layouts were visually inspected.
+
+The read-only R2 usage audit found 189 unused site objects totaling 41,747,158 bytes. Their exact sizes and ETags match an independent bucket inventory. All 317 original Vimeo renditions and the five additional site videos remain referenced. The replacement content and active media allowlist are deployed before deleting the audited keys.

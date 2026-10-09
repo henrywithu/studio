@@ -84,10 +84,10 @@ The site Worker uses an explicit URL allowlist to serve existing `/assets/`,
 `/media/`, `/audio/` and `/images/` paths directly from R2. Build bundles under
 `/assets/` still use Workers Static Assets. `npm run dev` redirects known media
 paths to the read-only media Worker, so no binaries need to be downloaded for
-local development. `npm run media:site:verify` checks all migrated media.
+local development. `npm run media:site:verify` checks all active migrated media.
 
 Podcast and Explore are removed from the live site's pages and navigation.
-Migrated archival media remains preserved in R2. The temporary authenticated
+Unused migrated images and retired Podcast audio are identified by the runtime usage audit for removal from R2; all referenced archive media is preserved. The temporary authenticated
 upload Worker is deleted after migration; production requires no upload token.
 All four binary directories are excluded from Git and purged from its history.
 
@@ -97,3 +97,17 @@ set its `IMPORT_TOKEN` secret, add pending manifest entries, and run
 The importer only accepts authenticated PUTs in the `site/` prefix, checks MD5 during
 upload, and refuses to overwrite existing objects. Verify delivery before removing
 local files; delete the importer again when finished.
+
+## Runtime usage and cleanup
+
+`npm run media:audit` scans every deployed content section and source asset reference,
+including encoded carousel data, against both manifests. It writes
+`docs/evidence/r2-usage.json` and rejects runtime references to retired or deleted objects.
+Provenance-only metadata is excluded; the three documented legacy video URLs remain supported.
+The site and development media allowlists serve only entries marked `verified`.
+Historical records marked `retired` or `deleted` remain for checksum and migration evidence.
+
+Cleanup is limited to exact audited keys in the owned `studio` bucket, after deploying
+and verifying their replacement content. Reconcile sizes and ETags against the bucket
+before deleting; independently list the bucket afterward to confirm removal. Preserve
+every referenced object and all 317 original video renditions. Do not use prefix deletion.

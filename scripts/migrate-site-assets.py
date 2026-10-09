@@ -13,7 +13,7 @@ token = Path(os.environ['STUDIO_IMPORT_TOKEN_FILE']).read_text().strip()
 origin = os.environ.get('STUDIO_IMPORT_URL', 'https://studio-asset-import.henrywithu.workers.dev')
 
 def upload(item):
-    if item['status'] == 'verified':
+    if item['status'] in ['verified', 'retired', 'deleted']:
         return item
     # Keep credentials out of argv, logs and the repository.
     with tempfile.NamedTemporaryFile(mode='w', prefix='studio-upload-', dir='/tmp') as config:
