@@ -16,6 +16,7 @@ import { setupText } from "./motion/text";
 import { setupHeaderTheme } from "./motion/header-theme";
 import { setupSharedMotion } from "./motion/shared";
 import { setupNewsletter } from "./motion/newsletter";
+import { updateMetadata } from "./metadata";
 const cache = new Map<string, Promise<PageContent>>();
 function fetchPage(path: string) {
   const route = path.replace(/\/$/, "") || "/";
@@ -48,16 +49,7 @@ export function App() {
       .then((data) => {
         if (!canceled) {
           setPage(data);
-          document.title = data.title;
-          let meta = document.querySelector<HTMLMetaElement>(
-            'meta[name="description"]',
-          );
-          if (!meta) {
-            meta = document.createElement("meta");
-            meta.name = "description";
-            document.head.appendChild(meta);
-          }
-          meta.content = data.description;
+          updateMetadata(data);
         }
       })
       .catch(() => {

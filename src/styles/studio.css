@@ -103,3 +103,15 @@ input:focus-visible {
 .route-contact .contact-jobs__dot {
   position: absolute;
 }
+
+/* Trapnest identity uses the existing animation hooks and layout. */
+.header-logo__link { width: 16.5rem; height: 4.4rem; }
+.header-logo__svg { width: 100%; height: 100%; overflow: visible; }
+.preloader__r { clip-path: none; width: auto; height: auto; font-size: 2rem; letter-spacing: .18em; font-weight: 470; }
+.studio-archive-credit { position: relative; z-index: 2; padding: 1rem .8rem; font-size: 1.2rem; line-height: 1.5; background: #e8e9ee; color: #202020; }
+.studio-archive-credit a { text-decoration: underline; }
+@media (min-width: 1024px) {
+  .header-logo__link { width: 11.5vw; height: 3.06vw; }
+  .preloader__r { font-size: 2.1vw; }
+  .studio-archive-credit { font-size: .8vw; padding: .8vw; }
+}

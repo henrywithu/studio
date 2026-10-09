@@ -82,19 +82,10 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
       .querySelectorAll(".header-status > .dot")
       .forEach((dot) => dot.remove());
     const status = header.querySelector(".header-status > span");
-    const time = new Intl.DateTimeFormat("en-GB", {
-      timeZone: "Europe/London",
-      hour: "2-digit",
-      hourCycle: "h23",
-    }).format(new Date());
     if (status) {
-      status.textContent =
-        (Number(time) >= 10 && Number(time) < 18 ? "OPEN" : "CLOSED") +
-        " (10—6PM)";
+      status.textContent = "INDEPENDENT / CREATIVE";
       const dot = document.createElement("span");
-      dot.className =
-        "dot--8 dot--filled dot " +
-        (Number(time) >= 10 && Number(time) < 18 ? "dot--red" : "dot--black");
+      dot.className = "dot--8 dot--filled dot dot--red";
       status.before(dot);
     }
     return () => {

@@ -1,5 +1,5 @@
 import { gsap } from "./engine";
-/** Original form timing and validation. Submission uses the original external service. */
+/** Original form timing and validation. Subscriptions continue on the main Trapnest site unless a Studio endpoint is configured. */
 export function setupNewsletter(root: HTMLElement) {
   const cleanup: (() => void)[] = [];
   root.querySelectorAll<HTMLElement>(".newsletter").forEach((newsletter) => {
@@ -41,13 +41,18 @@ export function setupNewsletter(root: HTMLElement) {
         message.textContent = "/ Email address format is not recognised.";
         return;
       }
+      const endpoint = import.meta.env.VITE_NEWSLETTER_ENDPOINT;
+      if (!endpoint) {
+        message.textContent = "/ Continue your subscription on Trapnest.";
+        window.location.assign("https://henrywithu.com/#/portal/signup");
+        return;
+      }
       message.textContent = "/ Sending…";
       const controller = new AbortController();
       cleanup.push(() => controller.abort());
       try {
         const response = await fetch(
-          import.meta.env.VITE_NEWSLETTER_ENDPOINT ||
-            "https://thelinestudio.com/.netlify/functions/submitSubscription",
+          endpoint,
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
