@@ -11,5 +11,9 @@
     "public/media/",
     "public/audio/",
     "public/images/"
-  ]
+  ],
+  "freshClonePackBytes": 2773041,
+  "productionFilesVerified": 3061,
+  "productionBrowserChecks": 11,
+  "productionApplicationErrors": 0
 }

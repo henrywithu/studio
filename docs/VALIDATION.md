@@ -16,6 +16,8 @@ Reference snapshot: 2026-10-09. Browser: Chromium. Studio build: React / strict 
 - Five Workers tests and two media tests pass; the build and Wrangler dry run pass.
 - Static deployment assets shrink to 242 files and about 7 MB. Fonts and branding stay static.
 - All migrated binary directories are purged from Git history; existing media URLs remain valid.
+  Packed history fell from 637 MB to 2.5 MB locally; a fresh GitHub clone downloads about 3 MB.
+- Production passes all 3,061 media URL checks and 11 browser checks without application errors.
 - Original 317 Vimeo objects, media source references for remaining pages and their verification
   records are preserved. The temporary upload Worker and token are deleted after migration.
 
