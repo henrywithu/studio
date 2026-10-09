@@ -35,7 +35,9 @@ def save(data):
 
 
 def request(url, *, body=None, headers=None, method=None, timeout=60):
-    req = urllib.request.Request(url, data=body, headers=headers or {}, method=method)
+    req = urllib.request.Request(url, data=body,
+                                 headers={"User-Agent": "studio-media-migration/1.0", **(headers or {})},
+                                 method=method)
     return urllib.request.urlopen(req, timeout=timeout)
 
 
@@ -182,7 +184,9 @@ def upload(data, token_file, limit):
         return entry
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        for index, entry in enumerate(pool.map(transfer, pending), 1):
+        futures = [pool.submit(transfer, entry) for entry in pending]
+        for index, future in enumerate(concurrent.futures.as_completed(futures), 1):
+            entry = future.result()
             save(data)
             print(f"{index}/{len(pending)} {entry['status']} {entry['key']} "
                   f"{entry.get('bytes', 0)} bytes {entry.get('error', '')}", flush=True)
@@ -192,6 +196,8 @@ def upload(data, token_file, limit):
 
 
 def apply(data):
+    verified = {entry["key"]: data["baseUrl"].rstrip("/") + "/" + entry["key"]
+                for entry in data["entries"] if entry["status"] == "verified"}
     aliases = {source: data["baseUrl"].rstrip("/") + "/" + entry["key"]
                for entry in data["entries"] if entry["status"] == "verified"
                for source in entry["sourceUrls"]}
@@ -200,6 +206,8 @@ def apply(data):
         if isinstance(value, str):
             if value in aliases:
                 return aliases[value]
+            if value.startswith("https://") and (key := video_key(value)) in verified:
+                return verified[key]
             if value.startswith(("{", "[")):
                 try:
                     decoded = json.loads(value)

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-09",
+  "bucket": "studio",
+  "deliveryOrigin": "https://studio-media.henrywithu.workers.dev",
+  "objects": 317,
+  "bytes": 8903104087,
+  "allTransfersVerified": true,
+  "temporaryImporterDeleted": true,
+  "bucketPublicAccessEnabled": false,
+  "contentFilesUpdated": 83,
+  "r2VideoSourceAttributes": 406,
+  "localVideoSourceAttributes": 24,
+  "auditedVimeoToR2Replacements": 955,
+  "youtubeSourceUrlsRetained": 16,
+  "youtubeDownloadLimitation": "Outbound proxy denied YouTube access",
+  "checks": {
+    "build": "passed",
+    "workerTests": {
+      "passed": 2,
+      "failed": 0
+    },
+    "objectDelivery": "All 317 objects passed content length, MP4 signature, and HTTP 206 byte-range checks",
+    "localAssets": {
+      "inventoriedFiles": 3047,
+      "missing": 0
+    },
+    "existingControls": {
+      "passed": 13,
+      "errors": []
+    },
+    "browserPlayback": {
+      "checks": [
+        {
+          "check": "responsive preview playback",
+          "viewport": 1440,
+          "src": "https://studio-media.henrywithu.workers.dev/videos/vimeo/1002011443-1080p.mp4",
+          "duration": 6.805,
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "check": "full film playback, seeking and close",
+          "viewport": 1440,
+          "src": "https://studio-media.henrywithu.workers.dev/videos/vimeo/1003655090-1080p.mp4",
+          "duration": 89.258333,
+          "seekTime": 3,
+          "controls": true
+        },
+        {
+          "check": "responsive preview playback",
+          "viewport": 390,
+          "src": "https://studio-media.henrywithu.workers.dev/videos/vimeo/1002011443-720p.mp4",
+          "duration": 6.805,
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "check": "full film playback, seeking and close",
+          "viewport": 390,
+          "src": "https://studio-media.henrywithu.workers.dev/videos/vimeo/1003655090-1080p.mp4",
+          "duration": 89.258333,
+          "seekTime": 3,
+          "controls": true
+        }
+      ],
+      "errors": [],
+      "transport": "HTTPS via trusted session proxy"
+    }
+  }
+}

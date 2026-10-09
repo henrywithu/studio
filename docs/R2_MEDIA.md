@@ -17,6 +17,7 @@ Re-running the content extraction applies those aliases automatically.
 ```sh
 npm ci
 npm run media:test
+npm run media:browser            # Requires Chromium and a running Studio dev server
 npm run media:deploy
 ```
 
@@ -50,3 +51,13 @@ YouTube watch/embed URLs are not MP4s. They are tracked as unsupported rather th
 uploaded as HTML. Failed Vimeo downloads retain their original sources and failure
 details until a verified replacement is available. A Vimeo login is unnecessary
 for the public signed file URLs; restricted files may need the owner's download/API access.
+
+## Completed migration
+
+317 Vimeo renditions (8,903,104,087 bytes) were imported and verified on October 9,
+2026. The app's 83 affected content files now use R2, including thumbnail data and
+406 video source attributes. The 24 existing local source attributes remain local.
+The temporary `studio-video-import` Worker was deleted after transfer; only the
+read-only delivery Worker remains deployed. All objects were checked for MP4 format,
+content length, and byte-range delivery. YouTube downloads were blocked by the
+execution environment's outbound proxy; the 16 YouTube source references remain external.

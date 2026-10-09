@@ -18,6 +18,7 @@
     "media:apply": "python3 scripts/r2-videos.py apply",
     "media:verify": "python3 scripts/r2-videos.py verify",
     "media:test": "node --test scripts/test-r2-media.mjs",
+    "media:browser": "node scripts/verify-r2-browser.mjs",
     "media:deploy": "wrangler deploy --config workers/media/wrangler.jsonc"
   },
   "dependencies": {

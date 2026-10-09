@@ -11,7 +11,10 @@
         "work__hero-marvel-snap.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1000323082/rendition/1080p/file.mp4?loc=external&log_user=0&signature=bbe3f7751a225ba452795157aa4a620fa13af763785c1256969b7ef342e5c2bf",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 108339082,
+      "etag": "37f9bbbd15af391554aa6554fb1fbbd7",
+      "verifiedAt": "2026-10-09T04:24:14Z"
     },
     {
       "key": "videos/vimeo/1000337217-1080p.mp4",
@@ -22,7 +25,10 @@
         "work__hero-marvel-snap.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1000337217/rendition/1080p/file.mp4?loc=external&log_user=0&signature=fa83339ef1eab33e815cef2436033f1241025b90c4ba685fb4d26355f22b4ffd",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 21363245,
+      "etag": "d7ea09ed34e61168e2dd173913e40cf3",
+      "verifiedAt": "2026-10-09T07:20:49Z"
     },
     {
       "key": "videos/vimeo/1000349340-1080p.mp4",
@@ -33,7 +39,10 @@
         "work__acura-type-s-prototype.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1000349340/rendition/1080p/file.mp4?loc=external&log_user=0&signature=9e2740a8824577402e13a13812a4af2e600512ed071740624eeb1de92832dc3e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 20257991,
+      "etag": "c02d9d67c06bd175ff1687ed791b9205",
+      "verifiedAt": "2026-10-09T07:20:49Z"
     },
     {
       "key": "videos/vimeo/1000438075-1080p.mp4",
@@ -44,7 +53,10 @@
         "work__azuki.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1000438075/rendition/1080p/file.mp4?loc=external&log_user=0&signature=caaabdb5b9e2a903ff562a436c439cc7e6aa93c84d4254931eeaa7a60f1300dd",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 42575299,
+      "etag": "54902318b86e83eb26366b92c7776343",
+      "verifiedAt": "2026-10-09T07:20:49Z"
     },
     {
       "key": "videos/vimeo/1000438726-1080p.mp4",
@@ -55,7 +67,10 @@
         "work__azuki.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1000438726/rendition/1080p/file.mp4?loc=external&log_user=0&signature=cd0a01bd995d6998f1f4a82cb2335f4213e7aceb15314153333eef699cfdb71a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5280444,
+      "etag": "be58cfd269e74486edc071cec3a498c2",
+      "verifiedAt": "2026-10-09T07:20:48Z"
     },
     {
       "key": "videos/vimeo/1000438726-720p.mp4",
@@ -66,7 +81,10 @@
         "work__azuki.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1000438726/rendition/720p/file.mp4?loc=external&log_user=0&signature=f4c027ed10c89e7b2288042045236f8c01baf3594f06c996aba9167461a7646c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2704110,
+      "etag": "4482d494d485e6f425a3dc632e4ce57b",
+      "verifiedAt": "2026-10-09T07:20:50Z"
     },
     {
       "key": "videos/vimeo/1001198688-1080p.mp4",
@@ -77,7 +95,10 @@
         "work__starknet.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001198688/rendition/1080p/file.mp4?loc=external&log_user=0&signature=23d430fc1ed6a112efdfbd330b8126834cadc7027da9e4ccf6a55db60427d3a7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 23514802,
+      "etag": "370584576f341b44a2db84594ea67890",
+      "verifiedAt": "2026-10-09T07:20:51Z"
     },
     {
       "key": "videos/vimeo/1001204558-1080p.mp4",
@@ -88,7 +109,10 @@
         "work__starknet.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001204558/rendition/1080p/file.mp4?loc=external&log_user=0&signature=02b28073ddf53ed13fd4d1cfd2b9f8d5b10efd8c4ffe78f84bc137172b6b6c0a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5372025,
+      "etag": "ba47b292711b58974f31eb471965db32",
+      "verifiedAt": "2026-10-09T07:20:51Z"
     },
     {
       "key": "videos/vimeo/1001204558-720p.mp4",
@@ -99,7 +123,10 @@
         "work__starknet.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001204558/rendition/720p/file.mp4?loc=external&log_user=0&signature=7b1d2466b8178a3954728ca5437eae26817f9e8360dc505bc95fb06fd8e5b6da",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2866056,
+      "etag": "67a6cbdb64bc028c6f8cde29c5caa5ff",
+      "verifiedAt": "2026-10-09T07:20:51Z"
     },
     {
       "key": "videos/vimeo/1001216514-1080p.mp4",
@@ -110,7 +137,10 @@
         "work__marvel-snap-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001216514/rendition/1080p/file.mp4?loc=external&log_user=0&signature=17bb1ad413867a1a906f264df1170eded049bd203dc2f0cca6732fff703d97a3",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6629663,
+      "etag": "8dd986906e3707f25b8b4d033ea78c4d",
+      "verifiedAt": "2026-10-09T07:20:51Z"
     },
     {
       "key": "videos/vimeo/1001216514-720p.mp4",
@@ -121,7 +151,10 @@
         "work__marvel-snap-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001216514/rendition/720p/file.mp4?loc=external&log_user=0&signature=f1a4c6246aa78868c7c5584283e357a58d12ffc778ed780addcab6a186414e87",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3615361,
+      "etag": "8ce58c80f3dc92980cd96ca2f636ba0c",
+      "verifiedAt": "2026-10-09T07:20:52Z"
     },
     {
       "key": "videos/vimeo/1001216701-1080p.mp4",
@@ -132,7 +165,10 @@
         "work__marvel-snap-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001216701/rendition/1080p/file.mp4?loc=external&log_user=0&signature=defcb8bbb0a6bf3c069c5a105263599e4a1bdd5f5ee0903b73894213011a1ce5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 41235967,
+      "etag": "9008e1caadc1ea33c51e55b92b36dd6b",
+      "verifiedAt": "2026-10-09T07:20:53Z"
     },
     {
       "key": "videos/vimeo/1001245423-1080p.mp4",
@@ -143,7 +179,10 @@
         "work__venture.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001245423/rendition/1080p/file.mp4?loc=external&log_user=0&signature=ce1397e432bff8b259b2b07576ecfca38cfa372ab8ce5946b19499f8f8dd1b1f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 8445551,
+      "etag": "d89a2e5632579e6d4dd4b4c4d6e8e8f0",
+      "verifiedAt": "2026-10-09T07:20:53Z"
     },
     {
       "key": "videos/vimeo/1001245423-720p.mp4",
@@ -154,7 +193,10 @@
         "work__venture.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001245423/rendition/720p/file.mp4?loc=external&log_user=0&signature=0bed888617bca2d417d63c25acd3a3e95b5a6c01d22851190af0e39de40ccd2e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4584172,
+      "etag": "60f935a93a39816b255c81a60858c789",
+      "verifiedAt": "2026-10-09T07:20:53Z"
     },
     {
       "key": "videos/vimeo/1001245484-720p.mp4",
@@ -165,7 +207,10 @@
         "work__venture.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001245484/rendition/720p/file.mp4?loc=external&log_user=0&signature=9bee414fb4da36412f8fddce3e2a81d639e1b07680dedb7a843f88795dbcfdec",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 11476270,
+      "etag": "8ee428f0d48778c05c78f4f71d2e73db",
+      "verifiedAt": "2026-10-09T07:20:54Z"
     },
     {
       "key": "videos/vimeo/1001267671-1080p.mp4",
@@ -176,7 +221,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001267671/rendition/1080p/file.mp4?loc=external&log_user=0&signature=a4ddbead08b01cebe1573ade5af743207e238d38cbc9065025e82cb08af6d763",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 35350680,
+      "etag": "1e8882c1b9c33672c1b7fe2e127c3d7f",
+      "verifiedAt": "2026-10-09T07:20:55Z"
     },
     {
       "key": "videos/vimeo/1001267763-1080p.mp4",
@@ -187,7 +235,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001267763/rendition/1080p/file.mp4?loc=external&log_user=0&signature=00ae3fb8a184bd2464073c2c3a7cac41651c7d729c4dcdb1b010f1797fbcd77f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 33718001,
+      "etag": "d2cdac3ce996bf17eff5ce6562b3e002",
+      "verifiedAt": "2026-10-09T07:20:55Z"
     },
     {
       "key": "videos/vimeo/1001267812-1080p.mp4",
@@ -198,7 +249,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001267812/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d1156bb67c75b8e5d02f1c1b26b3c5909fb30104e503f8f9bd4e2adf0289f78e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 30527397,
+      "etag": "ef2bb04866faa77b8c130f7fda230e5d",
+      "verifiedAt": "2026-10-09T07:20:56Z"
     },
     {
       "key": "videos/vimeo/1001267860-1080p.mp4",
@@ -209,7 +263,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001267860/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b443233b6d83888a32d80ac5e3a5888871ccb18be3570368dd29ce062d4dd250",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 36805113,
+      "etag": "e6fbae8f5f8d3c7683de61924aeebf3e",
+      "verifiedAt": "2026-10-09T07:20:57Z"
     },
     {
       "key": "videos/vimeo/1001287348-1080p.mp4",
@@ -220,7 +277,10 @@
         "work.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001287348/rendition/1080p/file.mp4?loc=external&log_user=0&signature=94ea754b233a67a16314728853d78dcfe98208d0ca61c3ee94327cf99a6a527c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3519231,
+      "etag": "e859341d526bbd4c48989de744e97d0f",
+      "verifiedAt": "2026-10-09T07:20:57Z"
     },
     {
       "key": "videos/vimeo/1001287348-720p.mp4",
@@ -231,7 +291,10 @@
         "work.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001287348/rendition/720p/file.mp4?loc=external&log_user=0&signature=e38d02f80d400642c335c00858db9711b8df06d61aebdb98e254f38cc97f6176",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1952434,
+      "etag": "43ec0f0c16525b31a283a33cc9046286",
+      "verifiedAt": "2026-10-09T07:20:57Z"
     },
     {
       "key": "videos/vimeo/1001288208-1080p.mp4",
@@ -242,7 +305,10 @@
         "work__supervive.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001288208/rendition/1080p/file.mp4?loc=external&log_user=0&signature=7e31c3d56fd4e1a9261745855b2ca792857c9355a3273d68f6073c8ddf03ed70",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4941784,
+      "etag": "5ac2e22349816da653f88689362a06e2",
+      "verifiedAt": "2026-10-09T07:20:58Z"
     },
     {
       "key": "videos/vimeo/1001288208-720p.mp4",
@@ -253,7 +319,10 @@
         "work__supervive.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001288208/rendition/720p/file.mp4?loc=external&log_user=0&signature=474093147528843960f29a0b0571e88ab4b4d9dbed3ca5444eb077a7963e7cd4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2622324,
+      "etag": "185ce9aeaca8e3945532e6fc27f379b3",
+      "verifiedAt": "2026-10-09T07:20:58Z"
     },
     {
       "key": "videos/vimeo/1001536158-1080p.mp4",
@@ -264,7 +333,10 @@
         "work__acura-type-s-prototype.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001536158/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e521e9e6a846264eb8228ab03a9bfa7d986595b997fb84181ca8aca6bf5e0c31",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5728474,
+      "etag": "d12940779cedbd76a57b69f0fa520e4a",
+      "verifiedAt": "2026-10-09T07:20:58Z"
     },
     {
       "key": "videos/vimeo/1001616211-1080p.mp4",
@@ -275,7 +347,10 @@
         "work__the-great-british-bake-off-2023.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001616211/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b06c641654404a00362ec244baef3753d0c65e2a263d5e528602cc49715d96e4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 40584018,
+      "etag": "5e9f3086fa3d2433ceeb685e6e1640e5",
+      "verifiedAt": "2026-10-09T07:21:00Z"
     },
     {
       "key": "videos/vimeo/1001642148-1080p.mp4",
@@ -286,7 +361,10 @@
         "work__supervive.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001642148/rendition/1080p/file.mp4?loc=external&log_user=0&signature=90217489adf61c4d5d68aac423411b1aef0a0d26444b27aab63dcc15d196ecf5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 111987897,
+      "etag": "1ee2455baae124c2d24b9330c3d42ae8",
+      "verifiedAt": "2026-10-09T07:21:03Z"
     },
     {
       "key": "videos/vimeo/1001909200-1080p.mp4",
@@ -297,7 +375,10 @@
         "work__rise-with-wagmi.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001909200/rendition/1080p/file.mp4?loc=external&log_user=0&signature=89f0d76f4a0292b9be4535cc803a68730f66181f06877ba8019f15a9a8b02075",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 24162308,
+      "etag": "eb728e31ec3362e9ceb4a9bcc38d7ee9",
+      "verifiedAt": "2026-10-09T07:21:00Z"
     },
     {
       "key": "videos/vimeo/1001909319-1080p.mp4",
@@ -308,7 +389,10 @@
         "work__rise-with-wagmi.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001909319/rendition/1080p/file.mp4?loc=external&log_user=0&signature=013dc293c67d2643ed7986afbe71dcab9f78bf28e690646423f6ddb7a7b933e0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2758268,
+      "etag": "0ce601b3a919d4a583e9d965fb1fa307",
+      "verifiedAt": "2026-10-09T07:21:00Z"
     },
     {
       "key": "videos/vimeo/1001909319-720p.mp4",
@@ -319,7 +403,10 @@
         "work__rise-with-wagmi.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001909319/rendition/720p/file.mp4?loc=external&log_user=0&signature=b991d40aa9e6da2af650bbcdd2a6e1e98dbd6dd1168270858c499afe43cd1c80",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1467300,
+      "etag": "b60b2f2784ddce1ae70b65c4e11408ba",
+      "verifiedAt": "2026-10-09T07:21:01Z"
     },
     {
       "key": "videos/vimeo/1001923723-1080p.mp4",
@@ -330,7 +417,10 @@
         "work__acura-type-s.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001923723/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5c0104ed4937fcbe05514944c9bdd5dc220aa02f9c798b9248865bae4e87d6f5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 41508595,
+      "etag": "b64abf44b061e44e0a158373e31cde1e",
+      "verifiedAt": "2026-10-09T07:21:04Z"
     },
     {
       "key": "videos/vimeo/1001929775-1080p.mp4",
@@ -341,7 +431,10 @@
         "work__acura-type-s.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001929775/rendition/1080p/file.mp4?loc=external&log_user=0&signature=4bc229f1b85b6b4dd98b16af2e0b60c3004d23e098ebd2b81733317b31b1509a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 30858470,
+      "etag": "0112106d2a903a6199003bff65c33512",
+      "verifiedAt": "2026-10-09T07:21:03Z"
     },
     {
       "key": "videos/vimeo/1001933925-1080p.mp4",
@@ -352,7 +445,10 @@
         "work__acura-type-s.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001933925/rendition/1080p/file.mp4?loc=external&log_user=0&signature=df2ff4b564d540cc103a4115e7f8205b759041ac5426592a4cdb3ad3f00a8641",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 93131812,
+      "etag": "f45dfd4c9ffb8392dd289562013dd476",
+      "verifiedAt": "2026-10-09T07:21:05Z"
     },
     {
       "key": "videos/vimeo/1001934507-540p.mp4",
@@ -363,7 +459,10 @@
         "work__channel4-ident-2023.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001934507/rendition/540p/file.mp4?loc=external&log_user=0&signature=8e355a337eb551727b2ff9f6678dd370549cb6f93ac33e1404732102c3345af7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 45380592,
+      "etag": "2f2f6e9fd7962b34d7d6b5da99836d4e",
+      "verifiedAt": "2026-10-09T07:21:05Z"
     },
     {
       "key": "videos/vimeo/1001934626-1080p.mp4",
@@ -374,7 +473,10 @@
         "work__channel4-ident-2023.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001934626/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8698fc9598edfbf7452843ed42aa5a0e05a25d9c38f9b9c52bbf9a4c84bcf529",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 10749859,
+      "etag": "e76a9894279a4473f567b3b401ec8578",
+      "verifiedAt": "2026-10-09T07:21:05Z"
     },
     {
       "key": "videos/vimeo/1001934626-720p.mp4",
@@ -385,7 +487,10 @@
         "work__channel4-ident-2023.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001934626/rendition/720p/file.mp4?loc=external&log_user=0&signature=779b95683141262c4d6086261e7a09a374b292096065a41501cd08f6ea3312a0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2635289,
+      "etag": "cc400a41995920cdae67890a51dd04a9",
+      "verifiedAt": "2026-10-09T07:21:06Z"
     },
     {
       "key": "videos/vimeo/1001940297-1080p.mp4",
@@ -396,7 +501,10 @@
         "work__heavenly-vessel.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001940297/rendition/1080p/file.mp4?loc=external&log_user=0&signature=dadc8f6ea71d0113aa7e37dc8ad9c07d1bd95b54b7673ce0977a82d7d62cc4a8",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 54925595,
+      "etag": "7223ce0f1ec7a2c10cffcf14e4aab339",
+      "verifiedAt": "2026-10-09T07:21:08Z"
     },
     {
       "key": "videos/vimeo/1001948919-1080p.mp4",
@@ -407,7 +515,10 @@
         "work__acura-type-s.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001948919/rendition/1080p/file.mp4?loc=external&log_user=0&signature=027f592cee977e5fdaed0a9189149399606af9065541f262cb5323ca788bb9b7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4206339,
+      "etag": "b7ed7e1d5fac0833ec64349a134ee619",
+      "verifiedAt": "2026-10-09T07:21:06Z"
     },
     {
       "key": "videos/vimeo/1001949091-1080p.mp4",
@@ -418,7 +529,10 @@
         "work__acura-type-s.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1001949091/rendition/1080p/file.mp4?loc=external&log_user=0&signature=ab733c58ba1a5c4da317de4064d95acdf85a87f18dfd7dde84e24d8aeefb801e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 19924315,
+      "etag": "3dcacaa7567d75a39edfef7c47c154d6",
+      "verifiedAt": "2026-10-09T07:21:07Z"
     },
     {
       "key": "videos/vimeo/1002004435-1080p.mp4",
@@ -429,7 +543,10 @@
         "work__chobani.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1002004435/rendition/1080p/file.mp4?loc=external&log_user=0&signature=4cebf2b03c568dcf78058ced25270c606badaeb2687a25708e97597d44e0f934",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 8059424,
+      "etag": "215c0b94172350f32cbf6b8909533a45",
+      "verifiedAt": "2026-10-09T07:21:07Z"
     },
     {
       "key": "videos/vimeo/1002011443-1080p.mp4",
@@ -442,7 +559,10 @@
         "work__the-mighty-grand-piton.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1002011443/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2f4fd417aa505f9dfcd731c62c220387693d7a4a6f5e180f77f10187d1e25c58",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5406211,
+      "etag": "d696b81af4872527d2cc6ca0601d4345",
+      "verifiedAt": "2026-10-09T07:21:08Z"
     },
     {
       "key": "videos/vimeo/1002011443-720p.mp4",
@@ -455,7 +575,10 @@
         "work__the-mighty-grand-piton.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1002011443/rendition/720p/file.mp4?loc=external&log_user=0&signature=a8174cdf6ccc25b968f9e0ed9ce02f2a9d7f3d001ae468ad513eb7373ef9751e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2833669,
+      "etag": "e4931fa23d42e826d938316d2e23e7a1",
+      "verifiedAt": "2026-10-09T07:21:09Z"
     },
     {
       "key": "videos/vimeo/1002021913-1080p.mp4",
@@ -467,7 +590,10 @@
         "work__izzo.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1002021913/rendition/1080p/file.mp4?loc=external&log_user=0&signature=500401e6122238d5c99d85c324c2d2c416b2512629c93c6b6903f3f838b48bdb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4667280,
+      "etag": "0fb4ba23d56a24c8d5964739d7be97b6",
+      "verifiedAt": "2026-10-09T07:21:08Z"
     },
     {
       "key": "videos/vimeo/1002021913-720p.mp4",
@@ -479,7 +605,10 @@
         "work__izzo.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1002021913/rendition/720p/file.mp4?loc=external&log_user=0&signature=6a9ae8a8eb3ec49bc8b45ae3f2ab8624801482048d6d2075a1c3971a711252d7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2404269,
+      "etag": "e23747cfcccdb31eb3e31860d5d4368d",
+      "verifiedAt": "2026-10-09T07:21:09Z"
     },
     {
       "key": "videos/vimeo/1002026608-1080p.mp4",
@@ -490,7 +619,10 @@
         "work__izzo.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1002026608/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0874ef714e4ba68c8bd9c3509914f45ddfa1d34711ed0161767bdf070579952e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 47563409,
+      "etag": "6817f12945f35200f48abd8ff591de78",
+      "verifiedAt": "2026-10-09T07:21:11Z"
     },
     {
       "key": "videos/vimeo/1002048575-1440p.mp4",
@@ -501,7 +633,10 @@
         "work__lilnasx-star-walkin.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1002048575/rendition/1440p/file.mp4?loc=external&log_user=0&signature=110874113f28bf8f77a4d1d3171f19cf3bc84b88f5f692e8f341f3cc634ddec2",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 215150145,
+      "etag": "1a23d3efa48caff5238187d99008a575",
+      "verifiedAt": "2026-10-09T07:21:18Z"
     },
     {
       "key": "videos/vimeo/1003135661-1080p.mp4",
@@ -512,7 +647,10 @@
         "work__hypervoltaic-chronicles.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003135661/rendition/1080p/file.mp4?loc=external&log_user=0&signature=23623317238e760a3c1b0745415e25e08c846885d0f69a1ff6f845c759d40e23",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 43177030,
+      "etag": "87896e179d071aae0125e9fdec895bda",
+      "verifiedAt": "2026-10-09T07:21:11Z"
     },
     {
       "key": "videos/vimeo/1003139286-1080p.mp4",
@@ -523,7 +661,10 @@
         "work__hypervoltaic-chronicles.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003139286/rendition/1080p/file.mp4?loc=external&log_user=0&signature=950df9a665c1db52135165f57f9b459cbf3c1106372f73a852dfde38a2a38019",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 21883245,
+      "etag": "628e9110818c2320dfb8d5a0adbf06e3",
+      "verifiedAt": "2026-10-09T07:21:11Z"
     },
     {
       "key": "videos/vimeo/1003139286-720p.mp4",
@@ -534,7 +675,10 @@
         "work__hypervoltaic-chronicles.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003139286/rendition/720p/file.mp4?loc=external&log_user=0&signature=29a4743caf83bb6391d7acec2ae908aa03377f576fc88e7d020914671009b104",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5753088,
+      "etag": "8c7981d46fdb9c8499ef0b7b485cdcf3",
+      "verifiedAt": "2026-10-09T07:21:12Z"
     },
     {
       "key": "videos/vimeo/1003204888-1080p.mp4",
@@ -545,7 +689,10 @@
         "work__doritos-collisons.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003204888/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8c487ccb15ceed640263295b2dec86960cc4c192c1a394a64b5edbdb94e38bdb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 8078164,
+      "etag": "4120beb1bdb07e30d729606bb92af623",
+      "verifiedAt": "2026-10-09T07:21:12Z"
     },
     {
       "key": "videos/vimeo/1003204888-720p.mp4",
@@ -556,7 +703,10 @@
         "work__doritos-collisons.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003204888/rendition/720p/file.mp4?loc=external&log_user=0&signature=55d23b90ed7050fea50941507983512e451fba792f827e1fdaaf44f8e0cad2fc",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4103588,
+      "etag": "a44d476ea4df116080d70ce7a03ee162",
+      "verifiedAt": "2026-10-09T07:21:13Z"
     },
     {
       "key": "videos/vimeo/1003260569-1080p.mp4",
@@ -567,7 +717,10 @@
         "work__acura-type-s-prototype.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003260569/rendition/1080p/file.mp4?loc=external&log_user=0&signature=23c18e53fc73b58ccade7f04fc452c57c129fafa7b5cb214c63b8ff40da63226",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7141312,
+      "etag": "be4afc87e76b99d4315df8cbe39a8255",
+      "verifiedAt": "2026-10-09T07:21:14Z"
     },
     {
       "key": "videos/vimeo/1003260569-720p.mp4",
@@ -578,7 +731,10 @@
         "work__acura-type-s-prototype.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003260569/rendition/720p/file.mp4?loc=external&log_user=0&signature=e2a1a70b75fce59e641729a1c1f11c96e7bb916c2be01353c461611b2ca66ff9",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3839575,
+      "etag": "60ff5144fe2bb5ecf5116c7dda0932a7",
+      "verifiedAt": "2026-10-09T07:21:14Z"
     },
     {
       "key": "videos/vimeo/1003265468-1080p.mp4",
@@ -590,7 +746,10 @@
         "work__the-great-british-bake-off-2023.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003265468/rendition/1080p/file.mp4?loc=external&log_user=0&signature=bd476b0c49c37cb71155be697b12333c406de4335e07dc01f191df5ad00b844b",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5255957,
+      "etag": "d0e5b92f7639759e6e821fd25f57a8ae",
+      "verifiedAt": "2026-10-09T07:21:14Z"
     },
     {
       "key": "videos/vimeo/1003265468-720p.mp4",
@@ -602,7 +761,10 @@
         "work__the-great-british-bake-off-2023.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003265468/rendition/720p/file.mp4?loc=external&log_user=0&signature=ed348d1cb5a43b7f395967820d1fa911899bf01fbae1a5e09b33b9aaaf54e577",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2824668,
+      "etag": "53c161e75d5a94ec30323ab2ff3bca30",
+      "verifiedAt": "2026-10-09T07:21:15Z"
     },
     {
       "key": "videos/vimeo/1003650899-1080p.mp4",
@@ -614,7 +776,10 @@
         "work__league-of-legends-giants.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003650899/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d90b0a9444b047a14935b6e729f93a005ce6a25a52305a9b5730444fe4ed2db7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7121606,
+      "etag": "2ee5dae1c37a16e74831a9fc35395bd9",
+      "verifiedAt": "2026-10-09T07:21:15Z"
     },
     {
       "key": "videos/vimeo/1003650899-720p.mp4",
@@ -626,7 +791,10 @@
         "work__league-of-legends-giants.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003650899/rendition/720p/file.mp4?loc=external&log_user=0&signature=69f6396e1043914e9cf4c3bb4d80f2ca6448f29b4b9074ae82c7dd7556d2f170",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3646584,
+      "etag": "f7c3e508e193d8b5632620c344237fbe",
+      "verifiedAt": "2026-10-09T07:21:15Z"
     },
     {
       "key": "videos/vimeo/1003655090-1080p.mp4",
@@ -637,7 +805,10 @@
         "work__the-mighty-grand-piton.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003655090/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3bf496be62b1d1e22b34072db0791e87724c57187ae67b8e643e0cea469d8a69",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 40871081,
+      "etag": "22d90f7c791a30429c52b2cee0be95e7",
+      "verifiedAt": "2026-10-09T07:21:18Z"
     },
     {
       "key": "videos/vimeo/1003689856-1080p.mp4",
@@ -648,7 +819,10 @@
         "work__league-of-legends-worlds-2020.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003689856/rendition/1080p/file.mp4?loc=external&log_user=0&signature=fe678ddeb80ac6c3588f950012eabe4b79a2179010c4aa49e3344c092359a85c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 122670538,
+      "etag": "f4c9c8350916e83925da16f452c1add5",
+      "verifiedAt": "2026-10-09T07:21:19Z"
     },
     {
       "key": "videos/vimeo/1003705129-2160p.mp4",
@@ -659,7 +833,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003705129/rendition/2160p/file.mp4?loc=external&log_user=0&signature=e06b8fc428296d2b92440bd7bbc42dc99eeabbd0c4b26f381336454468db8eb2",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 13941878,
+      "etag": "3a1e2746caa5f8fdcbeaa8b0a354100a",
+      "verifiedAt": "2026-10-09T07:21:17Z"
     },
     {
       "key": "videos/vimeo/1003712917-720p.mp4",
@@ -670,7 +847,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003712917/rendition/720p/file.mp4?loc=external&log_user=0&signature=d38c075ec43448f2cd6ec78ffbf893db86e309a17d1bf3394f942d6d33311493",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3915160,
+      "etag": "137b6e5d0cf09a8535a30bfbadd14a7a",
+      "verifiedAt": "2026-10-09T07:21:18Z"
     },
     {
       "key": "videos/vimeo/1003980502-1080p.mp4",
@@ -681,7 +861,10 @@
         "work__league-of-legends-giants.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003980502/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8f1c4637627bc7451a2b91f5f43fe41532a0760337d71446401ea64dfad029fc",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 122453468,
+      "etag": "73f9b21dd46356346dc45cde29a80625",
+      "verifiedAt": "2026-10-09T07:21:26Z"
     },
     {
       "key": "videos/vimeo/1003998553-720p.mp4",
@@ -694,7 +877,10 @@
         "work__red-carpet-rampage.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1003998553/rendition/720p/file.mp4?loc=external&log_user=0&signature=72c5efb6ecd0dc1cfb2a4773fa4c133bb3d89d64fdc6e2e8b885e0f0f70ed5c7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3922944,
+      "etag": "e82fff3c223e6b8de80e7816dd077634",
+      "verifiedAt": "2026-10-09T07:21:19Z"
     },
     {
       "key": "videos/vimeo/1004012582-1080p.mp4",
@@ -705,7 +891,10 @@
         "work__freefire.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004012582/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d9d0ec618f659d78bd9e1a7a9a899d5c39dd59d2b687cf2cfb92215931d64be4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7122703,
+      "etag": "7ac3465d213b0af9536235422131c80c",
+      "verifiedAt": "2026-10-09T07:21:20Z"
     },
     {
       "key": "videos/vimeo/1004012582-720p.mp4",
@@ -716,7 +905,10 @@
         "work__freefire.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004012582/rendition/720p/file.mp4?loc=external&log_user=0&signature=9af209fdaa40958c640c91427e7b402fc4e573832ecdd78c59a860bb05bf656c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3548530,
+      "etag": "36594d1e41411a66f9fee5f73bfca662",
+      "verifiedAt": "2026-10-09T07:21:21Z"
     },
     {
       "key": "videos/vimeo/1004015411-1080p.mp4",
@@ -727,7 +919,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004015411/rendition/1080p/file.mp4?loc=external&log_user=0&signature=24a633abfd71051d24c84766565893b3df4769f9c682937bae2c4dc7cd1a56a0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 70376728,
+      "etag": "8eca2e9e5647979e5b07480b6c02e84a",
+      "verifiedAt": "2026-10-09T07:21:22Z"
     },
     {
       "key": "videos/vimeo/1004017855-1080p.mp4",
@@ -738,7 +933,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004017855/rendition/1080p/file.mp4?loc=external&log_user=0&signature=edc7711b7028709b6d6c8f3b1e29158478a23c419193b3f1d6b33a20769d858a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 11496371,
+      "etag": "157113b6aec34173864f5b0e43ef56c1",
+      "verifiedAt": "2026-10-09T07:21:22Z"
     },
     {
       "key": "videos/vimeo/1004017855-720p.mp4",
@@ -749,7 +947,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004017855/rendition/720p/file.mp4?loc=external&log_user=0&signature=50551c375cfc00da49e0b45287c9943ff015ee9ba3a281770cd4a7eead73d4fb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5907180,
+      "etag": "6db1cd54bcf430c179e3c8c0272c92be",
+      "verifiedAt": "2026-10-09T07:21:23Z"
     },
     {
       "key": "videos/vimeo/1004021920-540p.mp4",
@@ -760,7 +961,10 @@
         "work__valorant.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004021920/rendition/540p/file.mp4?loc=external&log_user=0&signature=5fbc106b423216ffd8f1bd604151e0fdae07e6a5d8d266b2eb8ee5ea77db9726",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1476285,
+      "etag": "b65f5c94c3b79d14a013b630ce106995",
+      "verifiedAt": "2026-10-09T07:21:22Z"
     },
     {
       "key": "videos/vimeo/1004021932-540p.mp4",
@@ -771,7 +975,10 @@
         "work__valorant.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004021932/rendition/540p/file.mp4?loc=external&log_user=0&signature=edf46e26230f62d080f1ce5ad0fa171915a01570f77e88af9c5aaa7d46def09d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 853865,
+      "etag": "c020ddb4700e5abaacdc26275fc096ff",
+      "verifiedAt": "2026-10-09T07:21:23Z"
     },
     {
       "key": "videos/vimeo/1004022923-1440p.mp4",
@@ -782,7 +989,10 @@
         "work__valorant.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004022923/rendition/1440p/file.mp4?loc=external&log_user=0&signature=caa2f48b86c8ef66e0b179a69966bdfc793757721e2418ca1c9ac9af7b171f10",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 168978309,
+      "etag": "f81343ae8edb3a582bc932cf1dcd4c97",
+      "verifiedAt": "2026-10-09T07:21:28Z"
     },
     {
       "key": "videos/vimeo/1004107466-1080p.mp4",
@@ -794,7 +1004,10 @@
         "work__10ktf-the-kaijus-problem.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004107466/rendition/1080p/file.mp4?loc=external&log_user=0&signature=6251c7b51793af72fdcb90426a84f564fdbd0bbbf3b0c20d1dd2b7d24acfa508",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7281731,
+      "etag": "c6351436cd8c39c36839728472974f7f",
+      "verifiedAt": "2026-10-09T07:21:25Z"
     },
     {
       "key": "videos/vimeo/1004107466-720p.mp4",
@@ -806,7 +1019,10 @@
         "work__10ktf-the-kaijus-problem.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004107466/rendition/720p/file.mp4?loc=external&log_user=0&signature=dadb52982baf4a2cfdd489453dfc7df7534b597208e850b003967eb78a6252b5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3778824,
+      "etag": "2c6ac68fa6fe109ba1c4859391eab540",
+      "verifiedAt": "2026-10-09T07:21:24Z"
     },
     {
       "key": "videos/vimeo/1004107530-1080p.mp4",
@@ -817,7 +1033,10 @@
         "work__10ktf-the-kaijus-problem.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004107530/rendition/1080p/file.mp4?loc=external&log_user=0&signature=9be1fa8e339e04605f12d96e78f27a2a4362b51bc8ce73c2bfccac512a1999f0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 86066226,
+      "etag": "35657f329faa2e0da4a5c78d93be2bb7",
+      "verifiedAt": "2026-10-09T07:21:28Z"
     },
     {
       "key": "videos/vimeo/1004415535-1080p.mp4",
@@ -828,7 +1047,10 @@
         "work__chobani.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004415535/rendition/1080p/file.mp4?loc=external&log_user=0&signature=21bf389038b5532b9063d3d222cdb8ab5aa137bacda5fe6bc2f0903de6f21398",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 8411762,
+      "etag": "8ceb6043442a8a44b2689553a76360e5",
+      "verifiedAt": "2026-10-09T07:21:27Z"
     },
     {
       "key": "videos/vimeo/1004415535-1440p.mp4",
@@ -839,7 +1061,10 @@
         "work__chobani.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004415535/rendition/1440p/file.mp4?loc=external&log_user=0&signature=13d71fc68460fb7bebf8084988391a7460bf4a93312974a1f5c3f15cde3c3c4a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 17590749,
+      "etag": "bf9b4b245a27340afd1e2a3314e956aa",
+      "verifiedAt": "2026-10-09T07:21:28Z"
     },
     {
       "key": "videos/vimeo/1004417184-1080p.mp4",
@@ -850,7 +1075,10 @@
         "work__chobani.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004417184/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b0aeae6f45c29ece682fde3ddc454d57ce5bb308364ca589eac706c4c96809a7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 22691367,
+      "etag": "a45b0e007e3ab4738c99019fa8f4cc20",
+      "verifiedAt": "2026-10-09T07:21:28Z"
     },
     {
       "key": "videos/vimeo/1004417518-1080p.mp4",
@@ -861,7 +1089,10 @@
         "work__chobani.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004417518/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b20224a7c29ddc35df760990498c623db2f3d951e374409f711a898e91e13457",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 8156465,
+      "etag": "0d0a0a58e4945f0910abf0da7e09bf7f",
+      "verifiedAt": "2026-10-09T07:21:29Z"
     },
     {
       "key": "videos/vimeo/1004438044-1080p.mp4",
@@ -872,7 +1103,10 @@
         "work__chobani.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004438044/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d107ba7ffd46fc66c47c780ac13f0e5972a08819f7f17c56d566b691631c804f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4561827,
+      "etag": "d12594887f5b40d54acd8e934b60a713",
+      "verifiedAt": "2026-10-09T07:21:29Z"
     },
     {
       "key": "videos/vimeo/1004511857-1080p.mp4",
@@ -885,7 +1119,10 @@
         "work__heavenly-vessel.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004511857/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c9cf90e5ff5cbed4ca6ae5dec445fb95b78d057e87cbd8909a81835d5edd4372",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4371048,
+      "etag": "e6c0ba68bcf6d48e4486b7d636e85c92",
+      "verifiedAt": "2026-10-09T07:21:29Z"
     },
     {
       "key": "videos/vimeo/1004511857-720p.mp4",
@@ -898,7 +1135,10 @@
         "work__heavenly-vessel.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004511857/rendition/720p/file.mp4?loc=external&log_user=0&signature=7d759d7dd8e7083ddf71f6c597af442baf5d5e7d686059cbe1cc11ddbf1eddef",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2050899,
+      "etag": "43406510fb31788daa0bb36b90328a0d",
+      "verifiedAt": "2026-10-09T07:21:29Z"
     },
     {
       "key": "videos/vimeo/1004584425-720p.mp4",
@@ -909,7 +1149,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004584425/rendition/720p/file.mp4?loc=external&log_user=0&signature=fa2c2f144b1ab411b8c13fe0d9883f884c0161488ab6d195fbbe0c6fa4a70cff",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 94450790,
+      "etag": "f7260b20a52e6fdbd3af080ee4813ab7",
+      "verifiedAt": "2026-10-09T07:21:33Z"
     },
     {
       "key": "videos/vimeo/1004586489-1080p.mp4",
@@ -920,7 +1163,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004586489/rendition/1080p/file.mp4?loc=external&log_user=0&signature=58509eaa94618c93453e46ae00b0560edc5b422e024c7ea0a5b05397be839f67",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 168416224,
+      "etag": "206789189f7f5410c3104c1625d443db",
+      "verifiedAt": "2026-10-09T07:21:36Z"
     },
     {
       "key": "videos/vimeo/1004591238-1080p.mp4",
@@ -931,7 +1177,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004591238/rendition/1080p/file.mp4?loc=external&log_user=0&signature=ab520ba89d04cdc39fa08f6579abb1b96480bc34aeec053377f02e3a22f8df9f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 136519288,
+      "etag": "47f6d5c6da436539acae792867b4853f",
+      "verifiedAt": "2026-10-09T07:21:38Z"
     },
     {
       "key": "videos/vimeo/1004592107-1080p.mp4",
@@ -942,7 +1191,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004592107/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5ce6a672af06dee43f6be43b3b7d3dd785288a84b9517e836281c841d279ee75",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 247986709,
+      "etag": "7c0cd29471d098a2c0299bee3a9414bf",
+      "verifiedAt": "2026-10-09T07:21:42Z"
     },
     {
       "key": "videos/vimeo/1004592757-720p.mp4",
@@ -953,7 +1205,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1004592757/rendition/720p/file.mp4?loc=external&log_user=0&signature=bb78d467723a52b905b17bef74e019e4fd1e55ad7ce832dbb949d236b3864e48",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 83763058,
+      "etag": "d9f057a7bf8092be3c51de2dad718e8e",
+      "verifiedAt": "2026-10-09T07:21:37Z"
     },
     {
       "key": "videos/vimeo/1005415748-1080p.mp4",
@@ -964,7 +1219,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005415748/rendition/1080p/file.mp4?loc=external&log_user=0&signature=f80b94cf7c56baba29e5e315ccb45719d332b5969d6a104e919c2121de8251c7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 179331174,
+      "etag": "91112c0b7f35e9ea381dade81d077375",
+      "verifiedAt": "2026-10-09T07:21:42Z"
     },
     {
       "key": "videos/vimeo/1005423491-1080p.mp4",
@@ -976,7 +1234,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005423491/rendition/1080p/file.mp4?loc=external&log_user=0&signature=ba23fc441d10d537e88d3c076ea00b808bfb1d937b870f64e0cd2985d8fb9461",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 24049285,
+      "etag": "e45763d393fea1122137e446d314cd12",
+      "verifiedAt": "2026-10-09T07:21:38Z"
     },
     {
       "key": "videos/vimeo/1005423491-720p.mp4",
@@ -988,7 +1249,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005423491/rendition/720p/file.mp4?loc=external&log_user=0&signature=5ad254090351f8edbafc5bdd9aff0abb99a2d5ece9d5de7d1b0e334b2c86f9d8",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 12325092,
+      "etag": "ef9157a88bb7672c57e90337b5535e85",
+      "verifiedAt": "2026-10-09T07:21:39Z"
     },
     {
       "key": "videos/vimeo/1005423614-1080p.mp4",
@@ -999,7 +1263,10 @@
         "work__mercedes-benz.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005423614/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8bc0404b1c7c5d9b3964a2d1dc8711f49a387889a065f402f7b345415cc7c2f4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 10082228,
+      "etag": "ee6100bd84bffe2c4809eb78db21d912",
+      "verifiedAt": "2026-10-09T07:21:39Z"
     },
     {
       "key": "videos/vimeo/1005423614-720p.mp4",
@@ -1010,7 +1277,10 @@
         "work__mercedes-benz.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005423614/rendition/720p/file.mp4?loc=external&log_user=0&signature=0a5a09c9fe0c271c9130cfdb879039d389a5c3cb5d9ddaa82e6f698c7ed1c6a5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5449754,
+      "etag": "4e415906bca7dbc3017936e6ff933b00",
+      "verifiedAt": "2026-10-09T07:21:41Z"
     },
     {
       "key": "videos/vimeo/1005430618-1080p.mp4",
@@ -1021,7 +1291,10 @@
         "work__gucci.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005430618/rendition/1080p/file.mp4?loc=external&log_user=0&signature=fe8b0c2d575b3a04254dd4a4abb0f4301e7ec879aadac7c35bb38cfda2c0de45",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6361789,
+      "etag": "3839f774d06dee40473c374d645b219e",
+      "verifiedAt": "2026-10-09T07:21:41Z"
     },
     {
       "key": "videos/vimeo/1005430618-720p.mp4",
@@ -1032,7 +1305,10 @@
         "work__gucci.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005430618/rendition/720p/file.mp4?loc=external&log_user=0&signature=c05ac465cf6f3b181c04ef89e4fa4775bf9c85201100c4279adfd1bdb558f727",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3530743,
+      "etag": "539e11ede6a84c6b02cf8317041da0f7",
+      "verifiedAt": "2026-10-09T07:21:42Z"
     },
     {
       "key": "videos/vimeo/1005434660-1080p.mp4",
@@ -1044,7 +1320,10 @@
         "work__theline-experiments.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005434660/rendition/1080p/file.mp4?loc=external&log_user=0&signature=ccd93e5478f77dbd15a96e2e68aa3d20c1f2d154e84873c466d5dcec1e64ba78",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7257736,
+      "etag": "42cf367ada17b2b3aa5404747b4ed08e",
+      "verifiedAt": "2026-10-09T07:21:42Z"
     },
     {
       "key": "videos/vimeo/1005434660-720p.mp4",
@@ -1056,7 +1335,10 @@
         "work__theline-experiments.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005434660/rendition/720p/file.mp4?loc=external&log_user=0&signature=474e1adc64fd95983b560fb702c5ebff63aafd675388d9049bb2c2d79ffb8992",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4184473,
+      "etag": "981e50d4497ebeef7fe65c64c36715d0",
+      "verifiedAt": "2026-10-09T07:21:44Z"
     },
     {
       "key": "videos/vimeo/1005464977-1080p.mp4",
@@ -1067,7 +1349,10 @@
         "work__kenzo.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005464977/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c33985bb4a2952584c97d07d52385a732f8d64defe4e43f6f69efdde086bb171",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7412394,
+      "etag": "1a009a2371429f18e83a055ee36182bb",
+      "verifiedAt": "2026-10-09T07:21:43Z"
     },
     {
       "key": "videos/vimeo/1005464977-720p.mp4",
@@ -1078,7 +1363,10 @@
         "work__kenzo.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005464977/rendition/720p/file.mp4?loc=external&log_user=0&signature=c5ab1073e9f89010c40fd0ea3c386cea408addcb53e2298a902b08cbf8b86bfa",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3811913,
+      "etag": "af3489cd96bc429e15e02da3273b2735",
+      "verifiedAt": "2026-10-09T07:21:44Z"
     },
     {
       "key": "videos/vimeo/1005479955-1080p.mp4",
@@ -1089,7 +1377,10 @@
         "work__battle-aces.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005479955/rendition/1080p/file.mp4?loc=external&log_user=0&signature=4edffd0b998322f385794afb6c74bc382999b9ca112006f3b99192aa6a9deab7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 772969,
+      "etag": "275dd6cc9f3ec7894397f8a44b9de5f4",
+      "verifiedAt": "2026-10-09T07:21:44Z"
     },
     {
       "key": "videos/vimeo/1005479975-1080p.mp4",
@@ -1100,7 +1391,10 @@
         "work__battle-aces.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005479975/rendition/1080p/file.mp4?loc=external&log_user=0&signature=81ec267fa405cc894482a10152e0ea4a039a73aa823efbe92f12c97e66601c8c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1829792,
+      "etag": "757e95e7810411ddeb913c4bb885970e",
+      "verifiedAt": "2026-10-09T07:21:44Z"
     },
     {
       "key": "videos/vimeo/1005479987-1080p.mp4",
@@ -1111,7 +1405,10 @@
         "work__battle-aces.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005479987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c1ee40c6677eea8dff114e275ea4dc050eaf740ce246d8202e3824464a0947fb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 545806,
+      "etag": "cada00bbfdf361f4a891e55004cd78f9",
+      "verifiedAt": "2026-10-09T07:21:45Z"
     },
     {
       "key": "videos/vimeo/1005480004-1080p.mp4",
@@ -1122,7 +1419,10 @@
         "work__battle-aces.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005480004/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d4315a06fe2dffe65717ba6a56012dc98a1cbba075d44675599b541321475e27",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1363599,
+      "etag": "998ff0dae7263b15eb95ced8e756091d",
+      "verifiedAt": "2026-10-09T07:21:45Z"
     },
     {
       "key": "videos/vimeo/1005483177-1080p.mp4",
@@ -1133,7 +1433,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005483177/rendition/1080p/file.mp4?loc=external&log_user=0&signature=50deb6fe3b9dc998ff54d05a9b70e9f6e314d5c0fc79441663ae206635c5d7a4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 232704892,
+      "etag": "6f45190aff6ee407d11b251364add9aa",
+      "verifiedAt": "2026-10-09T07:21:50Z"
     },
     {
       "key": "videos/vimeo/1005484127-1080p.mp4",
@@ -1144,7 +1447,10 @@
         "work__tbs-idents.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005484127/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5fcb0a15cd999f20220c3455293d81ac7a0d3f523716b8b45c8fc321e27ea75e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7128919,
+      "etag": "d1711b3f68b96cd73b10715a5b7e4e45",
+      "verifiedAt": "2026-10-09T07:21:46Z"
     },
     {
       "key": "videos/vimeo/1005484127-720p.mp4",
@@ -1155,7 +1461,10 @@
         "work__tbs-idents.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005484127/rendition/720p/file.mp4?loc=external&log_user=0&signature=563f134a19e35c68cc0a6288f3cb31d579e92aaf327d5f54ca27a8634c4847a1",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3782826,
+      "etag": "2995010117ad880c4f8f316279b19d73",
+      "verifiedAt": "2026-10-09T07:21:46Z"
     },
     {
       "key": "videos/vimeo/1005489208-1080p.mp4",
@@ -1166,7 +1475,10 @@
         "work__vipps-santas-workshop.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005489208/rendition/1080p/file.mp4?loc=external&log_user=0&signature=81d29ef4914781cf612b602e1529218c3bd9cefdd04f0935c044355c7eea76df",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 9799446,
+      "etag": "46258de34253d6acd56aeece2cdf5b7b",
+      "verifiedAt": "2026-10-09T07:21:47Z"
     },
     {
       "key": "videos/vimeo/1005489208-720p.mp4",
@@ -1177,7 +1489,10 @@
         "work__vipps-santas-workshop.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005489208/rendition/720p/file.mp4?loc=external&log_user=0&signature=46fa4f41088028c8862ecfc4417ca4316cde479059b886114a7547179fc87086",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5180032,
+      "etag": "26afadd641bee2122a630b3e30413cc8",
+      "verifiedAt": "2026-10-09T07:21:47Z"
     },
     {
       "key": "videos/vimeo/1005494653-1080p.mp4",
@@ -1188,7 +1503,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005494653/rendition/1080p/file.mp4?loc=external&log_user=0&signature=4165b26f99c4a48a37b8e4e741fcf7542f1c3e76792a636cb9b7dce4a71f7ab4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 192590057,
+      "etag": "0653d858a1717a82c103a6822fd4e8a7",
+      "verifiedAt": "2026-10-09T07:21:53Z"
     },
     {
       "key": "videos/vimeo/1005502820-1080p.mp4",
@@ -1199,7 +1517,10 @@
         "work__freeview-set-yourself-free.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005502820/rendition/1080p/file.mp4?loc=external&log_user=0&signature=f534448c2dbacc9e44c5bf4170f409ed4c6ad6d6052a9d8cc55d5e1462a98a40",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 9141644,
+      "etag": "ef9ddc57e5b120159504f45048455277",
+      "verifiedAt": "2026-10-09T07:21:48Z"
     },
     {
       "key": "videos/vimeo/1005502820-720p.mp4",
@@ -1210,7 +1531,10 @@
         "work__freeview-set-yourself-free.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005502820/rendition/720p/file.mp4?loc=external&log_user=0&signature=0cf68e3a98a8b7ba3aaa361a8a6e56b380a9e4c1186c24fcb6cd458b08bb4beb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4888794,
+      "etag": "b26fe62e74e7a0a57c30d2a7f4ce0947",
+      "verifiedAt": "2026-10-09T07:21:48Z"
     },
     {
       "key": "videos/vimeo/1005509875-1080p.mp4",
@@ -1221,7 +1545,10 @@
         "work__everything-i-can-see-from-here.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005509875/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1c341e964e521921bfe9d0c3f3bd04bd2047c3501269996866a58a430457bc00",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5535878,
+      "etag": "0c034445436a9a27bf357eb9169f19bb",
+      "verifiedAt": "2026-10-09T07:21:50Z"
     },
     {
       "key": "videos/vimeo/1005509875-720p.mp4",
@@ -1232,7 +1559,10 @@
         "work__everything-i-can-see-from-here.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005509875/rendition/720p/file.mp4?loc=external&log_user=0&signature=b37d9748ca78f2562853b19117754b75e275982d37df2cda06d9129a5bbec86f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2551673,
+      "etag": "ffac0a5e643ec3841df89174f050fc9d",
+      "verifiedAt": "2026-10-09T07:21:50Z"
     },
     {
       "key": "videos/vimeo/1005518733-1080p.mp4",
@@ -1243,7 +1573,10 @@
         "work__virgin-media-9-58-seconds.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005518733/rendition/1080p/file.mp4?loc=external&log_user=0&signature=f1ebc596acde3c42d6b485832c5232c9036fb84f04980e4cd6d9e94aa781d0bd",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5322188,
+      "etag": "522235020dae2baf10c18bb4b6d905e6",
+      "verifiedAt": "2026-10-09T07:21:51Z"
     },
     {
       "key": "videos/vimeo/1005518733-720p.mp4",
@@ -1254,7 +1587,10 @@
         "work__virgin-media-9-58-seconds.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005518733/rendition/720p/file.mp4?loc=external&log_user=0&signature=e9a5fb781f5752dc277e459eab8d4322913cb2b8e71e3a3184e85cdd6989bbdf",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2673937,
+      "etag": "a8b59985cf73b42c1db48153d5cffe11",
+      "verifiedAt": "2026-10-09T07:21:51Z"
     },
     {
       "key": "videos/vimeo/1005519175-1080p.mp4",
@@ -1265,7 +1601,10 @@
         "work__acura-type-s.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005519175/rendition/1080p/file.mp4?loc=external&log_user=0&signature=19270c199ea12c4f4634dbae396b6dbccc0fdab662d7aba7915b926b83e58f55",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 12754145,
+      "etag": "5099b00d5b4be1692ccf8f331da593a1",
+      "verifiedAt": "2026-10-09T07:21:52Z"
     },
     {
       "key": "videos/vimeo/1005519987-1080p.mp4",
@@ -1278,7 +1617,10 @@
         "work__league-of-legends-worlds-2020.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005519987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=9dd59ce389df71f336b8e16682b9b0c5ecfa8086db16e70300840f58e5bbb150",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3618009,
+      "etag": "36e172895f1d2160caeefccb66b7da15",
+      "verifiedAt": "2026-10-09T07:21:52Z"
     },
     {
       "key": "videos/vimeo/1005519987-720p.mp4",
@@ -1290,7 +1632,10 @@
         "work__league-of-legends-worlds-2020.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005519987/rendition/720p/file.mp4?loc=external&log_user=0&signature=a108dcc17299b41db163ed60bb37c748cf488d0589be942577c2d68f52d8d464",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2039739,
+      "etag": "20062c7fe5887645c3ab49fbbb11b033",
+      "verifiedAt": "2026-10-09T07:21:53Z"
     },
     {
       "key": "videos/vimeo/1005520817-1080p.mp4",
@@ -1301,7 +1646,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005520817/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d299d953f0d2a5886369d6a674fe086b0b13c2ec2f3b7ee09fe869acf9dd5e2a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4644533,
+      "etag": "b6ee96fc65689ac67e7f4649b634e3e8",
+      "verifiedAt": "2026-10-09T07:21:53Z"
     },
     {
       "key": "videos/vimeo/1005520840-1080p.mp4",
@@ -1312,7 +1660,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005520840/rendition/1080p/file.mp4?loc=external&log_user=0&signature=64153a895333f161f233c97f7d1052caea0d42beb116d9330f43a87acb2528c8",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4272295,
+      "etag": "b72db5a4756cb45ccb84c7748dfcdf5c",
+      "verifiedAt": "2026-10-09T07:21:53Z"
     },
     {
       "key": "videos/vimeo/1005520840-720p.mp4",
@@ -1323,7 +1674,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005520840/rendition/720p/file.mp4?loc=external&log_user=0&signature=12acea476c647372fbc369e945f148667df7a61dee2bb788179b8666fd09e5ec",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2161290,
+      "etag": "e0c59439db922abdefc080033cd4e02e",
+      "verifiedAt": "2026-10-09T07:21:54Z"
     },
     {
       "key": "videos/vimeo/1005520995-1080p.mp4",
@@ -1335,7 +1689,10 @@
         "work__buzz-chickson-xmascruisin.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005520995/rendition/1080p/file.mp4?loc=external&log_user=0&signature=109eb88eb1374767074f7fa8e42506c2db8c710a80af4208b39ccd76f05f66a7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6675874,
+      "etag": "240889d1469fcd35a724463ac7f3f5f3",
+      "verifiedAt": "2026-10-09T07:21:54Z"
     },
     {
       "key": "videos/vimeo/1005520995-720p.mp4",
@@ -1347,7 +1704,10 @@
         "work__buzz-chickson-xmascruisin.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005520995/rendition/720p/file.mp4?loc=external&log_user=0&signature=231160ebd1f62b282d85f9cb86e129a24efdb7b2122cde26a9f67a5ee01abce7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3514467,
+      "etag": "f5ebc23dcdc37da8dc5ca25fd340542a",
+      "verifiedAt": "2026-10-09T07:21:55Z"
     },
     {
       "key": "videos/vimeo/1005521982-1080p.mp4",
@@ -1359,7 +1719,10 @@
         "work__lilnasx-star-walkin.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005521982/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1457ff48a295d56f93d291605280bc34f47510717df036bbeb0742257faabe06",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3921979,
+      "etag": "bd046a441a27bbe9b4c251f7ed72e567",
+      "verifiedAt": "2026-10-09T07:21:54Z"
     },
     {
       "key": "videos/vimeo/1005521982-720p.mp4",
@@ -1371,7 +1734,10 @@
         "work__lilnasx-star-walkin.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005521982/rendition/720p/file.mp4?loc=external&log_user=0&signature=d1aeaac167f8a7582dfcf68f5928901f5d9e963b9803732d5c8bdcd0ee30231b",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2001488,
+      "etag": "a9551ea3c136e69d9a7755e0eb6eb127",
+      "verifiedAt": "2026-10-09T07:21:56Z"
     },
     {
       "key": "videos/vimeo/1005522088-1080p.mp4",
@@ -1382,7 +1748,10 @@
         "work__freefire.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005522088/rendition/1080p/file.mp4?loc=external&log_user=0&signature=28962fb29573f9151a08fc62d7c4e6fb013a6f079d1a99cfaf2bc29d156e29f5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 92579907,
+      "etag": "73da6cfa91927f6417ef287840f4164c",
+      "verifiedAt": "2026-10-09T07:22:01Z"
     },
     {
       "key": "videos/vimeo/1005522565-1080p.mp4",
@@ -1394,7 +1763,10 @@
         "work__sessions-diana-rgm.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005522565/rendition/1080p/file.mp4?loc=external&log_user=0&signature=4e561e0a42cc47bee50ad2b79aa5f5eb6eeeb095c3b4bd2ec844a7e4ba0907cf",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6397380,
+      "etag": "f435d4a876856fe53d2e8cbc8593573d",
+      "verifiedAt": "2026-10-09T07:21:55Z"
     },
     {
       "key": "videos/vimeo/1005522565-720p.mp4",
@@ -1406,7 +1778,10 @@
         "work__sessions-diana-rgm.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005522565/rendition/720p/file.mp4?loc=external&log_user=0&signature=4716100eb815f8f54c07a958bf469d64bee7e66743b7c72e9fdc940ed3410dba",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3311433,
+      "etag": "04daeb79256fc04d83a3ece075336a21",
+      "verifiedAt": "2026-10-09T07:21:56Z"
     },
     {
       "key": "videos/vimeo/1005523332-1080p.mp4",
@@ -1418,7 +1793,10 @@
         "work__nickelodeon-vines.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005523332/rendition/1080p/file.mp4?loc=external&log_user=0&signature=e3d312993de9e5ea0fc473f3383eb293882e1da61e2ab8f7a81bcf4c20842c84",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2561546,
+      "etag": "0435268a90eb224b38a0b8e6c77ccc48",
+      "verifiedAt": "2026-10-09T07:21:57Z"
     },
     {
       "key": "videos/vimeo/1005523332-720p.mp4",
@@ -1430,7 +1808,10 @@
         "work__nickelodeon-vines.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005523332/rendition/720p/file.mp4?loc=external&log_user=0&signature=94669c78950a451fe94f269ebe9e571a5fa81ad96c874e92601d70f674bc094c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1613250,
+      "etag": "acb66542761eec168e465adb8a453fe3",
+      "verifiedAt": "2026-10-09T07:21:57Z"
     },
     {
       "key": "videos/vimeo/1005525057-1080p.mp4",
@@ -1441,7 +1822,10 @@
         "work__scary-animals.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005525057/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5e7e6b4b85bef5a1146a610debda29e4dbb519175ec4e4c71e75004807f57443",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2992363,
+      "etag": "369135aabc9240205102da2d992c4a46",
+      "verifiedAt": "2026-10-09T07:21:57Z"
     },
     {
       "key": "videos/vimeo/1005525057-720p.mp4",
@@ -1452,7 +1836,10 @@
         "work__scary-animals.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005525057/rendition/720p/file.mp4?loc=external&log_user=0&signature=af8b6abaeafe4a1ef6292a9d984cfa6a122baa6838f1dce347b68da23da41b16",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1508225,
+      "etag": "869f094602aa4513aa6bdd12e7733f2c",
+      "verifiedAt": "2026-10-09T07:21:58Z"
     },
     {
       "key": "videos/vimeo/1005530465-1080p.mp4",
@@ -1464,7 +1851,10 @@
         "work__cosy-anime-fireplace.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005530465/rendition/1080p/file.mp4?loc=external&log_user=0&signature=bb11eaee1d821e3052b5b2279a3bcc8cc6748cf7eb562b8edff874f4a3697e1e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4350575,
+      "etag": "5163ca78bf77d29f2346f803b3fa8818",
+      "verifiedAt": "2026-10-09T07:21:59Z"
     },
     {
       "key": "videos/vimeo/1005530465-720p.mp4",
@@ -1476,7 +1866,10 @@
         "work__cosy-anime-fireplace.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005530465/rendition/720p/file.mp4?loc=external&log_user=0&signature=b29b6b0dedfe876942d17a4b6c0c16398eada821a4bb38b51a2cd30c8b4bb987",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2440131,
+      "etag": "a9c1283a0d35e33dbbaae1d816bb5368",
+      "verifiedAt": "2026-10-09T07:21:59Z"
     },
     {
       "key": "videos/vimeo/1005784377-1080p.mp4",
@@ -1487,7 +1880,10 @@
         "work__sessions-star-guardian.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005784377/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c5ea7026c7e34e829c804f48372a01b7d07ea7e46188ba883bec727a0ddb271d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6114670,
+      "etag": "f56821d710c1186e8068a66926d40746",
+      "verifiedAt": "2026-10-09T07:21:59Z"
     },
     {
       "key": "videos/vimeo/1005808800-1080p.mp4",
@@ -1498,7 +1894,10 @@
         "work__campaign-we-get-you.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005808800/rendition/1080p/file.mp4?loc=external&log_user=0&signature=536f5b4806dcbd8226f7dc939a7d85503301863172b3b9f59770e21677654f87",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2015507,
+      "etag": "6f7582e904a7391c207f241d3fcf1e6d",
+      "verifiedAt": "2026-10-09T07:22:00Z"
     },
     {
       "key": "videos/vimeo/1005808800-720p.mp4",
@@ -1509,7 +1908,10 @@
         "work__campaign-we-get-you.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005808800/rendition/720p/file.mp4?loc=external&log_user=0&signature=c9b1436f068b65938683e963c9fd6fb80feefafadec4b92f29be77dc1e144b6c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1505717,
+      "etag": "b6abccc2ebf192dcc0ee2f2d53b16883",
+      "verifiedAt": "2026-10-09T07:22:00Z"
     },
     {
       "key": "videos/vimeo/1005809239-1080p.mp4",
@@ -1520,7 +1922,10 @@
         "work__cosy-anime-fireplace.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005809239/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b9258adddc54de0af53782847be4d95b9bdad5283691c52ba88142fecb4bf1ba",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1622087,
+      "etag": "d1efd151339a8c036b32d28888d19af4",
+      "verifiedAt": "2026-10-09T07:22:00Z"
     },
     {
       "key": "videos/vimeo/1005809255-1080p.mp4",
@@ -1531,7 +1936,10 @@
         "work__cosy-anime-fireplace.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005809255/rendition/1080p/file.mp4?loc=external&log_user=0&signature=630caa8c323d513a74da56a31c3a505a60ae7ca8e408e5d41a4d711a77e82a10",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 247549,
+      "etag": "a1685436797f0b7085901962f5c43bf7",
+      "verifiedAt": "2026-10-09T07:22:01Z"
     },
     {
       "key": "videos/vimeo/1005809277-1440p.mp4",
@@ -1542,7 +1950,10 @@
         "work__cosy-anime-fireplace.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005809277/rendition/1440p/file.mp4?loc=external&log_user=0&signature=90be853126622b7a9ffa0cb3b5bc8740b1041b77586a6a70d061548dd8d3d879",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3732076,
+      "etag": "7825abf47c20829b115c596bf1aec88a",
+      "verifiedAt": "2026-10-09T07:22:02Z"
     },
     {
       "key": "videos/vimeo/1005840375-1080p.mp4",
@@ -1553,7 +1964,10 @@
         "work__unilever-every-u-does-good.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005840375/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2e03baf477805179456f857750a7286bf7e60fca6afedac6e1766cbd4cebe1cf",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5626246,
+      "etag": "96f9e29f31171c432bcd8e12f50ec8ec",
+      "verifiedAt": "2026-10-09T07:22:02Z"
     },
     {
       "key": "videos/vimeo/1005840375-720p.mp4",
@@ -1564,7 +1978,10 @@
         "work__unilever-every-u-does-good.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005840375/rendition/720p/file.mp4?loc=external&log_user=0&signature=0199ecb6feff96e1e4758e2fa7607b7dbff68625e30d008fd3fc97bc7e53d92d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2462943,
+      "etag": "414f4db926d2abe8cb9ece960b86f2f5",
+      "verifiedAt": "2026-10-09T07:22:02Z"
     },
     {
       "key": "videos/vimeo/1005843864-1080p.mp4",
@@ -1576,7 +1993,10 @@
         "work__estee-lauder.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005843864/rendition/1080p/file.mp4?loc=external&log_user=0&signature=ed357c71a23aa6089a00f83486c2497dfae519dfd9bd822199fab817ec0d9bb5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5521116,
+      "etag": "528ddb9191bbb3128db5b7939ab79a69",
+      "verifiedAt": "2026-10-09T07:22:03Z"
     },
     {
       "key": "videos/vimeo/1005843864-720p.mp4",
@@ -1588,7 +2008,10 @@
         "work__estee-lauder.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005843864/rendition/720p/file.mp4?loc=external&log_user=0&signature=2294bdfd74b0520c6666295dfee9208949a17a5226a0cf6cd5ccb3cb83815828",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2848713,
+      "etag": "e417009efc2fad9e2778bb4cfbaf674c",
+      "verifiedAt": "2026-10-09T07:22:03Z"
     },
     {
       "key": "videos/vimeo/1005896541-720p.mp4",
@@ -1599,7 +2022,10 @@
         "work__hypervoltaic-chronicles.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005896541/rendition/720p/file.mp4?loc=external&log_user=0&signature=6533ad42db5653d87d8d511d9d7112158ada4f8c546fef1e218f8b8a2e2415f2",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4588809,
+      "etag": "4b1c4020c3e8932c8069522cd5654cf4",
+      "verifiedAt": "2026-10-09T07:22:03Z"
     },
     {
       "key": "videos/vimeo/1005915042-1080p.mp4",
@@ -1610,7 +2036,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1005915042/rendition/1080p/file.mp4?loc=external&log_user=0&signature=37e0c660bbfb08dba8b025274cddd69409003ee69f3e64b59fa8be54a64a1248",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 9880087,
+      "etag": "0b5ca746c2ae18d7d1a14db69f8f346a",
+      "verifiedAt": "2026-10-09T07:22:03Z"
     },
     {
       "key": "videos/vimeo/1006150930-1080p.mp4",
@@ -1621,7 +2050,10 @@
         "work__battle-aces.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006150930/rendition/1080p/file.mp4?loc=external&log_user=0&signature=ffbd1e1a18642e2c28715c781da9d9ce92dcea1f05a4844a0c2361126e81906c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5233551,
+      "etag": "f5094715f45cb184d119e1cc3e3103f4",
+      "verifiedAt": "2026-10-09T07:22:04Z"
     },
     {
       "key": "videos/vimeo/1006150930-720p.mp4",
@@ -1632,7 +2064,10 @@
         "work__battle-aces.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006150930/rendition/720p/file.mp4?loc=external&log_user=0&signature=48db7716a0c4da2ca4e56e0af31e5349ac6279090499b37b08868d880fbb0a41",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2742723,
+      "etag": "d864415c21b871d0a164a58ac824afba",
+      "verifiedAt": "2026-10-09T07:22:05Z"
     },
     {
       "key": "videos/vimeo/1006154786-480p.mp4",
@@ -1643,7 +2078,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006154786/rendition/480p/file.mp4?loc=external&log_user=0&signature=51a276948b51d735d92ef32e5100ef0ece14c98990558bc56c0fa041d20a084d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 18948155,
+      "etag": "35fdc379813034d1ee84626d8d76eeca",
+      "verifiedAt": "2026-10-09T07:22:05Z"
     },
     {
       "key": "videos/vimeo/1006155201-1440p.mp4",
@@ -1654,7 +2092,10 @@
         "work__heroes-of-the-storm.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006155201/rendition/1440p/file.mp4?loc=external&log_user=0&signature=14a519a363d8c243a99ac0d03824c6889c28be2bfe84d48a1e4df18346861dcb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 16262930,
+      "etag": "76ff84abc117e042a174ede06444bd95",
+      "verifiedAt": "2026-10-09T07:22:05Z"
     },
     {
       "key": "videos/vimeo/1006155201-720p.mp4",
@@ -1665,7 +2106,10 @@
         "work__heroes-of-the-storm.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006155201/rendition/720p/file.mp4?loc=external&log_user=0&signature=86a20dcff6a9e0887b3e140d4027012f959bbf8cebc195b51f8263ba72a68a28",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3690347,
+      "etag": "de28cd0ec023dcb3b0b5d406c17e0bfd",
+      "verifiedAt": "2026-10-09T07:22:05Z"
     },
     {
       "key": "videos/vimeo/1006160883-1080p.mp4",
@@ -1676,7 +2120,10 @@
         "work__birchall.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006160883/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d83fb73f9ac544eab7e9a22eb4b3ea668217ec5302761f15ed103d74d703ee6e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4120292,
+      "etag": "56b081f6d3c721127ad75af4cb7a644d",
+      "verifiedAt": "2026-10-09T07:22:08Z"
     },
     {
       "key": "videos/vimeo/1006160883-720p.mp4",
@@ -1687,7 +2134,10 @@
         "work__birchall.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006160883/rendition/720p/file.mp4?loc=external&log_user=0&signature=ffbfd0cc422986a3a6edd87375ce15a86d614626ff68d43cdae2a4c7fe91a629",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2275714,
+      "etag": "ad1cc9f2f18359084b2ba522d0e65464",
+      "verifiedAt": "2026-10-09T07:22:06Z"
     },
     {
       "key": "videos/vimeo/1006165950-1080p.mp4",
@@ -1698,7 +2148,10 @@
         "work__hsbc-charged-up.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006165950/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c5f9908e488ce67c93516db54e6529f15d8b946652aecfd07966c9659ea75bf4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5796775,
+      "etag": "755e3ba1dd5352f14accaae2f4cf6ed8",
+      "verifiedAt": "2026-10-09T07:22:07Z"
     },
     {
       "key": "videos/vimeo/1006165950-720p.mp4",
@@ -1709,7 +2162,10 @@
         "work__hsbc-charged-up.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006165950/rendition/720p/file.mp4?loc=external&log_user=0&signature=98ef280eb5c4a9021383c318a22f6e4dea1d6a1537c08320d7fe73f8f6e5128b",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2993851,
+      "etag": "335b325f60ed8b1eba47984176bca0b1",
+      "verifiedAt": "2026-10-09T07:22:07Z"
     },
     {
       "key": "videos/vimeo/1006172531-1080p.mp4",
@@ -1720,7 +2176,10 @@
         "work__hellokitty.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006172531/rendition/1080p/file.mp4?loc=external&log_user=0&signature=9f5ee08c8ad4a04ab9b0493a51f46983692641d9c7d5f2553530b253aed18214",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2479512,
+      "etag": "339fc69f096040f14f059c3b902e0174",
+      "verifiedAt": "2026-10-09T07:22:07Z"
     },
     {
       "key": "videos/vimeo/1006172531-720p.mp4",
@@ -1731,7 +2190,10 @@
         "work__hellokitty.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006172531/rendition/720p/file.mp4?loc=external&log_user=0&signature=9f215ccffbad79027fec175bc30aedfb55b0a025712a24d95d69220e09cdf587",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1455436,
+      "etag": "27048b1f6dff0fe61c7e6ed02727e4ce",
+      "verifiedAt": "2026-10-09T07:22:08Z"
     },
     {
       "key": "videos/vimeo/1006174705-1080p.mp4",
@@ -1742,7 +2204,10 @@
         "work__hellokitty.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006174705/rendition/1080p/file.mp4?loc=external&log_user=0&signature=02af5cb5c33c3653a91c5f6b0d30c94e72c6c9fa24f6415088f0f92d8e81e982",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1332941,
+      "etag": "45f754cec637408d0512a8fb07685bb8",
+      "verifiedAt": "2026-10-09T07:22:08Z"
     },
     {
       "key": "videos/vimeo/1006201178-1080p.mp4",
@@ -1753,7 +2218,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006201178/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d8952a05d5b3cf1a701c73d6cfc7df3b297bf7009ecea19b32de095297ba1a65",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 8009759,
+      "etag": "b1cd9774af1eb7cea73b8a1714fa3ee6",
+      "verifiedAt": "2026-10-09T07:22:09Z"
     },
     {
       "key": "videos/vimeo/1006201475-1080p.mp4",
@@ -1764,7 +2232,10 @@
         "work__valorant.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006201475/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8c13080388a6f2cb559cbee3c9cd43c5bffb3c618565f2aa5c613ef1fbee181a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4086248,
+      "etag": "7d579262bc8913db535b7254294fd0d8",
+      "verifiedAt": "2026-10-09T07:22:09Z"
     },
     {
       "key": "videos/vimeo/1006201475-720p.mp4",
@@ -1775,7 +2246,10 @@
         "work__valorant.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006201475/rendition/720p/file.mp4?loc=external&log_user=0&signature=7e5aa89de84d8e0fbb7c13f0ffd55288248391f3e9a28f65aeb13911cce02c8b",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1922244,
+      "etag": "81d746b6c9d81c6df06fd5d8c07a4499",
+      "verifiedAt": "2026-10-09T07:22:10Z"
     },
     {
       "key": "videos/vimeo/1006217196-720p.mp4",
@@ -1786,7 +2260,10 @@
         "work__acura-type-s-season-2.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006217196/rendition/720p/file.mp4?loc=external&log_user=0&signature=16d10ef7dadd17b18d8e6783c6ff07355b95088f573099814b568454635ba55c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3771671,
+      "etag": "5a930fb0f96551d5012b700000e43e83",
+      "verifiedAt": "2026-10-09T07:22:10Z"
     },
     {
       "key": "videos/vimeo/1006525353-1080p.mp4",
@@ -1797,7 +2274,10 @@
         "work__wargroove.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006525353/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b6c6a367d8da06c4f637b4e758b57f2cc2440e31629d5accc53f0fec1fa046f8",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4467163,
+      "etag": "8894c56695b5e8b071588fcd1d7944b0",
+      "verifiedAt": "2026-10-09T07:22:10Z"
     },
     {
       "key": "videos/vimeo/1006525353-720p.mp4",
@@ -1808,7 +2288,10 @@
         "work__wargroove.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006525353/rendition/720p/file.mp4?loc=external&log_user=0&signature=cb21b7a4d314c826b3ff84d733b4dd6df7c32e8a81eecd87b34f17af22c1d476",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2206477,
+      "etag": "d2db38876cf11ff1ed5d45abf33339aa",
+      "verifiedAt": "2026-10-09T07:22:10Z"
     },
     {
       "key": "videos/vimeo/1006527236-1080p.mp4",
@@ -1819,7 +2302,10 @@
         "work__viceland-grace-neutral.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006527236/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8c26ee5770860aeff9cb7ee24fd7b3e7e3b4e091f9ad83b22141c194355f4a62",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4286152,
+      "etag": "b6d9c3245ce9f9d13050c2a8d81528fb",
+      "verifiedAt": "2026-10-09T07:22:11Z"
     },
     {
       "key": "videos/vimeo/1006527236-720p.mp4",
@@ -1830,7 +2316,10 @@
         "work__viceland-grace-neutral.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006527236/rendition/720p/file.mp4?loc=external&log_user=0&signature=23d191038dd962038c0bcb4500ed32d0bb8daa64fa21efd1770e738802ce444c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2200226,
+      "etag": "189525151e86f3a9b9e4af5e519ed1f9",
+      "verifiedAt": "2026-10-09T07:22:11Z"
     },
     {
       "key": "videos/vimeo/1006528174-1080p.mp4",
@@ -1841,7 +2330,10 @@
         "work__viceland-grace-neutral.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006528174/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2cbff3e9f697358c098c7cd9402b100a3960132b0f4f928729d906334a424b58",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1683320,
+      "etag": "5064870f65b674f9d60021ff6d1ec771",
+      "verifiedAt": "2026-10-09T07:22:11Z"
     },
     {
       "key": "videos/vimeo/1006539363-720p.mp4",
@@ -1852,7 +2344,10 @@
         "work__red-carpet-rampage.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006539363/rendition/720p/file.mp4?loc=external&log_user=0&signature=9175e9837687e10ad4236bbc36130273e02413ee0766678c1744b19d029b6a6a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3458809,
+      "etag": "6e818e5e142567d443ef8826ffe6beef",
+      "verifiedAt": "2026-10-09T07:22:12Z"
     },
     {
       "key": "videos/vimeo/1006544619-1080p.mp4",
@@ -1863,7 +2358,10 @@
         "work__theline-experiments.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006544619/rendition/1080p/file.mp4?loc=external&log_user=0&signature=587bd4d35c00b3b4445a1c7c82152d267390aade0b4b84cc8ac1923094b6151a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 999734,
+      "etag": "343cee20227d6e3f9a1cd4f5b47060d9",
+      "verifiedAt": "2026-10-09T07:22:12Z"
     },
     {
       "key": "videos/vimeo/1006544795-1080p.mp4",
@@ -1874,7 +2372,10 @@
         "work__theline-experiments.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006544795/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c154a84df0691e6b002a8d7877a09f8992b0e4739edac39c6929080708ce8f61",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 11137424,
+      "etag": "ed0b0e10c2924c0b924567e48e524f85",
+      "verifiedAt": "2026-10-09T07:22:12Z"
     },
     {
       "key": "videos/vimeo/1006546699-1080p.mp4",
@@ -1885,7 +2386,10 @@
         "work__theline-experiments.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006546699/rendition/1080p/file.mp4?loc=external&log_user=0&signature=42d01551d39587fd0d97caf453daea54bc8cb64b46fca40e3c58de7b7d720077",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1389630,
+      "etag": "1244f07e998e4aba987f702e31b6d6e8",
+      "verifiedAt": "2026-10-09T07:22:12Z"
     },
     {
       "key": "videos/vimeo/1006551760-1080p.mp4",
@@ -1896,7 +2400,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006551760/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5665682799c63ef9127aa28e48d1b0a75d58ae098cd5389406d3e0d367a560f9",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2559687,
+      "etag": "4c6948a3584b5a25d2d27feda87d6661",
+      "verifiedAt": "2026-10-09T07:22:13Z"
     },
     {
       "key": "videos/vimeo/1006551773-1080p.mp4",
@@ -1907,7 +2414,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006551773/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a7fb140fc29e9c602cd2fd75c4980a5e2d505c45b9f150776e8929c14964975",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1981133,
+      "etag": "775e4b5323070b1174ff71050f42611b",
+      "verifiedAt": "2026-10-09T07:22:13Z"
     },
     {
       "key": "videos/vimeo/1006551787-1080p.mp4",
@@ -1918,7 +2428,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006551787/rendition/1080p/file.mp4?loc=external&log_user=0&signature=ea3d74442f3b54046592f58e2aa6d6033763dc37f573db95b831908b978414fe",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2253519,
+      "etag": "57ed6adfc9d3afb12ffab5078acd0647",
+      "verifiedAt": "2026-10-09T07:22:13Z"
     },
     {
       "key": "videos/vimeo/1006551807-1080p.mp4",
@@ -1929,7 +2442,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006551807/rendition/1080p/file.mp4?loc=external&log_user=0&signature=01c5f31b786020a977a30f2ac42c477b773dd3aea31ba69d89590966cbe2ae13",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2313570,
+      "etag": "a8e8c189da806f98d5998c1a5b59798f",
+      "verifiedAt": "2026-10-09T07:22:14Z"
     },
     {
       "key": "videos/vimeo/1006551822-1080p.mp4",
@@ -1940,7 +2456,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006551822/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c51766c171f98080486701271949fccf4bf19704d02bd66fcb2e52f90eff7ef0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1397985,
+      "etag": "1e02f575b5a858f1dd5288d55e2f916c",
+      "verifiedAt": "2026-10-09T07:22:14Z"
     },
     {
       "key": "videos/vimeo/1006551822-720p.mp4",
@@ -1951,7 +2470,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006551822/rendition/720p/file.mp4?loc=external&log_user=0&signature=36a78cf6069c6ca8f23d830b3766f86391ca9caafb097f0a4c081ed5d31830de",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 556837,
+      "etag": "2b208200adf8a754a4c735903652d9a2",
+      "verifiedAt": "2026-10-09T07:22:15Z"
     },
     {
       "key": "videos/vimeo/1006551837-1080p.mp4",
@@ -1962,7 +2484,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006551837/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c70c4f10348325451892b9054027335c7353ce06169c1a6fa12a7092ea6c84c2",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1566623,
+      "etag": "034432f95822fb768370fd4586f6250d",
+      "verifiedAt": "2026-10-09T07:22:15Z"
     },
     {
       "key": "videos/vimeo/1006620845-2160p.mp4",
@@ -1973,7 +2498,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006620845/rendition/2160p/file.mp4?loc=external&log_user=0&signature=56bf416321708db8a2aab04de752578c5cb130e38a19bee6ef5012ae898c74b0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 541407,
+      "etag": "93c066089db14ffaf3a8a4f08321d60c",
+      "verifiedAt": "2026-10-09T07:22:15Z"
     },
     {
       "key": "videos/vimeo/1006631742-1080p.mp4",
@@ -1984,7 +2512,10 @@
         "work__wallflowers.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006631742/rendition/1080p/file.mp4?loc=external&log_user=0&signature=62b8a35edae7cd8f58e5c027eec948a8f85ca2db847acff8f7d2c8b5a33e9163",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 38733946,
+      "etag": "74a778a2ea15b640de371a9f918a9ea3",
+      "verifiedAt": "2026-10-09T07:22:16Z"
     },
     {
       "key": "videos/vimeo/1006643671-1440p.mp4",
@@ -1995,7 +2526,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006643671/rendition/1440p/file.mp4?loc=external&log_user=0&signature=310c7dd08fd4f030c1056fb159d0068e914126d3a384d7079abc8a6a244a1d9d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 311400,
+      "etag": "add8a03fc225b50e7e11a5b421b02283",
+      "verifiedAt": "2026-10-09T07:22:16Z"
     },
     {
       "key": "videos/vimeo/1006643713-1440p.mp4",
@@ -2006,7 +2540,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006643713/rendition/1440p/file.mp4?loc=external&log_user=0&signature=fa655ba159d270995d9e24df5cb1179665c22a030435b4bdbe41fc299dfabb13",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 284069,
+      "etag": "48007d0be1c9cb7daaf330bd25271725",
+      "verifiedAt": "2026-10-09T07:22:16Z"
     },
     {
       "key": "videos/vimeo/1006688177-720p.mp4",
@@ -2017,7 +2554,10 @@
         "work__red-carpet-rampage.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006688177/rendition/720p/file.mp4?loc=external&log_user=0&signature=8ddf4de18f3ba1ff35f32d0fd64bf315f014d7489aba64cbc5a80a9d7fcc42c3",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7844421,
+      "etag": "d9cbea82b525a06b7cce14891c8a0a15",
+      "verifiedAt": "2026-10-09T07:22:16Z"
     },
     {
       "key": "videos/vimeo/1006713755-1080p.mp4",
@@ -2028,7 +2568,10 @@
         "work__campaign-we-get-you.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006713755/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1ca15a421e7ca11fbf01bd4436d182d5b404628fac17b8e31345c1ee3328d903",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 17172812,
+      "etag": "f02e84520d674c9aacfdb2604d3e3bd5",
+      "verifiedAt": "2026-10-09T07:22:18Z"
     },
     {
       "key": "videos/vimeo/1006871388-1440p.mp4",
@@ -2039,7 +2582,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006871388/rendition/1440p/file.mp4?loc=external&log_user=0&signature=efa09dcc6fb822696d58d0f36f35e02b54661cdad389736b4189a35ff30684d5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 320481,
+      "etag": "5e674bff2aed13e02388ea97fed47841",
+      "verifiedAt": "2026-10-09T07:22:17Z"
     },
     {
       "key": "videos/vimeo/1006877715-1080p.mp4",
@@ -2050,7 +2596,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006877715/rendition/1080p/file.mp4?loc=external&log_user=0&signature=42f7c682ad90c051789aa9d4a17f3ef17c3e8c724a9e4b3f692be2e197643c89",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3029238,
+      "etag": "19db5944316f58f6a2aa6e49183f23e3",
+      "verifiedAt": "2026-10-09T07:22:17Z"
     },
     {
       "key": "videos/vimeo/1006887296-720p.mp4",
@@ -2061,7 +2610,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006887296/rendition/720p/file.mp4?loc=external&log_user=0&signature=8a0916d4355579d3ae9e0667a5e398fea0633c9042679902453e9b13fc59fc1c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2136971,
+      "etag": "df6f0ef3fc86ff66a9027e442d61d2ad",
+      "verifiedAt": "2026-10-09T07:22:17Z"
     },
     {
       "key": "videos/vimeo/1006892908-720p.mp4",
@@ -2072,7 +2624,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006892908/rendition/720p/file.mp4?loc=external&log_user=0&signature=68713dbd95c290ccc3f6b787fbb8c7d74b738ba44509c239021ff1354f29967f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2151980,
+      "etag": "d7569c68c02bfe15536d82de160c2dbc",
+      "verifiedAt": "2026-10-09T07:22:18Z"
     },
     {
       "key": "videos/vimeo/1006894136-1080p.mp4",
@@ -2083,7 +2638,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006894136/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8feea625e48fa0281990d4327aa6e8e63972374c3374df10b50e400ab78913b3",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4380813,
+      "etag": "6b7d4ba032161198afb96846c39b62b5",
+      "verifiedAt": "2026-10-09T07:22:19Z"
     },
     {
       "key": "videos/vimeo/1006894985-720p.mp4",
@@ -2094,7 +2652,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006894985/rendition/720p/file.mp4?loc=external&log_user=0&signature=9ffa144bf3ee7db2d5d998400cc12a13902489fae67dd0afb8a37590f6789cf5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2301738,
+      "etag": "f94fee06d3c6dc0befdbaebf763e13f1",
+      "verifiedAt": "2026-10-09T07:22:18Z"
     },
     {
       "key": "videos/vimeo/1006896014-1080p.mp4",
@@ -2105,7 +2666,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006896014/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5dbc05a6885bd52c5b680dff0d1ae239402a6d9acf64d1cfeca1be92535fc7f1",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3175737,
+      "etag": "a1cb689ba0094e1f6a3354f6cdaaae0d",
+      "verifiedAt": "2026-10-09T07:22:19Z"
     },
     {
       "key": "videos/vimeo/1006896826-720p.mp4",
@@ -2116,7 +2680,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006896826/rendition/720p/file.mp4?loc=external&log_user=0&signature=bd16af26e40333cddeca8bcc3cbd8dacb1bfdab7e9142a0472ac5f984fc28e57",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1856213,
+      "etag": "837be4e7eea71c6d9059747a86de3782",
+      "verifiedAt": "2026-10-09T07:22:19Z"
     },
     {
       "key": "videos/vimeo/1006897157-1080p.mp4",
@@ -2127,7 +2694,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006897157/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d0fa6203e66c38a9504dda6ab1bb8d63c18105883ba053b43498427b0c4f7e6d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 181740,
+      "etag": "b3f95bfac49dd62f05e4bf3b6f6b0ac8",
+      "verifiedAt": "2026-10-09T07:22:19Z"
     },
     {
       "key": "videos/vimeo/1006897548-720p.mp4",
@@ -2138,7 +2708,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006897548/rendition/720p/file.mp4?loc=external&log_user=0&signature=cc472436c3e62ddf1e8f35e779ebe8de1f78ff4cc5ced4b33e60ee78def057f5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 418798,
+      "etag": "a5af7e0af472095b5e95170aaace5aaa",
+      "verifiedAt": "2026-10-09T07:22:20Z"
     },
     {
       "key": "videos/vimeo/1006897562-720p.mp4",
@@ -2149,7 +2722,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006897562/rendition/720p/file.mp4?loc=external&log_user=0&signature=8980a07caa2b8248934c3d8c82434a4b0ae1e12ac8ea281d14a758f7b4729ab6",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1447869,
+      "etag": "bbbd41d4f48bd17f1e4eb21374bee17a",
+      "verifiedAt": "2026-10-09T07:22:20Z"
     },
     {
       "key": "videos/vimeo/1006897845-1080p.mp4",
@@ -2160,7 +2736,10 @@
         "work__gorillaz-song-machine.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006897845/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2d4527e841b197ce3c3a0a70b19945c61d07c7d296c7eb7911eb08a807ce150d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3446749,
+      "etag": "1497f8b4b81117f04276053ef0073e3b",
+      "verifiedAt": "2026-10-09T07:22:21Z"
     },
     {
       "key": "videos/vimeo/1006978680-720p.mp4",
@@ -2171,7 +2750,10 @@
         "work__league-of-legends-giants.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1006978680/rendition/720p/file.mp4?loc=external&log_user=0&signature=9812a2d47df1ef461f610a4371af3c2c352d50bcfc42aaeda5dc1d81ffc8e2de",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3273453,
+      "etag": "3a2b69b2f0ad3717ed4fd2146560d057",
+      "verifiedAt": "2026-10-09T07:22:21Z"
     },
     {
       "key": "videos/vimeo/1007062871-1080p.mp4",
@@ -2183,7 +2765,10 @@
         "work__porter-robinson-easy.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007062871/rendition/1080p/file.mp4?loc=external&log_user=0&signature=bc191463c2130c3e3efc98238542448b348d9a7d77b7f4960517ecddd8f73e4b",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 9946662,
+      "etag": "9687a5e87a82d59b143a674d82ce378c",
+      "verifiedAt": "2026-10-09T07:22:21Z"
     },
     {
       "key": "videos/vimeo/1007062871-720p.mp4",
@@ -2194,7 +2779,10 @@
         "work__porter-robinson-easy.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007062871/rendition/720p/file.mp4?loc=external&log_user=0&signature=4e3113207242dc3c417978ab02cd8b06cf16ae49d5836f4a430f8596e1516a2b",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5229410,
+      "etag": "827c7a086f0683387fb77196a7d7a46b",
+      "verifiedAt": "2026-10-09T07:22:22Z"
     },
     {
       "key": "videos/vimeo/1007075185-1080p.mp4",
@@ -2206,7 +2794,10 @@
         "work__wallflowers.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007075185/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5e3a6a9024d5c17fa76e59fdbb9f1c2e3dccd7f36af2391bf23abeed9493f8d4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5888400,
+      "etag": "06b06c80f781e64f12976fdffc9457ba",
+      "verifiedAt": "2026-10-09T07:22:21Z"
     },
     {
       "key": "videos/vimeo/1007075185-720p.mp4",
@@ -2218,7 +2809,10 @@
         "work__wallflowers.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007075185/rendition/720p/file.mp4?loc=external&log_user=0&signature=f9badf4bc24d0440ec0337329dccbbb387013f4a3a0f31c354ead030efa7449f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2965767,
+      "etag": "2887f0afc9f20bae14b565a3990109dc",
+      "verifiedAt": "2026-10-09T07:22:22Z"
     },
     {
       "key": "videos/vimeo/1007079762-1080p.mp4",
@@ -2229,7 +2823,10 @@
         "work.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007079762/rendition/1080p/file.mp4?loc=external&log_user=0&signature=f091e3b1e4b4358336d67c64103811461390623f376afe02ce4f4a6d49953b44",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5571231,
+      "etag": "633b0856f14661ea5db011528cbd0204",
+      "verifiedAt": "2026-10-09T07:22:22Z"
     },
     {
       "key": "videos/vimeo/1007079762-720p.mp4",
@@ -2240,7 +2837,10 @@
         "work.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007079762/rendition/720p/file.mp4?loc=external&log_user=0&signature=1f882c4eb102aee502953418ced17552bfb6210a2d5e47493ef64d38e579c8a6",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3529020,
+      "etag": "0cff1f37a5c303e7f99d554378ccb9ed",
+      "verifiedAt": "2026-10-09T07:22:23Z"
     },
     {
       "key": "videos/vimeo/1007093580-720p.mp4",
@@ -2251,7 +2851,10 @@
         "work__chobani.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007093580/rendition/720p/file.mp4?loc=external&log_user=0&signature=08e6ca12df274874ff8de304b6ec051d6628ea64a1c748baacd437c29ef12a27",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3445962,
+      "etag": "b5c3ed6ae2cf60d42c89d12e96670059",
+      "verifiedAt": "2026-10-09T07:22:24Z"
     },
     {
       "key": "videos/vimeo/1007595840-1080p.mp4",
@@ -2264,7 +2867,10 @@
         "work__gorillaz.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007595840/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8a065eccd0e8c174635fafa957df693592a29b7ab7c33d90128791924b610cb9",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4413233,
+      "etag": "abad217b0f51832b3c0f2d77daffbcc2",
+      "verifiedAt": "2026-10-09T07:22:23Z"
     },
     {
       "key": "videos/vimeo/1007595840-720p.mp4",
@@ -2276,7 +2882,10 @@
         "work__gorillaz.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007595840/rendition/720p/file.mp4?loc=external&log_user=0&signature=6560e039abac8e3faa0d2498967f5fe96c3571a840e999a78ef63b90996cab71",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2367486,
+      "etag": "ef3c0431d24b24d5e89a7261edd71261",
+      "verifiedAt": "2026-10-09T07:22:23Z"
     },
     {
       "key": "videos/vimeo/1007627724-1080p.mp4",
@@ -2287,7 +2896,10 @@
         "work.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1007627724/rendition/1080p/file.mp4?loc=external&log_user=0&signature=41fcd2bd8b9c45ffb168fd843955caf3daa868b55bceb67f951cce974f296f6c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4639186,
+      "etag": "557e6e990e4e1ec396914c000820ef99",
+      "verifiedAt": "2026-10-09T07:22:24Z"
     },
     {
       "key": "videos/vimeo/1008764693-1080p.mp4",
@@ -2298,7 +2910,10 @@
         "work__valorant.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1008764693/rendition/1080p/file.mp4?loc=external&log_user=0&signature=63e18badd998e601f1be5c7026afb375c0fb6eaf97dcba66d0be2d9eb37fc1fd",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 577440,
+      "etag": "4645438698ed90dddb5d0ece4eb338f3",
+      "verifiedAt": "2026-10-09T07:22:25Z"
     },
     {
       "key": "videos/vimeo/1008764706-1080p.mp4",
@@ -2309,7 +2924,10 @@
         "work__valorant.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1008764706/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2dc3e1fa8f695898aa82dde8d9f41ac82d697d11e01cdc0fdc349096c89bacba",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 563683,
+      "etag": "53a39b7666ff2ea8f54d2000ef1326e0",
+      "verifiedAt": "2026-10-09T07:22:24Z"
     },
     {
       "key": "videos/vimeo/1008764740-1080p.mp4",
@@ -2320,7 +2938,10 @@
         "work__valorant.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1008764740/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c4acb5a2276bbd0634e8e964e1a9637f20d2c0705346f0ebb2efe3198c292d8d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 344405,
+      "etag": "8d11f1da2c559cef73f0542b937a8bb7",
+      "verifiedAt": "2026-10-09T07:22:25Z"
     },
     {
       "key": "videos/vimeo/1015621306-1080p.mp4",
@@ -2331,7 +2952,10 @@
         "work__delivery-at-dawn.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015621306/rendition/1080p/file.mp4?loc=external&log_user=0&signature=4da02f42260a7d27dcbfd2290eb5f75590baa4f8eb63846da1811d2a6bf26b11",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6324048,
+      "etag": "bbe772ad6e6757f149f58707d21d76e4",
+      "verifiedAt": "2026-10-09T07:22:25Z"
     },
     {
       "key": "videos/vimeo/1015621306-720p.mp4",
@@ -2342,7 +2966,10 @@
         "work__delivery-at-dawn.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015621306/rendition/720p/file.mp4?loc=external&log_user=0&signature=12a0554307988c4f60a01f5bd1c939a9742b4de3930ef6365cfd1d48e39413b0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4129171,
+      "etag": "29edbd1dec4929885e62e90d0c70a567",
+      "verifiedAt": "2026-10-09T07:22:26Z"
     },
     {
       "key": "videos/vimeo/1015624443-1080p.mp4",
@@ -2354,7 +2981,10 @@
         "work__acura-type-s.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015624443/rendition/1080p/file.mp4?loc=external&log_user=0&signature=49db00925f4bc4a12f5ed83288e16850b95fb1b9535d7d9ef0c17b3b9ec54938",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7606223,
+      "etag": "d64250d9302b43267885163c288bb839",
+      "verifiedAt": "2026-10-09T07:22:26Z"
     },
     {
       "key": "videos/vimeo/1015624443-720p.mp4",
@@ -2366,7 +2996,10 @@
         "work__acura-type-s.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015624443/rendition/720p/file.mp4?loc=external&log_user=0&signature=38f067982fc1c74197be62dbc6f4b863da58ae9776238219e7a2c9b0b80af643",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4461099,
+      "etag": "45894ba1ae4fddbb9f3a1ef77215543b",
+      "verifiedAt": "2026-10-09T07:22:26Z"
     },
     {
       "key": "videos/vimeo/1015702177-1080p.mp4",
@@ -2381,7 +3014,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015702177/rendition/1080p/file.mp4?loc=external&log_user=0&signature=d30a9ee22a7fcf8481c86324fdb549b60bd5230fa96f09346451ea01bb1edf1f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7747445,
+      "etag": "318ead84f258918480b2effba56043e8",
+      "verifiedAt": "2026-10-09T07:22:27Z"
     },
     {
       "key": "videos/vimeo/1015702177-720p.mp4",
@@ -2396,7 +3032,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015702177/rendition/720p/file.mp4?loc=external&log_user=0&signature=840cbcf10bebecd453ae23675290ed2a7935ed79ff53fe3532c77c888b87a27d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4513898,
+      "etag": "431409a8246c88bcc11dd0eef87ae79a",
+      "verifiedAt": "2026-10-09T07:22:27Z"
     },
     {
       "key": "videos/vimeo/1015705930-1080p.mp4",
@@ -2407,7 +3046,10 @@
         "work__transformers.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015705930/rendition/1080p/file.mp4?loc=external&log_user=0&signature=019561d94e8bfd0ae4f4f99a3046e0bdb40ac990bf04757bd8843b595b5c50ae",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6480800,
+      "etag": "a3c1f7a5aeccab8959281a1934a089e6",
+      "verifiedAt": "2026-10-09T07:22:27Z"
     },
     {
       "key": "videos/vimeo/1015705930-720p.mp4",
@@ -2418,7 +3060,10 @@
         "work__transformers.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015705930/rendition/720p/file.mp4?loc=external&log_user=0&signature=2563db6a259effe1ac3e39a9dd8db448fd677eb6c5fe6e145f748484920bd576",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3756400,
+      "etag": "867cf0415320373220cb7a3f98dda857",
+      "verifiedAt": "2026-10-09T07:22:28Z"
     },
     {
       "key": "videos/vimeo/1015711482-1080p.mp4",
@@ -2430,7 +3075,10 @@
         "work__sessions-star-guardian.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015711482/rendition/1080p/file.mp4?loc=external&log_user=0&signature=83ecdf6b5bbd020c7617881b7ccc878cea68cd6c4a646bf4615bba60eb5b324e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7455235,
+      "etag": "9108c770a1801f25cf2b7bf6aff4b83f",
+      "verifiedAt": "2026-10-09T07:22:28Z"
     },
     {
       "key": "videos/vimeo/1015711482-720p.mp4",
@@ -2442,7 +3090,10 @@
         "work__sessions-star-guardian.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1015711482/rendition/720p/file.mp4?loc=external&log_user=0&signature=9e690040fa57a5f28ff6f1770f9ee6e0e71a384c390a67df4a1668919b249ba9",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4888853,
+      "etag": "b5d524766275c4cf5bf300c06ab26c16",
+      "verifiedAt": "2026-10-09T07:22:28Z"
     },
     {
       "key": "videos/vimeo/1016059785-1080p.mp4",
@@ -2453,7 +3104,10 @@
         "work__ciclope.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1016059785/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c2532e4727d61db52acbc45f4a181151f357c9b0785247cb18437659b442bc83",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 61929242,
+      "etag": "b77ae0999e13e1db3ae0bf2db344e3a8",
+      "verifiedAt": "2026-10-09T07:22:32Z"
     },
     {
       "key": "videos/vimeo/1016060419-1080p.mp4",
@@ -2464,7 +3118,10 @@
         "work__ciclope.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1016060419/rendition/1080p/file.mp4?loc=external&log_user=0&signature=47b39ce263e3f53abbdd1fedff490ba83c3c88caf445a785f3bd23ec7234fcda",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2879148,
+      "etag": "bd911673238231048cd88a89d6cfb8b8",
+      "verifiedAt": "2026-10-09T07:22:29Z"
     },
     {
       "key": "videos/vimeo/1016060419-720p.mp4",
@@ -2475,7 +3132,10 @@
         "work__ciclope.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1016060419/rendition/720p/file.mp4?loc=external&log_user=0&signature=1a60d7a980812cf8c3127a989391492cf4ce51d1a32624edf5e50496f123f96a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1475011,
+      "etag": "455e4c76448dd44b69a830c50428faf3",
+      "verifiedAt": "2026-10-09T07:22:29Z"
     },
     {
       "key": "videos/vimeo/1016068933-1080p.mp4",
@@ -2486,7 +3146,10 @@
         "work__sessions-vi-riot-games-music.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1016068933/rendition/1080p/file.mp4?loc=external&log_user=0&signature=7e2372e1b0e8139cc7d77fe8ee13f66fb53b8f0fef41006f2ddadd7f07a71bfd",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6496698,
+      "etag": "ebfaaccc140421f8f038f54f5cdeb4e3",
+      "verifiedAt": "2026-10-09T07:22:30Z"
     },
     {
       "key": "videos/vimeo/1017497176-720p.mp4",
@@ -2497,7 +3160,10 @@
         "about.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1017497176/rendition/720p/file.mp4?loc=external&log_user=0&signature=a5e64d428aaf3eb007d5b17b208b1266f964b43d2fd5e363b41d56e2200c7c5a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 7328741,
+      "etag": "099e0a77a25bbddece856a5fbe0bd08b",
+      "verifiedAt": "2026-10-09T07:22:30Z"
     },
     {
       "key": "videos/vimeo/1017501511-720p.mp4",
@@ -2508,7 +3174,10 @@
         "about.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1017501511/rendition/720p/file.mp4?loc=external&log_user=0&signature=7cea258aa062ba5db6313b64dffea4d18e5f036c8d11d5546760042f2a5d864d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4144803,
+      "etag": "121fbca6a98099d797024137595995af",
+      "verifiedAt": "2026-10-09T07:22:30Z"
     },
     {
       "key": "videos/vimeo/1028362678-2160p.mp4",
@@ -2519,7 +3188,10 @@
         "work__the-hex-warframe-1999-animated-prologue.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1028362678/rendition/2160p/file.mp4?loc=external&log_user=0&signature=3478b8ee98545993b16ed47c89a02b52869d67f920e81d06ca05ec450c33f0f1",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 276125048,
+      "etag": "75433b030543940f7493a255d003f017",
+      "verifiedAt": "2026-10-09T07:22:40Z"
     },
     {
       "key": "videos/vimeo/1028364087-2160p.mp4",
@@ -2531,7 +3203,10 @@
         "work__the-hex-warframe-1999-animated-prologue.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1028364087/rendition/2160p/file.mp4?loc=external&log_user=0&signature=f489e642cd21293987a72b2c29c69d1ea743c50305c013b5a0dcbe442b459de1",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 30928226,
+      "etag": "85e8575dacb948ee5abc8650a6767955",
+      "verifiedAt": "2026-10-09T07:22:32Z"
     },
     {
       "key": "videos/vimeo/1028364087-720p.mp4",
@@ -2543,7 +3218,10 @@
         "work__the-hex-warframe-1999-animated-prologue.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1028364087/rendition/720p/file.mp4?loc=external&log_user=0&signature=367859e482395534c8ebdbed208501987ed6a029a1b7d868decee989335b2aa0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3777594,
+      "etag": "6149bb5c3729c4d53ff8c10bac5ac016",
+      "verifiedAt": "2026-10-09T07:22:32Z"
     },
     {
       "key": "videos/vimeo/1040743671-1080p.mp4",
@@ -2554,7 +3232,10 @@
         "work__monsters-we-make.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1040743671/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c81cf91b76febb68bc8b1db1cbe34b952fd9ce7f9399c12c3eb3efe3d8555ed4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4804210,
+      "etag": "eb3f8b1b8b4fd5c02836f79a2c1ccb1c",
+      "verifiedAt": "2026-10-09T07:22:33Z"
     },
     {
       "key": "videos/vimeo/1040743671-720p.mp4",
@@ -2565,7 +3246,10 @@
         "work__monsters-we-make.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1040743671/rendition/720p/file.mp4?loc=external&log_user=0&signature=fda9d22a5ffe8fb8bd5494db1487765a7419d205586853c8987f482ff026d130",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2739505,
+      "etag": "0f04ac4fa7018acca47bcbbe093932a2",
+      "verifiedAt": "2026-10-09T07:22:34Z"
     },
     {
       "key": "videos/vimeo/1041134872-1080p.mp4",
@@ -2576,7 +3260,10 @@
         "work__monsters-we-make.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1041134872/rendition/1080p/file.mp4?loc=external&log_user=0&signature=195f8145de2600302536ffe568638ce32185d4c85fddff38b29a2caf57fa5f8e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 40064081,
+      "etag": "4988694437a093170f8267d3ecd5da95",
+      "verifiedAt": "2026-10-09T07:22:35Z"
     },
     {
       "key": "videos/vimeo/1046476706-1080p.mp4",
@@ -2588,7 +3275,10 @@
         "work__bump-superbrawl.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1046476706/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0f19dc8459716f4e29d9ced415db25d5e39fe1164f19f413f82f73901055345a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6498764,
+      "etag": "d1109b63516d315dbeca11321132b61b",
+      "verifiedAt": "2026-10-09T07:22:34Z"
     },
     {
       "key": "videos/vimeo/1046476706-720p.mp4",
@@ -2600,7 +3290,10 @@
         "work__bump-superbrawl.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1046476706/rendition/720p/file.mp4?loc=external&log_user=0&signature=ed128cd7ad80394de72e0fdc5763f694d6ebbc58240bea064704df6ff4ff1631",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3259216,
+      "etag": "57f2c01c30e2a2d83bb3060a2edd1323",
+      "verifiedAt": "2026-10-09T07:22:35Z"
     },
     {
       "key": "videos/vimeo/1046480858-2160p.mp4",
@@ -2611,7 +3304,10 @@
         "work__bump-superbrawl.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1046480858/rendition/2160p/file.mp4?loc=external&log_user=0&signature=79efd937c663cf9383ed9c407817146733466612534ad8823938072b0f614a7c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 185771087,
+      "etag": "6f4cf12fcd392af4cab77877fbd045af",
+      "verifiedAt": "2026-10-09T07:22:47Z"
     },
     {
       "key": "videos/vimeo/105027987-1080p.mp4",
@@ -2622,7 +3318,10 @@
         "work__scary-animals.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/105027987/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1bfbf4c9300444c3dc9ecc4785b33e3d4beb6a556ae54f03287472cca028d82e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 11803962,
+      "etag": "e58e3831f399e41e5a56fd28fff58cb3",
+      "verifiedAt": "2026-10-09T07:22:38Z"
     },
     {
       "key": "videos/vimeo/1051514379-1080p.mp4",
@@ -2633,7 +3332,10 @@
         "work__transformers.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1051514379/rendition/1080p/file.mp4?loc=external&log_user=0&signature=cd3be0e18340629d85c5dcba9855e65c009e62433dc2ea6f19609042152856dc",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 48103515,
+      "etag": "d8eccddedd8bad60c241bda0e244bf6e",
+      "verifiedAt": "2026-10-09T07:22:39Z"
     },
     {
       "key": "videos/vimeo/1061311462-720p.mp4",
@@ -2644,7 +3346,10 @@
         "work__tempting-fortune.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1061311462/rendition/720p/file.mp4?loc=external&log_user=0&signature=a8ea8455f714a4bd39e3205dde22cfb9132a7c14c7c508183d80252f24e1d039&user_id=3572388",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3281719,
+      "etag": "fb18d5f0defb91979c0bfe3bfa99d384",
+      "verifiedAt": "2026-10-09T07:22:39Z"
     },
     {
       "key": "videos/vimeo/1062012717-1080p.mp4",
@@ -2656,7 +3361,10 @@
         "work__tempting-fortune.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1062012717/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0f5f3fba63ddce89a981ad36821bb0ab080f3191f546fef29093c8314465a6b2&user_id=3572388",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 24091183,
+      "etag": "50d9d58f624d61348a3d14f5b3e1a1ca",
+      "verifiedAt": "2026-10-09T07:22:42Z"
     },
     {
       "key": "videos/vimeo/1062883918-1080p.mp4",
@@ -2667,7 +3375,10 @@
         "work__discord-anime-lunar-new-year.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1062883918/rendition/1080p/file.mp4?loc=external&log_user=0&signature=a24c1f3402a1a8649a9b06f69124c8c9afa0fb05fb959d58a33eb0ff74bdab00&user_id=3572388",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4527105,
+      "etag": "77172f67e4db7bbbec84f3a8c9e9581a",
+      "verifiedAt": "2026-10-09T07:22:41Z"
     },
     {
       "key": "videos/vimeo/1062883918-720p.mp4",
@@ -2678,7 +3389,10 @@
         "work__discord-anime-lunar-new-year.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1062883918/rendition/720p/file.mp4?loc=external&log_user=0&signature=9e97deda69e7ad855a5e39e19660fe6d7276b1a6f8add37f0a707458c96edd65&user_id=3572388",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2416620,
+      "etag": "542bca0c97920c4cd64852ba4e4eb3a1",
+      "verifiedAt": "2026-10-09T07:22:41Z"
     },
     {
       "key": "videos/vimeo/1075238854-1440p.mp4",
@@ -2689,7 +3403,10 @@
         "work.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1075238854/rendition/1440p/file.mp4?loc=external&log_user=0&signature=ab2898724061630d120ac55f4d347abc72e77432b75945a58a7436f1975b7a18",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 29125022,
+      "etag": "bf2c88c28e32374c08a01325e89e862d",
+      "verifiedAt": "2026-10-09T07:22:42Z"
     },
     {
       "key": "videos/vimeo/1087177729-2160p.mp4",
@@ -2701,7 +3418,10 @@
         "home.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1087177729/rendition/2160p/file.mp4?loc=external&log_user=0&signature=0c8bfe9a84b4524ae6cb359c99a044a03f42497ca2f19e3ad4fa908f34c09c0c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 243601790,
+      "etag": "30368b47740f6be76bfcc294dce6eed9",
+      "verifiedAt": "2026-10-09T07:22:54Z"
     },
     {
       "key": "videos/vimeo/1118747576-1080p.mp4",
@@ -2712,7 +3432,10 @@
         "work__hades-ii-launch-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1118747576/rendition/1080p/file.mp4?loc=external&log_user=0&signature=37d3999997cf55d2f2552ca3c46d90c28988267a3e2f21cbf67daa7a1f5aaae9",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 16266171,
+      "etag": "203df3e77b9ea03218d7378371459501",
+      "verifiedAt": "2026-10-09T07:22:44Z"
     },
     {
       "key": "videos/vimeo/1118747576-720p.mp4",
@@ -2723,7 +3446,10 @@
         "work__hades-ii-launch-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1118747576/rendition/720p/file.mp4?loc=external&log_user=0&signature=46b1f494668653cd2c172b33056b73b0bb11be853d4bdfaeb33fd66a6b9e0d38",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 8402174,
+      "etag": "432533fd9d86ef16371038dc8ae75cbf",
+      "verifiedAt": "2026-10-09T07:22:44Z"
     },
     {
       "key": "videos/vimeo/1120081121-2160p.mp4",
@@ -2735,7 +3461,10 @@
         "work__hades-ii-launch-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1120081121/rendition/2160p/file.mp4?loc=external&log_user=0&signature=14c1772e15695dcaf43d043c90b8348a75d007454227d4e3a1cca53e27c62d0a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 261969309,
+      "etag": "c8cf61104e36b83fd06a451b348d0a84",
+      "verifiedAt": "2026-10-09T07:22:51Z"
     },
     {
       "key": "videos/vimeo/1126151294-2160p.mp4",
@@ -2746,7 +3475,10 @@
         "work__zigma.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1126151294/rendition/2160p/file.mp4?loc=external&log_user=0&signature=5ca4074672e1cf2a5123e4eab69ed15cf6ced08a129a7b6135df15f5c716ceef",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 239122798,
+      "etag": "960733e53b763b5e50e1c254f4a5b0d7",
+      "verifiedAt": "2026-10-09T07:22:50Z"
     },
     {
       "key": "videos/vimeo/1126153699-1080p.mp4",
@@ -2758,7 +3490,10 @@
         "work__zigma.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1126153699/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0e4e19a7416f19cb66ae7d7d8d8bd8c22eac61b25ef9a9c7619e496fb044e6b8",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6170582,
+      "etag": "e1a50ce80d45a62aeb290d0e98a79da4",
+      "verifiedAt": "2026-10-09T07:22:48Z"
     },
     {
       "key": "videos/vimeo/1126153699-720p.mp4",
@@ -2770,7 +3505,10 @@
         "work__zigma.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1126153699/rendition/720p/file.mp4?loc=external&log_user=0&signature=eda710af8129857a69503c8a582060a270d63ce8c5321b2b52442fdbd7df1e1e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 3281774,
+      "etag": "b1c50f0f88ec75eb1f6e6696e0efddb3",
+      "verifiedAt": "2026-10-09T07:22:50Z"
     },
     {
       "key": "videos/vimeo/1130194696-2160p.mp4",
@@ -2781,7 +3519,10 @@
         "work__bayc-teaser-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1130194696/rendition/2160p/file.mp4?loc=external&log_user=0&signature=72b94fb8bb4b4bdb5a015cce329b21def4d7df78f0d07caf8c84a6e36d6404e7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 111810425,
+      "etag": "2c301d17dc94c288a4e7e97783b20d8f",
+      "verifiedAt": "2026-10-09T07:22:55Z"
     },
     {
       "key": "videos/vimeo/1130212361-1080p.mp4",
@@ -2792,7 +3533,10 @@
         "work__bayc-teaser-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1130212361/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=ee730ae00146538c92f082ae70276ca8373d2c754459281e99aabaf85ed57b4f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4155881,
+      "etag": "e0c2961c19d2e7c61ee1623634eaa1db",
+      "verifiedAt": "2026-10-09T07:22:52Z"
     },
     {
       "key": "videos/vimeo/1130212361-720p.mp4",
@@ -2804,7 +3548,10 @@
         "work__bayc-teaser-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1130212361/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=303435482dfd41ef14094cf460b572c52cf7b27bb6c84b580e052a60b6605ffb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1890626,
+      "etag": "d1ec8961439086d9d44b1f8b5fcdb6d1",
+      "verifiedAt": "2026-10-09T07:22:53Z"
     },
     {
       "key": "videos/vimeo/1132583341-2160p.mp4",
@@ -2815,7 +3562,10 @@
         "work__hades-ii-launch-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1132583341/rendition/2160p/file.mp4?loc=external&log_user=0&signature=4db1830a70077f754125eb0e28d5a64a70e1979c9bfc418f974f02bd1000cfc5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 202226139,
+      "etag": "19bb0d26672ca46f39ac0f09846cb710",
+      "verifiedAt": "2026-10-09T07:22:57Z"
     },
     {
       "key": "videos/vimeo/1132583942-2160p.mp4",
@@ -2826,7 +3576,10 @@
         "work__hades-ii-launch-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1132583942/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&log_user=0&signature=fae0fdf85b30d30bb39b1f11687ea61d6ad79b024183e700ce2f3cc0043b6bbb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 12037357,
+      "etag": "1ecea31b345dd433d499eb6f2001a9eb",
+      "verifiedAt": "2026-10-09T07:22:55Z"
     },
     {
       "key": "videos/vimeo/1132583942-720p.mp4",
@@ -2837,7 +3590,10 @@
         "work__hades-ii-launch-trailer.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1132583942/rendition/720p/file.mp4?loc=external&log_user=0&signature=c35bbfdd55472944754a45d3dcd0074b5b56f49e339ffb9027b4a20844c206c2",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1787032,
+      "etag": "af3852511f487b304c022297bde4b830",
+      "verifiedAt": "2026-10-09T07:22:56Z"
     },
     {
       "key": "videos/vimeo/1161833652-1080p.mp4",
@@ -2849,7 +3605,10 @@
         "work__buzz-chickson-the-hype-heads-intro.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1161833652/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=439d740115e4b2e672439bef19255276e6f7ecb8d032ec5c0a4f63babb7c004e",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4043919,
+      "etag": "a9c28140c1210ef8395437a23beeb121",
+      "verifiedAt": "2026-10-09T07:22:55Z"
     },
     {
       "key": "videos/vimeo/1161833652-720p.mp4",
@@ -2861,7 +3620,10 @@
         "work__buzz-chickson-the-hype-heads-intro.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1161833652/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=bd273006668b2ea234bb9267a3e47c2444a639949ec6201abc9bbd6f26e40491",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2149031,
+      "etag": "4b3f99e67b1bed6ce2c00f35788ba8c1",
+      "verifiedAt": "2026-10-09T07:22:56Z"
     },
     {
       "key": "videos/vimeo/1162233951-1080p.mp4",
@@ -2872,7 +3634,10 @@
         "work__buzz-chickson-the-hype-heads-intro.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1162233951/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=3fb92b600b4a9ec4e451d73a156f195f3c78cbc78d2c6b9e4de2177f71fe40ce",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 19767666,
+      "etag": "94904c62e9782f60b7a08643d1595b50",
+      "verifiedAt": "2026-10-09T07:22:57Z"
     },
     {
       "key": "videos/vimeo/1163676238-720p.mp4",
@@ -2883,7 +3648,10 @@
         "work__touchland.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1163676238/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=09da8a997e21969dab8f7f72ba66f421e9e313af0236f093001e0b4336dab0df",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4969440,
+      "etag": "6063b26c17c03c3b7cde70b7b3b971de",
+      "verifiedAt": "2026-10-09T07:22:58Z"
     },
     {
       "key": "videos/vimeo/1168089886-1440p.mp4",
@@ -2894,7 +3662,10 @@
         "work.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1168089886/rendition/1440p/file.mp4%20%281440p%29.mp4?loc=external&log_user=0&signature=0c599df19f41c023c75b69eb74c9c1360bf4caaca80045494969b340a153bb00",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 39750246,
+      "etag": "43b567c1626f35e74692d2a3988723de",
+      "verifiedAt": "2026-10-09T07:22:58Z"
     },
     {
       "key": "videos/vimeo/1172474682-1080p.mp4",
@@ -2905,7 +3676,10 @@
         "work__itv.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1172474682/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=79bf6400bd386a676367835ce5d5ba90ca30d9e915f178826d4f120d469384c5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 59770350,
+      "etag": "b7261325ce1ad0f3708e965f40eed9c0",
+      "verifiedAt": "2026-10-09T07:23:00Z"
     },
     {
       "key": "videos/vimeo/1172474682-720p.mp4",
@@ -2916,7 +3690,10 @@
         "work__itv.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1172474682/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=dca3d808551510d276b85a8a250e854a880c23c6a81b551ae38bab9a0b1defd7",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 29935973,
+      "etag": "5c1618cd312ce8789e76a8f62f2162e8",
+      "verifiedAt": "2026-10-09T07:23:00Z"
     },
     {
       "key": "videos/vimeo/1172982234-720p.mp4",
@@ -2927,7 +3704,10 @@
         "work__itv.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1172982234/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=058d240633eccb0d5bd8b2d459dfd7a2355904c58c2c028112cc6ab5b6ebf6bc",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 13552103,
+      "etag": "0575205a740aa7cc792a917dbc753117",
+      "verifiedAt": "2026-10-09T07:22:59Z"
     },
     {
       "key": "videos/vimeo/1185505339-1440p.mp4",
@@ -2938,7 +3718,10 @@
         "work__godiva-100-years-of-memories.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1185505339/rendition/1440p/file.mp4%20%281440p%29.mp4?loc=external&log_user=0&signature=09df84bf56c54c358255dc65293fe2381b68c41a08c1b05e7a4418a5569ac578",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 193055900,
+      "etag": "6c85ff0a9259c27ced20c620b90a55c9",
+      "verifiedAt": "2026-10-09T07:23:05Z"
     },
     {
       "key": "videos/vimeo/1185508844-1440p.mp4",
@@ -2950,7 +3733,10 @@
         "work__godiva-100-years-of-memories.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1185508844/rendition/1440p/file.mp4%20%281440p%29.mp4?loc=external&log_user=0&signature=e49f14c887f4dbced5e35d7ad7195398f65419c9e941558a27f897e681be484d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 38615357,
+      "etag": "e42241d7f6c6b4e9a7553a70f5dd6f59",
+      "verifiedAt": "2026-10-09T07:23:01Z"
     },
     {
       "key": "videos/vimeo/1185508844-540p.mp4",
@@ -2962,7 +3748,10 @@
         "work__godiva-100-years-of-memories.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1185508844/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=ed4678248d969e15bf2c7b15ea21ca5901b50ff9c7d6b2b020526b4a871b5dc9",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1801677,
+      "etag": "75fadd0717e580527276984975020c60",
+      "verifiedAt": "2026-10-09T07:23:01Z"
     },
     {
       "key": "videos/vimeo/1186215512-1080p.mp4",
@@ -2973,7 +3762,10 @@
         "work__jade-shadows-constellations.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1186215512/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=c88884c603b816e53ffabf4bffd9300b0fc7076b6babe38c41b93121a5c22d15",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 9969670,
+      "etag": "0db65de3c52592c285c57257a14b9d87",
+      "verifiedAt": "2026-10-09T07:23:02Z"
     },
     {
       "key": "videos/vimeo/1186215512-720p.mp4",
@@ -2984,7 +3776,10 @@
         "work__jade-shadows-constellations.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1186215512/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=0b4c535ddb5c73278066925be8fd71bfa683072269cc4355511d15ce363d22ac",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5191634,
+      "etag": "14d340577a3481f6762659b028de280c",
+      "verifiedAt": "2026-10-09T07:23:02Z"
     },
     {
       "key": "videos/vimeo/1186304885-2160p.mp4",
@@ -2995,7 +3790,10 @@
         "work__jade-shadows-constellations.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/1186304885/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&log_user=0&signature=ebccf1e0672dffb7d222e443ae73dbca7242a6f4011db6779110241acd765128",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 463877729,
+      "etag": "d0f5618432ac92e0e7eb4750f1a15951",
+      "verifiedAt": "2026-10-09T07:23:15Z"
     },
     {
       "key": "videos/vimeo/128418807-1080p.mp4",
@@ -3007,7 +3805,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/128418807/rendition/1080p/file.mp4?loc=external&log_user=0&signature=04aaf876ab4203f4588148da478bbd1d0fcd88e93d04afd1149127223b0511d0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 64662269,
+      "etag": "88e6bfb5dbb37cffa78c91bd193e2c44",
+      "verifiedAt": "2026-10-09T07:23:06Z"
     },
     {
       "key": "videos/vimeo/141063954-720p.mp4",
@@ -3018,7 +3819,10 @@
         "work__freeview-set-yourself-free.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/141063954/rendition/720p/file.mp4?loc=external&log_user=0&signature=40db70e1ddcf4ee8c3de61baac73c6703393136207eb2cedbcb25576b97e3441",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1616496,
+      "etag": "d9d5cda64faf1c29d651a83c0f45d82c",
+      "verifiedAt": "2026-10-09T07:23:03Z"
     },
     {
       "key": "videos/vimeo/141067459-720p.mp4",
@@ -3029,7 +3833,10 @@
         "work__freeview-set-yourself-free.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/141067459/rendition/720p/file.mp4?loc=external&log_user=0&signature=8d594b68dce9893859762b2172cf94772acb61da57eaae7d2bf212a7cbf398f3",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 17206352,
+      "etag": "e770cfe790ab6198faa35869635c7130",
+      "verifiedAt": "2026-10-09T07:23:05Z"
     },
     {
       "key": "videos/vimeo/141272035-1080p.mp4",
@@ -3040,7 +3847,10 @@
         "work__freeview-set-yourself-free.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/141272035/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c3b654d04faf2b49ac8dfa96c6b40edbf37f8d74268f62615247873e5e7ab38c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 70897997,
+      "etag": "e280039aee891f1afc267cf53d1f3d1c",
+      "verifiedAt": "2026-10-09T07:23:08Z"
     },
     {
       "key": "videos/vimeo/143315513-720p.mp4",
@@ -3051,7 +3861,10 @@
         "work__super-turbo-atomic-ninja-rabbit.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/143315513/rendition/720p/file.mp4?loc=external&log_user=0&signature=fe48c65eca5ca7bd7f2d3294a5c5ab6a821a4aa0c4c02624425f3ddcad6a4b9c",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 33251254,
+      "etag": "b49882027befa44601408dd9aa9f838d",
+      "verifiedAt": "2026-10-09T07:23:07Z"
     },
     {
       "key": "videos/vimeo/148367046-1080p.mp4",
@@ -3062,7 +3875,10 @@
         "work__hsbc-charged-up.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/148367046/rendition/1080p/file.mp4?loc=external&log_user=0&signature=9e792fa649654b79e68053ffe5c5218a37b4b5c175e071f5517ef56d56947b76",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 17647432,
+      "etag": "143191f349a245b8503899c20b62d6ef",
+      "verifiedAt": "2026-10-09T07:23:08Z"
     },
     {
       "key": "videos/vimeo/151639401-1080p.mp4",
@@ -3073,7 +3889,10 @@
         "work__tbs-idents.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/151639401/rendition/1080p/file.mp4?loc=external&log_user=0&signature=752fdd535dd1e03bae78b7d610ad8f2eaabff2e2828f37c0afbcc8a5144cee41",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 26779727,
+      "etag": "08f33823249d76f60a8698c06ce8913d",
+      "verifiedAt": "2026-10-09T07:23:10Z"
     },
     {
       "key": "videos/vimeo/155535215-720p.mp4",
@@ -3084,7 +3903,10 @@
         "work__red-carpet-rampage.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/155535215/rendition/720p/file.mp4?loc=external&log_user=0&signature=f3d941e069497ac91e98cd0f4b6b69e8b56cbc67ba12a88213884fed355bc3c9",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 19242481,
+      "etag": "0ec4cee25fcd477e5a381d8da22d7f51",
+      "verifiedAt": "2026-10-09T07:23:09Z"
     },
     {
       "key": "videos/vimeo/164307066-1080p.mp4",
@@ -3095,7 +3917,10 @@
         "work__red-carpet-rampage.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/164307066/rendition/1080p/file.mp4?loc=external&log_user=0&signature=f66c15991448196f381d578bd7f0bd2902777fd6856ba8c735f87359188d2c0f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 166409410,
+      "etag": "57df06b5b6042c683d6165d4ab55514b",
+      "verifiedAt": "2026-10-09T07:23:16Z"
     },
     {
       "key": "videos/vimeo/173635124-1080p.mp4",
@@ -3106,7 +3931,10 @@
         "work__virgin-media-9-58-seconds.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/173635124/rendition/1080p/file.mp4?loc=external&log_user=0&signature=8e13566d4fde43bdd3344be74074242fab083ec18df423ea49665a2015b006c3",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5626008,
+      "etag": "05430f1841d2fe896449d19120cd34a9",
+      "verifiedAt": "2026-10-09T07:23:11Z"
     },
     {
       "key": "videos/vimeo/190122429-1080p.mp4",
@@ -3117,7 +3945,10 @@
         "work__nickelodeon-vines.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/190122429/rendition/1080p/file.mp4?loc=external&log_user=0&signature=156d2181f3bd6682eadce40b780c92045b06b743549174111390a1c82a0ccd60",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 13088711,
+      "etag": "ea02070ed2f31657678f15f24d16df25",
+      "verifiedAt": "2026-10-09T07:23:11Z"
     },
     {
       "key": "videos/vimeo/192255066-1080p.mp4",
@@ -3128,7 +3959,10 @@
         "work__vipps-santas-workshop.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/192255066/rendition/1080p/file.mp4?loc=external&log_user=0&signature=9184de50e6ecc81e8e346f0552d52810e3120566ffa1fe8c904052ec61dc53bd",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 35415663,
+      "etag": "ea85c01ac2300c96cf785c744fc1b3fd",
+      "verifiedAt": "2026-10-09T07:23:14Z"
     },
     {
       "key": "videos/vimeo/194331176-1080p.mp4",
@@ -3139,7 +3973,10 @@
         "work__nickelodeon-vines.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/194331176/rendition/1080p/file.mp4?loc=external&log_user=0&signature=35b3c59230b93cdf4ba06874cfbc4481d859f721a8364efce20366ee1b4917f4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 8985479,
+      "etag": "35e0a2281963de6527e1d620fe8c705b",
+      "verifiedAt": "2026-10-09T07:23:14Z"
     },
     {
       "key": "videos/vimeo/255564730-1080p.mp4",
@@ -3150,7 +3987,10 @@
         "work__viceland-grace-neutral.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/255564730/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b0ad16199bbba422c299a02b82f05f2cffc4cb1df7627d696371bbd4d61bae71",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5734765,
+      "etag": "3f1f02e709b9eee420d4934c33f1280a",
+      "verifiedAt": "2026-10-09T07:23:15Z"
     },
     {
       "key": "videos/vimeo/257879695-1080p.mp4",
@@ -3161,7 +4001,10 @@
         "work__heroes-of-the-storm.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/257879695/rendition/1080p/file.mp4?loc=external&log_user=0&signature=a82524b9a6a0bb9f290abd98a8181f92f197214469b9e7f97de3c062ae35ebb0",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 64977314,
+      "etag": "0a2e91df02c419f7b4e4124c770c4feb",
+      "verifiedAt": "2026-10-09T07:23:17Z"
     },
     {
       "key": "videos/vimeo/267556111-1080p.mp4",
@@ -3172,7 +4015,10 @@
         "work__birchall.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/267556111/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a4458d6f581a7967b9eeebe742995c04946d3a2b4e249985981f0ba027d3bf6",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6788803,
+      "etag": "4b2f03ea5863506c06a05bb0108427eb",
+      "verifiedAt": "2026-10-09T07:23:17Z"
     },
     {
       "key": "videos/vimeo/267576893-1080p.mp4",
@@ -3183,7 +4029,10 @@
         "work__birchall.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/267576893/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1674f48e8828be2f12e229262ded2a6db990987792a7d4a3b6a6112b70b427df",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 35908468,
+      "etag": "f7b5878034bb17f2f3cd43c153a06325",
+      "verifiedAt": "2026-10-09T07:23:19Z"
     },
     {
       "key": "videos/vimeo/268010875-1080p.mp4",
@@ -3194,7 +4043,10 @@
         "work__gucci.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/268010875/rendition/1080p/file.mp4?loc=external&log_user=0&signature=7f2b9b8189f0d7d8392ea0f64ebfa506f6e114ddfbd7ea15f0756033e75002eb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 118817811,
+      "etag": "990b524b3bdfa4ddaf8dbd23e5d1fad1",
+      "verifiedAt": "2026-10-09T07:23:27Z"
     },
     {
       "key": "videos/vimeo/268024576-1080p.mp4",
@@ -3205,7 +4057,10 @@
         "work__gucci.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/268024576/rendition/1080p/file.mp4?loc=external&log_user=0&signature=af22de4b2030a0dfb3a908e796364d4b248a114a5f42b2d870c1b830c807c1e6",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 38271788,
+      "etag": "51ff8077217f9d9e796a10c3579d431e",
+      "verifiedAt": "2026-10-09T07:23:19Z"
     },
     {
       "key": "videos/vimeo/269233057-1080p.mp4",
@@ -3216,7 +4071,10 @@
         "work__doritos-collisons.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/269233057/rendition/1080p/file.mp4?loc=external&log_user=0&signature=25d59c6e69f59bd2beb79919601e5584b7ae1a3af16211442c6ce08f45c1f634",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 12727913,
+      "etag": "cbb490b507f4d4f83aad232ef39b4a32",
+      "verifiedAt": "2026-10-09T07:23:18Z"
     },
     {
       "key": "videos/vimeo/312931432-1080p.mp4",
@@ -3227,7 +4085,10 @@
         "work__wargroove.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/312931432/rendition/1080p/file.mp4?loc=external&log_user=0&signature=6295abcd0446518e5a8437dce0c72f444894adbb4be988362d661719c283561d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 31444659,
+      "etag": "1c28a7d5da82a77d7ee4f16d10360f18",
+      "verifiedAt": "2026-10-09T07:23:20Z"
     },
     {
       "key": "videos/vimeo/314036807-1080p.mp4",
@@ -3238,7 +4099,10 @@
         "work__gorillaz.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/314036807/rendition/1080p/file.mp4?loc=external&log_user=0&signature=bbdc32b7c70f911d38a938cbca132b8fffab080be90d8055343e38b8e9e9a619",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 135430326,
+      "etag": "94784382587c095fc12fb47863dbc61c",
+      "verifiedAt": "2026-10-09T07:23:24Z"
     },
     {
       "key": "videos/vimeo/318428260-720p.mp4",
@@ -3249,7 +4113,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/318428260/rendition/720p/file.mp4?loc=external&log_user=0&signature=73735c44a300d4e2085a50208164e5b64fcdc26f800e0fdaf013761d91ee3a38",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1084111,
+      "etag": "9e519b8e0d22e5bf5ff2df3ecad27a24",
+      "verifiedAt": "2026-10-09T07:23:20Z"
     },
     {
       "key": "videos/vimeo/318429667-720p.mp4",
@@ -3260,7 +4127,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/318429667/rendition/720p/file.mp4?loc=external&log_user=0&signature=806853e0389d628f3185dc493b7ffc88208bdb7a00f354f538766126b6f1f971",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 1329583,
+      "etag": "5d96d2235c1cbfcc164be8ef4fd96198",
+      "verifiedAt": "2026-10-09T07:23:21Z"
     },
     {
       "key": "videos/vimeo/320200686-1080p.mp4",
@@ -3271,7 +4141,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/320200686/rendition/1080p/file.mp4?loc=external&log_user=0&signature=c6d072179255287ec89b14317d8eafd57c375a1a84881c7d4a83beb20a9e2885",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 27808716,
+      "etag": "ca7c166a46e94e1492cafdbed53502b6",
+      "verifiedAt": "2026-10-09T07:23:22Z"
     },
     {
       "key": "videos/vimeo/320200686-1440p.mp4",
@@ -3282,7 +4155,10 @@
         "work__amaroandwalden.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/320200686/rendition/1440p/file.mp4?loc=external&log_user=0&signature=d8f76b05b6101c87ac612bc5ec164db0edad00e9b9d861e883131e7d7341f85a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 65365244,
+      "etag": "0ba8119504996a9b52edbff15af2d24e",
+      "verifiedAt": "2026-10-09T07:23:28Z"
     },
     {
       "key": "videos/vimeo/352242076-1080p.mp4",
@@ -3293,7 +4169,10 @@
         "work__unilever-every-u-does-good.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/352242076/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3d7a27d991b571aa2b9eba0ab3ec2d342398e919f644418f0689c7d6ce71bb78",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 42948993,
+      "etag": "96708be7ebb96b3fe8ba3261bb6ca636",
+      "verifiedAt": "2026-10-09T07:23:24Z"
     },
     {
       "key": "videos/vimeo/352673506-1080p.mp4",
@@ -3304,7 +4183,10 @@
         "work__unilever-every-u-does-good.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/352673506/rendition/1080p/file.mp4?loc=external&log_user=0&signature=b1d9f4085e5392cab928924813ac4e67b66498b6237f14e9f387b6edf77aae5a",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 5172078,
+      "etag": "3321cbb14fea73b140d5dd8996929f26",
+      "verifiedAt": "2026-10-09T07:23:25Z"
     },
     {
       "key": "videos/vimeo/386960790-1080p.mp4",
@@ -3315,7 +4197,10 @@
         "work__kenzo.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/386960790/rendition/1080p/file.mp4?loc=external&log_user=0&signature=99d07b270346672ffc6d175c20d5b6d92177ace24ca0a2aa7c6bb7c0970a91e5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 24611722,
+      "etag": "bdcba5f70d0f90e1618cc197990cfdaf",
+      "verifiedAt": "2026-10-09T07:23:26Z"
     },
     {
       "key": "videos/vimeo/430747906-1080p.mp4",
@@ -3326,7 +4211,10 @@
         "work__hellokitty.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/430747906/rendition/1080p/file.mp4?loc=external&log_user=0&signature=607a9d94de663df58fadd6ba6342f779d345c7325feb4e9cc13921890d4826a4",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 4617868,
+      "etag": "3bfbe632396eed91f52f142a12bb69bd",
+      "verifiedAt": "2026-10-09T07:23:27Z"
     },
     {
       "key": "videos/vimeo/430749062-1080p.mp4",
@@ -3337,7 +4225,10 @@
         "work__hellokitty.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/430749062/rendition/1080p/file.mp4?loc=external&log_user=0&signature=a2b8920015d95b5581d8e9ce9ff31911ae206266ebdec4353a78044a0ff722cb",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 16119917,
+      "etag": "7b5766f09477501eec55315a5af5c08a",
+      "verifiedAt": "2026-10-09T07:23:28Z"
     },
     {
       "key": "videos/vimeo/567132597-1080p.mp4",
@@ -3348,7 +4239,10 @@
         "work__estee-lauder.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/567132597/rendition/1080p/file.mp4?loc=external&log_user=0&signature=56fe87d8fc839822cde6d76dd825e30576db2dbe9e93f6ab3b21193e0f421e89",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 19787887,
+      "etag": "dc00adcfd631616f52c1d5db5204fa13",
+      "verifiedAt": "2026-10-09T07:23:29Z"
     },
     {
       "key": "videos/vimeo/571724525-1080p.mp4",
@@ -3359,7 +4253,10 @@
         "work__chobani.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/571724525/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0665b27873d37a19d55a84747c7ce27d61cc6749aedbcbe3850090978ffd1395",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 52975511,
+      "etag": "f78fc8e9df7202e431055c01369c4454",
+      "verifiedAt": "2026-10-09T07:23:30Z"
     },
     {
       "key": "videos/vimeo/589315310-1440p.mp4",
@@ -3370,7 +4267,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/589315310/rendition/1440p/file.mp4?loc=external&log_user=0&signature=819570545c3c3c5988094b0c48dab4998557061e10faebb36fccd85f6efcd977",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 21701408,
+      "etag": "2a3e5862a5169bb8df6f9237c2d32542",
+      "verifiedAt": "2026-10-09T07:23:30Z"
     },
     {
       "key": "videos/vimeo/589324765-1440p.mp4",
@@ -3381,7 +4281,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/589324765/rendition/1440p/file.mp4?loc=external&log_user=0&signature=9820aa38d2fa7aa45ac4ec223a286a318c63b188ca66632690923918636db864",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 42846698,
+      "etag": "ab6145f98c7fe630cac6b13951cf902d",
+      "verifiedAt": "2026-10-09T07:23:31Z"
     },
     {
       "key": "videos/vimeo/589342478-1440p.mp4",
@@ -3392,7 +4295,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/589342478/rendition/1440p/file.mp4?loc=external&log_user=0&signature=e06537c7ae207015fb92361cab1c3b3c511646c7f4b0e84b2e15a67155308e40",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 29228640,
+      "etag": "baa962f22490597753d190bd5fe496fc",
+      "verifiedAt": "2026-10-09T07:23:31Z"
     },
     {
       "key": "videos/vimeo/59307905-1440p.mp4",
@@ -3403,7 +4309,10 @@
         "work__everything-i-can-see-from-here.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/59307905/rendition/1440p/file.mp4?loc=external&log_user=0&signature=72d5249ecd45fa682b06284f5c510d069feb5499ab951330f61e3e59b2984152&user_id=3572388",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 88499561,
+      "etag": "82cc5e418448804ec871849f151d6193",
+      "verifiedAt": "2026-10-09T07:23:34Z"
     },
     {
       "key": "videos/vimeo/593334284-1440p.mp4",
@@ -3414,7 +4323,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/593334284/rendition/1440p/file.mp4?loc=external&log_user=0&signature=af8d516891b489bd96877801381cc9084d573dd0d5426fec085d17a8d4294f6f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 47269361,
+      "etag": "d55fbc89de1100557dddb0e903d41cc0",
+      "verifiedAt": "2026-10-09T07:23:34Z"
     },
     {
       "key": "videos/vimeo/593335061-1440p.mp4",
@@ -3425,7 +4337,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/593335061/rendition/1440p/file.mp4?loc=external&log_user=0&signature=8dafd1babb1577305bb8111c9b99e72b0105d2624ad93844c1aabd37bdfb1269",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 44708733,
+      "etag": "a6492be213b640d3a7d06f141f1466af",
+      "verifiedAt": "2026-10-09T07:23:33Z"
     },
     {
       "key": "videos/vimeo/593335364-1440p.mp4",
@@ -3436,7 +4351,10 @@
         "work__mavrello-ballovic.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/593335364/rendition/1440p/file.mp4?loc=external&log_user=0&signature=5613961109d19d7a25a6ab2b447a619d50c6e23f86bf7fdaf64c2b6590db1754",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 57785994,
+      "etag": "fd59c76a154361c787daef28559c0b69",
+      "verifiedAt": "2026-10-09T07:23:34Z"
     },
     {
       "key": "videos/vimeo/61813841-720p.mp4",
@@ -3447,7 +4365,10 @@
         "work__porter-robinson-easy.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/61813841/rendition/720p/file.mp4?loc=external&log_user=0&signature=16388a881baaaff0bf7a12d8e64496f6905cf4f10fc13155fffa1e20a831e03f",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 57182032,
+      "etag": "13845534eb203743c0284274c5000999",
+      "verifiedAt": "2026-10-09T07:23:36Z"
     },
     {
       "key": "videos/vimeo/63884838-720p.mp4",
@@ -3458,7 +4379,10 @@
         "work__everything-i-can-see-from-here.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/63884838/rendition/720p/file.mp4?loc=external&log_user=0&signature=c0b6feb1a57969008dcb03c5b2384f05dde5295f05beebeb08ab71a841529c55",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 18667772,
+      "etag": "21c82fbaa950257f9989d8b92ff7654c",
+      "verifiedAt": "2026-10-09T07:23:36Z"
     },
     {
       "key": "videos/vimeo/639558021-1080p.mp4",
@@ -3469,7 +4393,10 @@
         "work__mercedes-benz.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/639558021/rendition/1080p/file.mp4?loc=external&log_user=0&signature=7c91169b457a2cccf85660f7f03429fba6bcd438725b4f85fba1ccf4804f439b",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 23953387,
+      "etag": "bdc12fc695443f90f12d2c12f94cf542",
+      "verifiedAt": "2026-10-09T07:23:35Z"
     },
     {
       "key": "videos/vimeo/719098608-1440p.mp4",
@@ -3480,7 +4407,10 @@
         "work__theline-experiments.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/719098608/rendition/1440p/file.mp4?loc=external&log_user=0&signature=ec0d38e901240f9ed70e9bb0a7361aeba51205c99405108e3a4a7c85a0dc9d53",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 53901448,
+      "etag": "789bd669b3553fa1a1d94b421fc6d2a5",
+      "verifiedAt": "2026-10-09T07:23:37Z"
     },
     {
       "key": "videos/vimeo/781859655-1080p.mp4",
@@ -3491,7 +4421,10 @@
         "work__hero-marvel-snap.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/781859655/rendition/1080p/file.mp4?loc=external&log_user=0&signature=3a21bf4baa1a1f50010b6f7afadd436c2ea7f6bea18ca8db3612d3ab7ffe0653",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 111959107,
+      "etag": "ee647195d440146087804ed2e1ae6e27",
+      "verifiedAt": "2026-10-09T07:23:39Z"
     },
     {
       "key": "videos/vimeo/916764116-1080p.mp4",
@@ -3502,7 +4435,10 @@
         "work__the-great-british-bake-off-2023.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/916764116/rendition/1080p/file.mp4?loc=external&log_user=0&signature=35ae834f0920a48b83fc675c5fa6bbe50926c08f6eadbf5563e6cab090643f0d",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 61041306,
+      "etag": "4dd594a08c443cccf7e5dc9be9df7e78",
+      "verifiedAt": "2026-10-09T07:23:38Z"
     },
     {
       "key": "videos/vimeo/921955845-1080p.mp4",
@@ -3513,7 +4449,10 @@
         "work__delivery-at-dawn.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/921955845/rendition/1080p/file.mp4?loc=external&log_user=0&signature=cfca07b193ac7c1ba902eb03574162a6c973e4de3277484c2a19a0e2cdf863ef",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 42893914,
+      "etag": "49743c33fcfd5067e6afee78ef04bbeb",
+      "verifiedAt": "2026-10-09T07:23:39Z"
     },
     {
       "key": "videos/vimeo/954732965-1080p.mp4",
@@ -3524,7 +4463,10 @@
         "work__battle-aces.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/954732965/rendition/1080p/file.mp4?loc=external&log_user=0&signature=2df1e8877f83fef5bc09e8fc7966b4b2c3b0401e999360172812b528812a29fe",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 75508612,
+      "etag": "fc64a8bab2e200789f613f9cb9a66024",
+      "verifiedAt": "2026-10-09T07:23:40Z"
     },
     {
       "key": "videos/vimeo/997740390-1080p.mp4",
@@ -3535,7 +4477,10 @@
         "work__cowboy-bebop.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/997740390/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0115c497ff3de3b6985a7b488419e5f35d47ca3d2d8df20151dc9cbfdbb92600",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 53917231,
+      "etag": "b6b0e0a8b4e8fdb5b462f950cbb12ab3",
+      "verifiedAt": "2026-10-09T07:23:41Z"
     },
     {
       "key": "videos/vimeo/997740880-1080p.mp4",
@@ -3546,7 +4491,10 @@
         "work__cowboy-bebop.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/997740880/rendition/1080p/file.mp4?loc=external&log_user=0&signature=f4282577a0c68728509d8f7908538bab3ae687839a2cac531ebfc4ddcc8090e5",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 6765897,
+      "etag": "000e28ddb98c448059b7915ee270d6e4",
+      "verifiedAt": "2026-10-09T07:23:41Z"
     },
     {
       "key": "videos/vimeo/997740880-720p.mp4",
@@ -3557,7 +4505,10 @@
         "work__cowboy-bebop.json"
       ],
       "downloadUrl": "https://player.vimeo.com/progressive_redirect/playback/997740880/rendition/720p/file.mp4?loc=external&log_user=0&signature=c676d82d99b1f9799e11b75e00750615a56aa4d8fbda30a91a18c6d066e73032",
-      "status": "pending"
+      "status": "verified",
+      "bytes": 2961101,
+      "etag": "04204cc7a4735781c43cc8271c6ab7c5",
+      "verifiedAt": "2026-10-09T07:23:41Z"
     }
   ],
   "unsupported": [
