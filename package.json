@@ -22,10 +22,9 @@
     "media:browser": "node scripts/verify-r2-browser.mjs",
     "media:deploy": "wrangler deploy --config workers/media/wrangler.jsonc",
     "workers:prepare": "node scripts/prepare-workers.mjs",
-    "workers:upload-media": "node scripts/upload-local-media.mjs",
-    "workers:dev": "npm run build && node scripts/upload-local-media.mjs --local && wrangler dev",
+    "workers:dev": "npm run build && node scripts/seed-local-media.mjs && wrangler dev",
     "deploy:check": "npm run build && wrangler deploy --dry-run",
-    "deploy": "npm run build && npm run workers:upload-media && wrangler deploy",
+    "deploy": "npm run build && wrangler deploy",
     "workers:test": "node --test scripts/test-site-worker.mjs"
   },
   "dependencies": {

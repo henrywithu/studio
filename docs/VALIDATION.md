@@ -64,6 +64,10 @@ The preceding reference geometry measurements describe the earlier reconstructio
 - The generated brand assets and primary pages were inspected at desktop and mobile sizes. Studio photography on Home, About and Contact now uses the main Trapnest journal’s featured images; underlying 3D, video and motion assets stay intact.
 - Strict TypeScript, Vite build, all 114 production HTML metadata checks, sitemap/robots/404 checks, local Workers R2 streaming/range/HEAD tests and Wrangler dry run passed.
 - The actual local Workers runtime served Home, About, Contact, Journal and an archive deep link with correct canonical/OG metadata. Unknown pages and missing JSON return HTTP 404. The OG asset returns HTTP 200 and client navigation updates metadata.
-- Workers packaging contains 3,308 eligible files. Two unchanged oversized local MP4s are excluded only from the upload copy and served through R2 at their original URLs. Local preview seeds exact files into simulated R2; production deployment uploads only those two new `videos/local/` keys.
+- Workers packaging contains 3,308 eligible files. Two unchanged oversized local MP4s are excluded only from the upload copy and served through R2 at their original URLs. Local preview seeds exact files into simulated R2; production now reuses byte-identical objects already present in the verified R2 collection.
 
 The 317 R2 renditions were already verified in the preceding milestone; this task preserved that evidence rather than repeating remote reachability checks. No production deployment, DNS change or production R2 upload was performed during the rebrand. See [Cloudflare deployment](CLOUDFLARE.md).
+
+## Production deployment follow-up — 9 October 2026
+
+Cloudflare Workers Builds successfully deployed Worker `studio` to studio.henrywithu.com. The repository config now uses the same Worker name. The two oversized local-video URLs originally returned 404 because CI did not run the extra upload command. Inspection showed that both files already exist in the 317 verified Vimeo renditions, with exactly matching sizes and MD5 hashes. The URL mapping now reuses those existing R2 keys, eliminating the production upload step. Local seeding is explicitly local-only. Standard CI commands are `npm run build` and `npx wrangler deploy`.

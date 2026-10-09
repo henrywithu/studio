@@ -1,19 +1,19 @@
 # Deploy Trapnest Studio to Cloudflare Workers
 
-The production hostname is **studio.henrywithu.com**. `wrangler.jsonc` configures the `trapnest-studio` Worker, its custom domain, static assets and the existing `studio` R2 bucket. This setup has been validated locally; the site has not been deployed by this branding task.
+The production hostname is **studio.henrywithu.com**. `wrangler.jsonc` configures the `studio` Worker, its custom domain, static assets and the existing `studio` R2 bucket. Cloudflare Workers Builds deployed the site on 9 October 2026. The configuration name matches the connected Worker, `studio`.
 
 ## Deploy
 
-Use the Cloudflare account that owns `henrywithu.com` and the existing `studio` bucket. Authenticate Wrangler through your usual login or a `CLOUDFLARE_API_TOKEN` supplied outside the repository. The identity needs Workers deployment, R2 write access for the two local files, and permissions for the custom domain in that zone.
+Use the Cloudflare account that owns `henrywithu.com` and the existing `studio` bucket. Authenticate Wrangler through your usual login or a `CLOUDFLARE_API_TOKEN` supplied outside the repository. The identity needs Workers deployment, permissions for the custom domain in that zone.
 
 ```sh
 npm ci
 npm run deploy:check   # Build, prepare, validate; no production or R2 changes
 npm run workers:test  # Local R2 delivery and metadata checks; run after the build
-npm run deploy        # Build, upload two local files to R2, deploy the site Worker
+npm run deploy        # Build and deploy the site Worker; no R2 uploads
 ```
 
-For Cloudflare Workers Builds connected to this repository, select `main`, use `npm run build` as the build command and `npm run workers:upload-media && npx wrangler deploy` as the deploy command. The standard build automatically runs `postbuild` to create `.cloudflare/assets`; no separate preparation command is needed. The upload step handles only the two oversized local videos and requires R2 write permission. `npm run deploy` also supports deployment from a local authenticated machine or CI.
+For Cloudflare Workers Builds connected to this repository, select `main`, use `npm run build` as the build command and `npx wrangler deploy` as the deploy command. The standard build automatically runs `postbuild` to create `.cloudflare/assets`; no separate preparation command is needed. Production uses existing R2 objects and needs no media upload step. `npm run deploy` also supports deployment from a local authenticated machine or CI.
 
 Wrangler attaches `studio.henrywithu.com` as a custom domain and provisions its certificate. If an existing DNS record already occupies that exact hostname, resolve that record in the Cloudflare dashboard before attaching the custom domain. The main Trapnest site uses a different hostname.
 
@@ -25,10 +25,12 @@ Two original local MP4s exceed Workers' 25 MiB static asset limit:
 
 | Existing URL | Bytes | R2 key |
 | --- | ---: | --- |
-| `/media/748af0586f32345b.mp4` | 39,750,246 | `videos/local/748af0586f32345b.mp4` |
-| `/media/e89d3045a7786331.mp4` | 29,125,022 | `videos/local/e89d3045a7786331.mp4` |
+| `/media/748af0586f32345b.mp4` | 39,750,246 | `videos/vimeo/1168089886-1440p.mp4` |
+| `/media/e89d3045a7786331.mp4` | 29,125,022 | `videos/vimeo/1075238854-1440p.mp4` |
 
-The deployment command uploads the unchanged files to those new keys. The site Worker streams them at their existing URLs, using the existing range/HEAD/conditional-request delivery implementation. Only those two URLs route through the Worker; it does not expose arbitrary R2 keys. Repeating deployment writes the same local bytes to the same two keys.
+These files are byte-identical to two already-verified objects in the Vimeo migration. Their sizes and MD5 hashes match the recorded R2 ETags. The site Worker reads those existing keys and streams them at the original local URLs, with range/HEAD/conditional-request support. Only those two URLs route through the Worker; it does not expose arbitrary R2 keys. No additional media upload or R2 write permission is needed.
+
+Keep Cloudflare Workers Builds connected to the `studio` Worker. The config name matches it, so CLI deployment also targets the same Worker as CI.
 
 The original local assets remain in `public/` and `dist/` for Vite development and preview. The build's `postbuild` lifecycle runs `scripts/prepare-workers.mjs`, creating an ignored `.cloudflare/assets/` copy without the two oversized files and verifying all remaining files against the static asset size and count limits. `workers:prepare` can also run this step independently. Never deploy raw `dist/` with Wrangler, because it includes those oversized originals.
 

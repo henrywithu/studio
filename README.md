@@ -21,4 +21,4 @@ npm run workers:test
 npm run deploy
 ```
 
-See [deployment instructions](docs/CLOUDFLARE.md). The deploy command prepares the assets, uploads only the two oversized local MP4s under a new R2 prefix, then deploys `trapnest-studio` at **studio.henrywithu.com**. The 317 existing verified R2 renditions are untouched. Authentication uses your Cloudflare account; no secrets belong in the repository.
+See [deployment instructions](docs/CLOUDFLARE.md). The deploy command prepares the assets and deploys `studio` at **studio.henrywithu.com**. The two oversized local-video URLs reuse byte-identical objects from the 317 verified R2 renditions; no media upload is needed. Authentication uses your Cloudflare account; no secrets belong in the repository.

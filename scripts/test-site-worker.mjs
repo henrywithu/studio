@@ -4,6 +4,20 @@ import { test } from "node:test";
 import { build } from "esbuild";
 import { Miniflare, convertV4MiniflareOptions } from "miniflare";
 import { load } from "cheerio";
+import { createHash } from "node:crypto";
+
+test("oversized local URLs reuse byte-identical verified R2 objects", async () => {
+  const media = JSON.parse(await readFile("workers/site/local-media.json", "utf8"));
+  const manifest = JSON.parse(await readFile("docs/evidence/r2-videos.json", "utf8"));
+  for (const item of media) {
+    const entry = manifest.entries.find(entry => entry.key === item.key);
+    assert(entry, "Mapping must reference an existing verified object");
+    assert.equal(entry.status, "verified");
+    const bytes = await readFile("public" + item.path);
+    assert.equal(bytes.byteLength, entry.bytes);
+    assert.equal(createHash("md5").update(bytes).digest("hex"), entry.etag.replaceAll('"', ""));
+  }
+});
 
 test("standard build prepares Wrangler assets while retaining original oversized videos", async () => {
   const config = JSON.parse(await readFile("wrangler.jsonc", "utf8"));
@@ -30,7 +44,7 @@ test("site serves oversized media at unchanged URLs with seeking and restricted 
   try {
     const bucket = await mf.getR2Bucket("LOCAL_VIDEOS");
     const bytes = new Uint8Array(256).map((_, i) => i);
-    await bucket.put("videos/local/748af0586f32345b.mp4", bytes);
+    await bucket.put("videos/vimeo/1168089886-1440p.mp4", bytes);
     await bucket.put("private.mp4", bytes);
     const url = "https://studio.test/media/748af0586f32345b.mp4";
     const full = await mf.dispatchFetch(url);
@@ -44,7 +58,7 @@ test("site serves oversized media at unchanged URLs with seeking and restricted 
     assert.equal(head.headers.get("Content-Length"), "256");
     assert.equal((await head.arrayBuffer()).byteLength, 0);
     assert.equal((await mf.dispatchFetch(url, { method: "POST" })).status, 405);
-    for (const path of ["/", "/about/", "/brand/og.jpg", "/videos/local/748af0586f32345b.mp4", "/private.mp4"])
+    for (const path of ["/", "/about/", "/brand/og.jpg", "/videos/vimeo/1168089886-1440p.mp4", "/private.mp4"])
       assert.equal(await (await mf.dispatchFetch("https://studio.test" + path)).text(), "static:" + path);
     assert.equal((await mf.dispatchFetch("https://studio.test/media/e89d3045a7786331.mp4")).status, 404);
   } finally { await mf.dispose(); }
