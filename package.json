@@ -11,7 +11,14 @@
     "verify": "node scripts/verify-studio.mjs",
     "compare": "node scripts/compare-reference.mjs",
     "research:replay": "node scripts/serve-reference.mjs",
-    "evidence": "node scripts/export-evidence.mjs"
+    "evidence": "node scripts/export-evidence.mjs",
+    "media:plan": "python3 scripts/r2-videos.py plan",
+    "media:refresh": "python3 scripts/r2-videos.py refresh",
+    "media:upload": "python3 scripts/r2-videos.py upload",
+    "media:apply": "python3 scripts/r2-videos.py apply",
+    "media:verify": "python3 scripts/r2-videos.py verify",
+    "media:test": "node --test scripts/test-r2-media.mjs",
+    "media:deploy": "wrangler deploy --config workers/media/wrangler.jsonc"
   },
   "dependencies": {
     "gsap": "^3.14.2",
@@ -25,9 +32,11 @@
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.1.1",
     "cheerio": "^1.2.0",
+    "miniflare": "^5.20261006.1-alpha",
     "playwright": "^1.56.1",
     "prettier": "^3.6.2",
     "typescript": "^5.9.3",
-    "vite": "^7.2.2"
+    "vite": "^7.2.2",
+    "wrangler": "^4.149.0"
   }
 }

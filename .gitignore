@@ -9,4 +9,9 @@ playwright-report/
 test-results/
 .DS_Store
 *.tsbuildinfo
+.wrangler/
+.dev.vars*
+workers/**/worker-configuration.d.ts
+worker-configuration.d.ts
+__pycache__/
 research/*.json

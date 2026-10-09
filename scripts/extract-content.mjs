@@ -2,6 +2,7 @@ import { readFile, writeFile, readdir, mkdir, unlink } from "node:fs/promises";
 import { load } from "cheerio";
 import { createHash } from "node:crypto";
 import { decodePayload } from "./decode-payload.mjs";
+import { execFileSync } from "node:child_process";
 const root = "research/reference";
 await mkdir("public/content", { recursive: true });
 await mkdir("src/content", { recursive: true });
@@ -660,6 +661,13 @@ try {
     await writeFile("public/content/" + file, data);
   }
 } catch {}
+// Re-extraction retains successfully verified R2 URLs, including nested thumbnail data.
+try {
+  await readFile("docs/evidence/r2-videos.json");
+  execFileSync("python3", ["scripts/r2-videos.py", "apply"], { stdio: "inherit" });
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
 console.log(
   "Extracted",
   n,
