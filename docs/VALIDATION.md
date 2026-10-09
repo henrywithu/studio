@@ -77,3 +77,9 @@ Cloudflare Workers Builds successfully deployed Worker `studio` to studio.henryw
 The two Home journal photos decoded successfully on production, but their red loading overlays remained visible. The image load handler only recognized the original `/assets/` paths, excluding the new `/images/journal/` files. It now handles every image path while retaining the existing overlay fade and all motion/media code.
 
 The production build passes. `npm run verify:images` checks decoded photos and transparent loading overlays at 1440px and 390px, on initial load, reload and client navigation back to Home, with normal animations. All six local checks pass. Run against deployment with `STUDIO_ORIGIN=https://studio.henrywithu.com npm run verify:images`.
+
+## Navigation and photo-stack follow-up — 9 October 2026
+
+The live reference was inspected at 1440px and 390px. Its navigation shows one active dot, compresses links before the active route, and blinks labels on hover/click. Studio previously animated each hovered dot and shifted later links, leaving stale dots and incorrect spacing after route changes. Route state now owns the dot and spacing; mobile menu icons use the reference's staggered blink sequence. All 13 existing normal-motion interaction checks pass, including original audio, film controls, navigation and the mobile menu. A rapid-hover sequence followed by Journal navigation leaves exactly one visible dot.
+
+Home's journal imagery now uses the reference's 2:3 portrait frames and overlap while retaining the original scroll-driven rotations. The front crop centers the design sculpture. Both frame aspect ratios were checked in Chromium and the desktop layout was visually inspected. The header mark uses white on the reference's red/light-header backgrounds for legibility.

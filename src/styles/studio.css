@@ -105,6 +105,11 @@ input:focus-visible {
 }
 
 /* Trapnest identity uses the existing animation hooks and layout. */
+.home-about__fig > .base-image { aspect-ratio: 2 / 3; overflow: hidden; }
+.home-about__fig .base-image__img { width: 100%; height: 100%; object-fit: cover; }
+.home-about__fig:first-child .base-image__img { object-position: 70% 50%; }
+.header--light .header-logo__svg image,
+.header--nav-open .header-logo__svg image { filter: brightness(0) invert(1); }
 .header-logo__link { width: 16.5rem; height: 4.4rem; }
 .header-logo__svg { width: 100%; height: 100%; overflow: visible; }
 .preloader__r { clip-path: none; width: auto; height: auto; font-size: 2rem; letter-spacing: .18em; font-weight: 470; }

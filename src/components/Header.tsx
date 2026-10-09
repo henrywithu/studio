@@ -11,14 +11,36 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
     const links = Array.from(
       header.querySelectorAll<HTMLAnchorElement>(".nav-item__link"),
     );
-    links.forEach((link) => {
+    const activeIndex = links.findIndex((link) => {
       const href = link.getAttribute("href")!;
-      const active = href === "/" ? route === "/" : route.startsWith(href);
+      const path = route.replace(/\/$/, "") || "/";
+      return href === path || (href !== "/" && path.startsWith(href + "/"));
+    });
+    header.classList.toggle(
+      "header--shop",
+      route.replace(/\/$/, "") === "/shop",
+    );
+    links.forEach((link, index) => {
+      const href = link.getAttribute("href")!;
+      const active = index === activeIndex;
       link.classList.toggle("router-link-active", active);
       link.classList.toggle("router-link-exact-active", href === route);
+      link
+        .closest(".nav-item")
+        ?.classList.toggle("nav-item--translated", index < activeIndex);
+      gsap.set(link.querySelector(".dot"), { clearProps: "transform" });
       if (active) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
     });
+    const logo = header.querySelector(".header-logo__link")!;
+    logo.classList.toggle("router-link-active", activeIndex === 0);
+    logo.classList.toggle("router-link-exact-active", activeIndex === 0);
+    if (activeIndex === 0) logo.setAttribute("aria-current", "page");
+    else logo.removeAttribute("aria-current");
+    const burger = header.querySelectorAll(".nav-toggle__svg--burger path");
+    const cross = header.querySelectorAll(".nav-toggle__svg--close path");
+    gsap.set(burger, { opacity: 1 });
+    gsap.set(cross, { opacity: 0 });
     function toggle() {
       const open = header.classList.toggle("header--nav-open");
       document.body.classList.toggle("oh", open);
@@ -26,20 +48,28 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
       header
         .querySelector(".nav-toggle")
         ?.setAttribute("aria-expanded", String(open));
-      gsap.to(header.querySelector(".nav-toggle__svg--burger"), {
-        opacity: open ? 0 : 1,
-        duration: 0.2,
-      });
-      gsap.to(header.querySelectorAll(".nav-toggle__svg--close path"), {
-        opacity: open ? 1 : 0,
-        stagger: 0.05,
-        duration: 0.2,
-      });
+      header
+        .querySelector(".nav-toggle")
+        ?.setAttribute(
+          "aria-label",
+          open ? "Close navigation" : "Open navigation",
+        );
+      gsap.killTweensOf([...burger, ...cross]);
+      const hide = open ? burger : cross;
+      const show = open ? cross : burger;
+      gsap
+        .timeline()
+        .set(hide, { opacity: 0, stagger: 0.05 }, 0)
+        .set(hide, { opacity: 1, stagger: 0.05 }, 0.08)
+        .set(hide, { opacity: 0, stagger: 0.05 }, 0.16)
+        .set(show, { opacity: 1, stagger: 0.05 }, 0.35)
+        .set(show, { opacity: 0, stagger: 0.05 }, 0.43)
+        .set(show, { opacity: 1, stagger: 0.05 }, 0.51);
       if (open) lenis.stop();
       else lenis.start();
     }
     const button = header.querySelector(".nav-toggle");
-    button?.setAttribute("aria-label", "Toggle navigation");
+    button?.setAttribute("aria-label", "Open navigation");
     button?.setAttribute("aria-expanded", "false");
     button?.addEventListener("click", toggle);
     const escape = (event: KeyboardEvent) => {
@@ -50,33 +80,24 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
         toggle();
     };
     window.addEventListener("keydown", escape);
-    const hover = (event: Event) => {
-      gsap.to((event.currentTarget as Element).querySelector(".dot"), {
-        scale: 1,
-        duration: 0.4,
-        ease: "expoOut",
-      });
-      const index = links.indexOf(event.currentTarget as HTMLAnchorElement);
-      header
-        .querySelectorAll(".nav-item")
-        .forEach((li, i) =>
-          li.classList.toggle("nav-item--translated", i >= index),
-        );
-    };
-    const leave = (event: Event) => {
-      const link = event.currentTarget as HTMLAnchorElement;
-      gsap.to(link.querySelector(".dot"), {
-        scale: link.classList.contains("router-link-active") ? 1 : 0,
-        duration: 0.4,
-        ease: "expoOut",
-      });
-      header
-        .querySelectorAll(".nav-item")
-        .forEach((li) => li.classList.remove("nav-item--translated"));
+    const animateLabel = (event: Event) => {
+      const label = (event.currentTarget as Element).querySelector(
+        ".link__label",
+      );
+      gsap.killTweensOf(label);
+      if (event.type === "click") {
+        blink(label).set(label, { clearProps: "opacity" });
+        if (header.classList.contains("header--nav-open")) toggle();
+      } else {
+        gsap
+          .timeline()
+          .set(label, { opacity: 0 })
+          .set(label, { opacity: 1, clearProps: "opacity" }, 0.09);
+      }
     };
     links.forEach((link) => {
-      link.addEventListener("mouseenter", hover);
-      link.addEventListener("mouseleave", leave);
+      link.addEventListener("mouseenter", animateLabel);
+      link.addEventListener("click", animateLabel);
     });
     header
       .querySelectorAll(".header-status > .dot")
@@ -91,13 +112,22 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
     return () => {
       button?.removeEventListener("click", toggle);
       window.removeEventListener("keydown", escape);
+      const wasOpen = header.classList.contains("header--nav-open");
       document.body.classList.remove("oh");
       header.classList.remove("header--nav-open");
       header.querySelector(".nav")?.classList.remove("nav--open");
-      lenis.start();
+      if (wasOpen) lenis.start();
+      gsap.killTweensOf([
+        ...burger,
+        ...cross,
+        ...header.querySelectorAll(".link__label"),
+      ]);
+      gsap.set(header.querySelectorAll(".link__label"), {
+        clearProps: "opacity",
+      });
       links.forEach((link) => {
-        link.removeEventListener("mouseenter", hover);
-        link.removeEventListener("mouseleave", leave);
+        link.removeEventListener("mouseenter", animateLabel);
+        link.removeEventListener("click", animateLabel);
       });
     };
   }, [route]);
@@ -106,19 +136,15 @@ export function Header({ route, ready }: { route: string; ready: boolean }) {
     header.classList.toggle("header--preloader", !ready);
     header.classList.toggle("header--preloader-done", ready);
     if (ready) {
-      const theme =
-        ["/", "/shop", "/contact", "/blog"].includes(route) ||
-        route.startsWith("/work/")
-          ? "light"
-          : "dark";
-      header.classList.toggle("header--light", theme === "light");
-      header.classList.toggle("header--dark", theme === "dark");
       const tl = gsap.timeline();
       header
         .querySelectorAll(".nav-item__link,.header-status,.header-location")
         .forEach((element, i) => tl.add(blink(element), i * 0.04));
+      return () => {
+        tl.kill();
+      };
     }
-  }, [ready, route]);
+  }, [ready]);
   return (
     <div ref={ref} className="chrome-root">
       <Content node={chrome.header as ElementNode} />
