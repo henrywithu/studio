@@ -1,0 +1,28 @@
+.button-pill {
+  -webkit-backdrop-filter: blur(2.5rem);
+  backdrop-filter: blur(2.5rem);
+  background-color: #c9c9c999;
+  border-radius: 4rem;
+  color: #f8f8f8;
+  -moz-column-gap: 0.4rem;
+  column-gap: 0.4rem;
+  display: flex;
+  padding: 0.6rem 0.8rem 0.4rem 0.6rem;
+}
+@media (min-width: 1024px) {
+  .button-pill {
+    align-items: center;
+    border-radius: 2.31481vw;
+    -moz-column-gap: 0.34722vw;
+    column-gap: 0.34722vw;
+    padding: 0.40509vw 0.69444vw 0.40509vw 0.5787vw;
+  }
+}
+.button-pill--no-dot {
+  padding-left: 1rem;
+}
+@media (min-width: 1024px) {
+  .button-pill--no-dot {
+    padding-left: 0.69444vw;
+  }
+}

@@ -1,7 +1,7 @@
 import concurrent.futures,urllib.request,re,json
 from pathlib import Path
 from html.parser import HTMLParser
-root=Path('/workspace/studio/research/reference');base='https://thelinestudio.com'
+root=Path(__file__).resolve().parent.parent/'research/reference';base='https://thelinestudio.com'
 class Parser(HTMLParser):
  def __init__(self):super().__init__();self.links=[];self.styles=[];self.mode='';self.body=False;self.text=[]
  def handle_starttag(self,t,a):

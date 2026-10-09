@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET,urllib.request,concurrent.futures,json
 from pathlib import Path
-root=Path('/workspace/studio/research/reference')
+root=Path(__file__).resolve().parent.parent/'research/reference'
 urls=[x.text for x in ET.parse(root/'sitemap.xml').iter() if x.tag.endswith('}loc')]
 def fetch(url):
  name=url.removeprefix('https://thelinestudio.com/').replace('/','__') or 'home'

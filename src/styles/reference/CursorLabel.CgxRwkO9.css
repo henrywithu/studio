@@ -1,0 +1,12 @@
+.cursor-label {
+  color: #f8f8f8;
+  left: calc(100% + 2rem);
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  white-space: nowrap;
+  z-index: 1;
+}
+.cursor-label--visible {
+  opacity: 1;
+}

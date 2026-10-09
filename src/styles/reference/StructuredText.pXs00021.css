@@ -1,0 +1,19 @@
+.structured-text p:not(:first-child) {
+  padding-top: 1em;
+}
+.structured-text h3:not(:last-child) {
+  padding-bottom: 0.15em;
+}
+.structured-text a {
+  text-decoration: underline;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .structured-text a {
+    transition: color 0.8s cubic-bezier(0.14, 1, 0.34, 1);
+  }
+}
+@media (hover: hover) {
+  .structured-text a:hover {
+    color: #ff391e;
+  }
+}

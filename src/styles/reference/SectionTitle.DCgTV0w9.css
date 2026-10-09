@@ -1,0 +1,28 @@
+.section-title {
+  color: currentColor;
+  display: flex;
+  padding-bottom: 1.6rem;
+}
+@media (min-width: 1024px) {
+  .section-title {
+    padding-bottom: 0.92593vw;
+  }
+}
+.section-title--pt {
+  padding-bottom: unset;
+  padding-top: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .section-title--pt {
+    padding-top: 0.34722vw;
+  }
+}
+.section-title--light {
+  color: #f8f8f8;
+  padding-bottom: 1.6rem;
+}
+@media (min-width: 1024px) {
+  .section-title--light {
+    padding-bottom: 1.44676vw;
+  }
+}

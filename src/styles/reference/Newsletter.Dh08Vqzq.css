@@ -1,0 +1,82 @@
+.form-input {
+  border-bottom: 0.1rem solid;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-input__el-wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.form-input__el {
+  background-color: transparent;
+  border: none;
+  color: currentColor;
+  width: 100%;
+}
+.form-input__el.h3 {
+  line-height: 0.8;
+}
+.form-input__el::-moz-placeholder {
+  color: #f8f8f8;
+  font-weight: 470;
+}
+.form-input__el::placeholder {
+  color: #f8f8f8;
+  font-weight: 470;
+}
+.form-input__el:-ms-input-placeholder {
+  color: #f8f8f8;
+  font-weight: 470;
+}
+.form-input__el::-ms-input-placeholder {
+  color: #f8f8f8;
+  font-weight: 470;
+}
+.form-input__el:-webkit-autofill,
+.form-input__el:-webkit-autofill:active,
+.form-input__el:-webkit-autofill:focus,
+.form-input__el:-webkit-autofill:hover {
+  -webkit-text-fill-color: #fff;
+  background-color: #ff391e;
+  color: #f8f8f8;
+  -webkit-transition: background-color 5000s;
+  transition: background-color 5000s;
+}
+.newsletter {
+  color: #f8f8f8;
+  position: relative;
+}
+.newsletter .form-input__el {
+  padding-right: 3rem;
+}
+@media (min-width: 1024px) {
+  .newsletter .form-input__el {
+    padding-right: 4.05093vw;
+  }
+}
+.newsletter__message {
+  bottom: 100%;
+  color: #f8f8f8;
+  left: 0;
+  position: absolute;
+}
+.newsletter__btn {
+  color: currentColor;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.newsletter__svg {
+  height: 2.2rem;
+  width: 2.5rem;
+}
+@media (min-width: 1024px) {
+  .newsletter__svg {
+    height: 3.06713vw;
+    width: 3.47222vw;
+  }
+}

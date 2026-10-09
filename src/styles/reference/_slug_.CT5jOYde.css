@@ -1,0 +1,42 @@
+.article-hero {
+  padding-bottom: 17.4rem;
+}
+@media (min-width: 1024px) {
+  .article-hero {
+    padding-bottom: 20.08102vw;
+  }
+}
+.article-hero .module-subtitle-copy {
+  padding-top: 0.8rem;
+}
+@media (min-width: 1024px) {
+  .article-hero .module-subtitle-copy {
+    padding-top: 0.46296vw;
+  }
+}
+.article-hero .player-alt,
+.article-hero__wrapper {
+  background-color: #dddee2;
+}
+.article-hero__title {
+  min-height: 33.4rem;
+  padding-bottom: 2rem;
+  padding-top: 4.6rem;
+}
+@media (min-width: 1024px) {
+  .article-hero__title {
+    min-height: 39.35185vw;
+    padding-bottom: 1.15741vw;
+    padding-top: 2.66204vw;
+  }
+}
+.article-hero__fig {
+  aspect-ratio: 392/560;
+  margin: 0 0.8rem;
+}
+@media (min-width: 1024px) {
+  .article-hero__fig {
+    aspect-ratio: 1710/962;
+    margin: 0 0.46296vw;
+  }
+}

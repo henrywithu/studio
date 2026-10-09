@@ -8,3 +8,5 @@ research/browser/
 playwright-report/
 test-results/
 .DS_Store
+*.tsbuildinfo
+research/*.json

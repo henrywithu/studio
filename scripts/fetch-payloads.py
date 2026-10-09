@@ -1,6 +1,6 @@
 import concurrent.futures,urllib.request,re,html
 from pathlib import Path
-root=Path('/workspace/studio/research/reference');tasks={}
+root=Path(__file__).resolve().parent.parent/'research/reference';tasks={}
 for p in (root/'pages').glob('*.html'):
  s=p.read_text()
  for u in re.findall(r'(?:href|data-src)="([^"]*(?:_payload.json|/_nuxt/)[^"]*)"',s):
@@ -9,7 +9,7 @@ for p in (root/'pages').glob('*.html'):
   else: dest=root/u.lstrip('/').split('?')[0]
   if not dest.exists():tasks[u]=dest
 for u in ['/fonts/DenimVF.woff2','/fonts/DenimVF.woff','/favicons/dark/favicon-32x32.png']:
- tasks[u]=Path('/workspace/studio/public')/u.lstrip('/')
+ tasks[u]=Path(__file__).resolve().parent.parent/'public'/u.lstrip('/')
 def fetch(item):
  u,dest=item
  try:

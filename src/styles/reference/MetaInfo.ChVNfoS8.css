@@ -1,0 +1,38 @@
+.meta-info {
+  align-items: flex-end;
+  -moz-column-gap: 0.8rem;
+  column-gap: 0.8rem;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  row-gap: 0.8rem;
+}
+@media (min-width: 1024px) {
+  .meta-info {
+    align-items: center;
+    -moz-column-gap: 0.46296vw;
+    column-gap: 0.46296vw;
+    flex-direction: row;
+  }
+}
+.meta-info__originals {
+  height: 1.3rem;
+  width: 5.7rem;
+}
+.meta-info__id-svg {
+  height: 1.3rem;
+  width: 5.2rem;
+}
+.meta-info__id {
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  height: 1.3rem;
+  justify-content: center;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  position: absolute;
+  right: 0.1rem;
+  top: 0;
+  width: 3rem;
+}

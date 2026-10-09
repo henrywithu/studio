@@ -13,7 +13,7 @@ Reference: https://thelinestudio.com/ (snapshot captured 2026-10-09).
 
 ## Global geometry and color
 
-Root font size 62.5% (1rem=10px). Mobile gutter 8px; desktop gutter 0.46296vw. Desktop grid 12 columns; responsive boundaries include 768px and 1024px. Body #dddee2, paper #f8f8f8, ink #0b0b0b, accent #ff391e. Translucent acetates use pure red and `mix-blend-mode:multiply`; this is the red hero effect, not a color grading shader. Native scrollbars are hidden only for hover-capable pointers; a 0.46296vw custom handle is draggable.
+Root font size 62.5% (1rem=10px). Mobile gutter 8px; desktop gutter 0.46296vw. Desktop grid 9 columns (5 on mobile); responsive boundaries include 768px and 1024px. Body #dddee2, paper #f8f8f8, ink #0b0b0b, accent #ff391e. Translucent acetates use pure red and `mix-blend-mode:multiply`; this is the red hero effect, not a color grading shader. Native scrollbars are hidden only for hover-capable pointers; a 0.46296vw custom handle is draggable.
 
 ## Preloader (original application entry module)
 
@@ -43,6 +43,14 @@ About heading: x=-20%,y=20%,rotate=16→identity from top-bottom to top-center. 
 
 Original geometry, copy, media, fonts, SVGs, crops and CSS are extraction-backed. Behavior is reconstructed in readable TypeScript; no production JavaScript runs in Studio. Cookie consent is deliberately omitted at the user's request. There is no deployment workflow. Any unavailable media, incomplete behaviors or visual deviations must be recorded rather than described as identical.
 
-## Remaining investigation
+## Component and route extraction milestone
 
-Route-specific carousel timing, work-grid dynamic insertion/layout/filtering, case credits overlay, contact accordions, audio equalizers, shop pointer trails, route transitions, and responsive visual comparisons. Inventory exact stylesheet/shader evidence before inventing any effects.
+Each of the 114 routes was inspected through its original Vue component tree. Media component properties supplied exact sources, responsive crop parameters, dimensions, small-screen video sources and original player URLs. Conditional crew panels were captured on 78 project routes; 14 directors’ notes were captured after opening their original controls. Header theme trigger properties were recorded for all routes. The only unmapped slot is an empty source image in the Unilever gallery.
+
+The client uses React 19, TypeScript, Vite HMR, GSAP and Lenis. It renders typed declarative content, with separate controllers for media, text splitting, route motion, galleries, filters, cursor and controls. Content and production JavaScript remain separate. Original SVG geometry and CSS are preserved, including component scope attributes where selectors require them.
+
+The local library contains 2,924 exact image crop variants, the original font, favicon, scribble, eight homepage background videos and 30 podcast previews. Large case films remain progressive streams at their original public URLs; embedded films retain their YouTube IDs. Repeated image URLs are canonicalized by sorted crop parameters to avoid storing the same transformation twice.
+
+Source investigation found no application WebGL, WGSL, GLSL or shader pipeline. The visual sheets, acetates, grading, clipping and mouse previews use SVG, DOM transforms and CSS blending. There are consequently no invented shader files.
+
+Detailed visual and interaction validation is ongoing at this milestone.
