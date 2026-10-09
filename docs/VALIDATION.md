@@ -83,3 +83,18 @@ The production build passes. `npm run verify:images` checks decoded photos and t
 The live reference was inspected at 1440px and 390px. Its navigation shows one active dot, compresses links before the active route, and blinks labels on hover/click. Studio previously animated each hovered dot and shifted later links, leaving stale dots and incorrect spacing after route changes. Route state now owns the dot and spacing; mobile menu icons use the reference's staggered blink sequence. All 13 existing normal-motion interaction checks pass, including original audio, film controls, navigation and the mobile menu. A rapid-hover sequence followed by Journal navigation leaves exactly one visible dot.
 
 Home's journal imagery now uses the reference's 2:3 portrait frames and overlap while retaining the original scroll-driven rotations. The front crop centers the design sculpture. Both frame aspect ratios were checked in Chromium and the desktop layout was visually inspected. The header mark uses white on the reference's red/light-header backgrounds for legibility.
+
+## Motion, routing and R2 history follow-up — 9 October 2026
+
+The live reference's page transitions were sampled frame by frame. Incoming and outgoing sheets now rotate concurrently around their centers, using the original .8s/.78s durations and `pageOut` curve. The background shade fades in/out over .6s linearly; header theme changes retain the reference's .7s delay. Next-project sheets translate and straighten together over one second. The original pure-red multiply acetates, paper/ink/background colors and scroll-driven motion assets are preserved.
+
+Critical routing fixes normalize trailing-slash URLs so selecting the current section cannot lock navigation, evict failed prefetches so requests can retry, recover from missing initial routes, and clean up interrupted transitions on Back navigation.
+
+- All 114 routes passed at 1440px and 390px (228 checks), with no application errors or overflow. Eight primary routes also passed at 320px, 768px and 1024px (24 checks).
+- All 13 existing interaction checks passed with normal and reduced motion. A focused normal-motion next-project check passed after its timing correction.
+- All 14 desktop/mobile fidelity checks passed, covering active dots/spacing, portrait geometry, header/background behavior, concurrent transitions, interrupted Back navigation, failed-prefetch retry and 404 recovery. Reproduce with `npm run verify:fidelity`. Compact results are in `docs/evidence/fidelity.json`.
+- Strict TypeScript/Vite build, asset validation, all four site-Worker tests, both media-Worker tests and Wrangler deployment dry run passed. The static package contains 3,307 files and no R2 duplicate binaries.
+- Three local MP4s totaling 73,514,454 bytes match existing verified R2 objects by length and MD5. Their original SHA-256 and Git blob hashes are retained in the compatibility mapping. Local copies and old simulated-R2 cache copies are removed; page content now uses the verified R2 URLs directly. Existing `/media/` URLs remain supported on production.
+- The affected five content files differ only in those three URL replacements. All five other local videos are unchanged, as are the 317-object manifest, original verification evidence and media Worker. Targeted HEAD/32-byte range checks for the three replacements passed; no R2 object was uploaded, changed or deleted.
+
+The requested history cleanup removes those three binary paths from all local refs and publishes the rewritten `main` with an explicit force-with-lease. The deployment and asset-evidence workflows no longer require those files or local media seeding.

@@ -21,18 +21,21 @@ Wrangler attaches `studio.henrywithu.com` as a custom domain and provisions its 
 
 All 317 verified Vimeo renditions continue using the existing `studio-media` Worker and `videos/vimeo/` objects. This deployment does not redeploy that Worker or alter those objects. It does not rerun the migration or importer.
 
-Two original local MP4s exceed Workers' 25 MiB static asset limit:
+Three original MP4s are byte-identical to existing verified R2 objects:
 
 | Existing URL | Bytes | R2 key |
 | --- | ---: | --- |
+| `/media/2fa5e6d065819f13.mp4` | 4,639,186 | `videos/vimeo/1007627724-1080p.mp4` |
 | `/media/748af0586f32345b.mp4` | 39,750,246 | `videos/vimeo/1168089886-1440p.mp4` |
 | `/media/e89d3045a7786331.mp4` | 29,125,022 | `videos/vimeo/1075238854-1440p.mp4` |
 
-These files are byte-identical to two already-verified objects in the Vimeo migration. Their sizes and MD5 hashes match the recorded R2 ETags. The site Worker reads those existing keys and streams them at the original local URLs, with range/HEAD/conditional-request support. Only those two URLs route through the Worker; it does not expose arbitrary R2 keys. No additional media upload or R2 write permission is needed.
+These files are byte-identical to three already-verified objects in the Vimeo migration. Their sizes and MD5 hashes match the recorded R2 ETags. The site Worker reads those existing keys and streams them at the original local URLs, with range/HEAD/conditional-request support. Only those three URLs route through the Worker; it does not expose arbitrary R2 keys. No additional media upload or R2 write permission is needed.
 
 Keep Cloudflare Workers Builds connected to the `studio` Worker. The config name matches it, so CLI deployment also targets the same Worker as CI.
 
-The original local assets remain in `public/` and `dist/` for Vite development and preview. The build's `postbuild` lifecycle runs `scripts/prepare-workers.mjs`, creating an ignored `.cloudflare/assets/` copy without the two oversized files and verifying all remaining files against the static asset size and count limits. `workers:prepare` can also run this step independently. Never deploy raw `dist/` with Wrangler, because it includes those oversized originals.
+The application now requests these three videos directly from the existing media Worker. Their redundant local binaries have been removed from `public/`, deployment output and rewritten Git history. The site Worker preserves the three legacy `/media/` URLs for existing links. Five other original local videos still have no byte-identical object in the verified collection and remain unchanged. The 317 original R2 objects and their verification records are untouched.
+
+The build's `postbuild` lifecycle runs `scripts/prepare-workers.mjs`, creating the ignored `.cloudflare/assets/` package and verifying static asset size/count limits and the absence of R2 duplicate files. `workers:prepare` can also run this step independently.
 
 ## Routing and metadata
 
@@ -46,8 +49,8 @@ The build emits an HTML shell for each of the 114 known routes, with route-speci
 npm run workers:dev
 ```
 
-This command seeds the two oversized files into the simulated local R2 bucket, so they also play in the Workers preview. It never uploads to production R2. Vite dev/preview retains all original local videos. The other R2 renditions continue using their existing verified public URLs. `workers:test` seeds temporary test bytes and verifies seeking, HEAD responses, method restrictions and isolation from private keys.
+Vite and Workers previews use the verified public R2 URLs directly; no binary seeding or production upload is needed. The compatibility `/media/` endpoints are available on production; a local Worker test seeds temporary fixture bytes to exercise those endpoints. `workers:test` verifies seeking, HEAD responses, method restrictions and isolation from private keys.
 
-After deployment, check `/`, `/about/`, `/blog/`, an archive deep link, `/brand/og.jpg`, `/robots.txt`, `/sitemap.xml` and an unknown path. Confirm byte-range playback on the two local media URLs and the existing R2 rendition URLs.
+After deployment, check `/`, `/about/`, `/blog/`, an archive deep link, `/brand/og.jpg`, `/robots.txt`, `/sitemap.xml` and an unknown path. Confirm byte-range playback on the three legacy media URLs and the existing R2 rendition URLs.
 
 Sources: [Workers Static Assets](https://developers.cloudflare.com/workers/static-assets/), [routing](https://developers.cloudflare.com/workers/static-assets/routing/), [static asset limits](https://developers.cloudflare.com/workers/platform/limits/#static-assets), [Wrangler configuration](https://developers.cloudflare.com/workers/wrangler/configuration/).

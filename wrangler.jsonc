@@ -11,7 +11,7 @@
     "binding": "ASSETS",
     "html_handling": "force-trailing-slash",
     "not_found_handling": "404-page",
-    "run_worker_first": ["/media/748af0586f32345b.mp4", "/media/e89d3045a7786331.mp4"]
+    "run_worker_first": ["/media/2fa5e6d065819f13.mp4", "/media/748af0586f32345b.mp4", "/media/e89d3045a7786331.mp4"]
   },
   "r2_buckets": [{ "binding": "LOCAL_VIDEOS", "bucket_name": "studio" }],
   "observability": { "enabled": true, "head_sampling_rate": 0.1 }

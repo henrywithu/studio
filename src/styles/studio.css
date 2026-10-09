@@ -26,6 +26,7 @@
   font-size: 2rem;
   text-decoration: underline;
 }
+.route-error .header { color: #0b0b0b; }
 .scrollbar__handle {
   touch-action: none;
 }
@@ -87,6 +88,11 @@ input:focus-visible {
 }
 .studio-transition .page-root {
   width: 100%;
+}
+.studio-transition-shade {
+  position: absolute;
+  inset: 0;
+  background: #0a0a0a66;
 }
 .studio-cursor-preview--carousel {
   width: 15.74074vw;

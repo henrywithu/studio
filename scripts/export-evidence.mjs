@@ -18,7 +18,21 @@ const sources = [
   })),
 ];
 const inventory = [];
+const r2Media = JSON.parse(
+  await readFile("workers/site/local-media.json", "utf8"),
+);
 for (const item of sources) {
+  const remote = r2Media.find((video) => "public" + video.path === item.path);
+  if (remote) {
+    inventory.push({
+      ...item,
+      bytes: remote.bytes,
+      sha256: remote.sha256,
+      storage: "r2",
+      key: remote.key,
+    });
+    continue;
+  }
   const buffer = await readFile(item.path);
   inventory.push({ ...item, bytes: buffer.byteLength, sha256: sha(buffer) });
 }
@@ -56,10 +70,16 @@ await writeFile(
 );
 const totals = {
   imageCrops: images.length,
-  localVideos: Object.values(aliases).filter((v) => v.endsWith(".mp4")).length,
+  localVideos: Object.values(aliases).filter(
+    (v) => v.endsWith(".mp4") && !r2Media.some((video) => video.path === v),
+  ).length,
+  r2BackedLocalUrls: r2Media.length,
   localAudio: Object.values(aliases).filter((v) => v.endsWith(".mp3")).length,
-  files: inventory.length,
-  bytes: inventory.reduce((sum, item) => sum + item.bytes, 0),
+  files: inventory.filter((item) => item.storage !== "r2").length,
+  bytes: inventory.reduce(
+    (sum, item) => sum + (item.storage === "r2" ? 0 : item.bytes),
+    0,
+  ),
   referenceResources: resources.length,
 };
 await writeFile(

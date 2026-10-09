@@ -3,7 +3,17 @@ import { readFile, readdir, stat } from "node:fs/promises";
 const inventory = JSON.parse(
   await readFile("docs/evidence/assets.json", "utf8"),
 );
+const videos = JSON.parse(
+  await readFile("docs/evidence/r2-videos.json", "utf8"),
+);
 for (const item of inventory) {
+  if (item.storage === "r2") {
+    const object = videos.entries.find((entry) => entry.key === item.key);
+    assert.equal(object?.status, "verified", item.path);
+    assert.equal(object.bytes, item.bytes, item.path);
+    await assert.rejects(stat(item.path), { code: "ENOENT" });
+    continue;
+  }
   const file = await stat(item.path);
   assert.equal(file.size, item.bytes, item.path);
 }
@@ -42,6 +52,8 @@ for (const name of await readdir("public/content"))
 for (const path of resources) await stat(path);
 console.log({
   inventoriedFiles: inventory.length,
+  localFiles: inventory.filter((item) => item.storage !== "r2").length,
+  r2DuplicatesRemoved: inventory.filter((item) => item.storage === "r2").length,
   renderedAssetReferences: resources.size,
   nodes,
   missing: 0,

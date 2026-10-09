@@ -11,6 +11,7 @@
     "inspect:reference": "node scripts/inspect-reference.mjs",
     "verify": "node scripts/verify-studio.mjs",
     "verify:images": "node scripts/verify-journal-images.mjs",
+    "verify:fidelity": "node scripts/verify-fidelity.mjs",
     "compare": "node scripts/compare-reference.mjs",
     "research:replay": "node scripts/serve-reference.mjs",
     "evidence": "node scripts/export-evidence.mjs",
@@ -23,7 +24,7 @@
     "media:browser": "node scripts/verify-r2-browser.mjs",
     "media:deploy": "wrangler deploy --config workers/media/wrangler.jsonc",
     "workers:prepare": "node scripts/prepare-workers.mjs",
-    "workers:dev": "npm run build && node scripts/seed-local-media.mjs && wrangler dev",
+    "workers:dev": "npm run build && wrangler dev",
     "deploy:check": "npm run build && wrangler deploy --dry-run",
     "deploy": "npm run build && wrangler deploy",
     "workers:test": "node --test scripts/test-site-worker.mjs"

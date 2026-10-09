@@ -61,3 +61,12 @@ The temporary `studio-video-import` Worker was deleted after transfer; only the
 read-only delivery Worker remains deployed. All objects were checked for MP4 format,
 content length, and byte-range delivery. YouTube downloads were blocked by the
 execution environment's outbound proxy; the 16 YouTube source references remain external.
+
+## Duplicate local files removed
+
+Three local MP4s were subsequently matched byte-for-byte to existing verified R2
+objects and removed from the working tree and rewritten Git history (73,514,454
+bytes). The application now uses those R2 URLs directly, and the site Worker
+supports their three old `/media/` URLs. Five other original local videos remain
+unchanged. The 317 verified objects, delivery Worker and original verification
+records are preserved. See [deployment configuration](CLOUDFLARE.md).

@@ -1,4 +1,26 @@
 [
-  { "path": "/media/748af0586f32345b.mp4", "key": "videos/vimeo/1168089886-1440p.mp4" },
-  { "path": "/media/e89d3045a7786331.mp4", "key": "videos/vimeo/1075238854-1440p.mp4" }
+  {
+    "path": "/media/2fa5e6d065819f13.mp4",
+    "key": "videos/vimeo/1007627724-1080p.mp4",
+    "bytes": 4639186,
+    "md5": "557e6e990e4e1ec396914c000820ef99",
+    "sha256": "768ce00d6918a909561fed4ef77d56d6927081fd328ba073057fb0448f8f1846",
+    "gitBlob": "1bfbc384062df5cd7fe99a63cb7db0aceb7886be"
+  },
+  {
+    "path": "/media/748af0586f32345b.mp4",
+    "key": "videos/vimeo/1168089886-1440p.mp4",
+    "bytes": 39750246,
+    "md5": "43b567c1626f35e74692d2a3988723de",
+    "sha256": "65a1113689ea0514dc487b12241cc927a183bb9e5a39316dee4148d533d5d9ae",
+    "gitBlob": "14524aef552a05db658f5754ca7c84eb324dd591"
+  },
+  {
+    "path": "/media/e89d3045a7786331.mp4",
+    "key": "videos/vimeo/1075238854-1440p.mp4",
+    "bytes": 29125022,
+    "md5": "bf2c88c28e32374c08a01325e89e862d",
+    "sha256": "e3e79511882cdb9e002deb491aeb624fc81325045a4da3080d7008bcf791198d",
+    "gitBlob": "1df159b36cc7ff38bd9730eae27986c7d109567f"
+  }
 ]

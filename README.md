@@ -21,4 +21,4 @@ npm run workers:test
 npm run deploy
 ```
 
-See [deployment instructions](docs/CLOUDFLARE.md). The deploy command prepares the assets and deploys `studio` at **studio.henrywithu.com**. The two oversized local-video URLs reuse byte-identical objects from the 317 verified R2 renditions; no media upload is needed. Authentication uses your Cloudflare account; no secrets belong in the repository.
+See [deployment instructions](docs/CLOUDFLARE.md). The deploy command prepares the assets and deploys `studio` at **studio.henrywithu.com**. Three redundant video binaries have been removed from the repository and its history; the application uses byte-identical objects from the 317 verified R2 renditions. Their old `/media/` URLs remain supported on production. No media upload is needed. Authentication uses your Cloudflare account; no secrets belong in the repository.

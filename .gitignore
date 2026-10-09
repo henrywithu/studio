@@ -17,3 +17,8 @@ __pycache__/
 research/*.json
 
 .cloudflare/
+
+# Verified R2 duplicates are intentionally absent from the repository.
+/public/media/2fa5e6d065819f13.mp4
+/public/media/748af0586f32345b.mp4
+/public/media/e89d3045a7786331.mp4

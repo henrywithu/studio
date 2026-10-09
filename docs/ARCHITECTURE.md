@@ -12,7 +12,7 @@ The content renderer preserves original SVG paths, scope attributes, semantics a
 
 | Module                               | Responsibility                                                                                         |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| `components/Header.tsx`              | Active links, mobile navigation, link hover, London opening status, header themes                      |
+| `components/Header.tsx`              | Route-based active dots/spacing, mobile navigation, label blinks and Trapnest status                      |
 | `components/Preloader.tsx`           | Original wordmark shapes, counter, blinks and loading sheet                                            |
 | `components/Cursor.tsx`              | Smoothed DOM pointer labels and original thumbnail previews                                            |
 | `components/Scrollbar.tsx`           | Original constant-size draggable scrollbar                                                             |

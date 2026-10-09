@@ -1,8 +1,10 @@
 {
   "imageCrops": 3006,
-  "localVideos": 8,
+  "localVideos": 5,
   "localAudio": 30,
-  "files": 3047,
-  "bytes": 712486079,
-  "referenceResources": 89
+  "files": 3044,
+  "bytes": 638971625,
+  "referenceResources": 89,
+  "r2BackedLocalUrls": 3,
+  "duplicateVideoBytesRemoved": 73514454
 }

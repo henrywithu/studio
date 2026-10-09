@@ -1,7 +1,7 @@
 import media from "../media/index.mjs";
 import localMedia from "./local-media.json";
 
-/** Only the two oversized local files need Worker execution; pages remain static. */
+/** Preserve the three legacy media URLs using verified R2 objects; pages remain static. */
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);

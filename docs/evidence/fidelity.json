@@ -1,0 +1,71 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "name": "current trailing-slash route stays usable"
+    },
+    {
+      "width": 1440,
+      "name": "rapid hover and navigation leave one correctly spaced active dot"
+    },
+    {
+      "width": 1440,
+      "name": "portrait photo stack and original background layers"
+    },
+    {
+      "width": 1440,
+      "name": "page sheets rotate concurrently, dim and finish without stale overlays"
+    },
+    {
+      "width": 1440,
+      "name": "Back during a transition releases navigation and scrolling"
+    },
+    {
+      "width": 1440,
+      "name": "failed route prefetch can recover on retry"
+    },
+    {
+      "width": 1440,
+      "name": "unknown route recovers through the Home link"
+    },
+    {
+      "width": 390,
+      "name": "current trailing-slash route stays usable"
+    },
+    {
+      "width": 390,
+      "name": "rapid hover and navigation leave one correctly spaced active dot"
+    },
+    {
+      "width": 390,
+      "name": "portrait photo stack and original background layers"
+    },
+    {
+      "width": 390,
+      "name": "page sheets rotate concurrently, dim and finish without stale overlays"
+    },
+    {
+      "width": 390,
+      "name": "Back during a transition releases navigation and scrolling"
+    },
+    {
+      "width": 390,
+      "name": "failed route prefetch can recover on retry"
+    },
+    {
+      "width": 390,
+      "name": "unknown route recovers through the Home link"
+    }
+  ],
+  "errors": [],
+  "reference": "https://thelinestudio.com/",
+  "date": "2026-10-09",
+  "motion": {
+    "incomingSeconds": 0.8,
+    "outgoingSeconds": 0.78,
+    "origin": "50% 50%",
+    "backgroundFadeSeconds": 0.6,
+    "backgroundFadeEase": "linear",
+    "headerThemeDelaySeconds": 0.7
+  }
+}

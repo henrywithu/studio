@@ -18063,13 +18063,17 @@
     "source": "https://player.vimeo.com/progressive_redirect/playback/1007627724/rendition/1080p/file.mp4?loc=external&log_user=0&signature=41fcd2bd8b9c45ffb168fd843955caf3daa868b55bceb67f951cce974f296f6c",
     "path": "public/media/2fa5e6d065819f13.mp4",
     "bytes": 4639186,
-    "sha256": "768ce00d6918a909561fed4ef77d56d6927081fd328ba073057fb0448f8f1846"
+    "sha256": "768ce00d6918a909561fed4ef77d56d6927081fd328ba073057fb0448f8f1846",
+    "storage": "r2",
+    "key": "videos/vimeo/1007627724-1080p.mp4"
   },
   {
     "source": "https://player.vimeo.com/progressive_redirect/playback/1168089886/rendition/1440p/file.mp4%20%281440p%29.mp4?loc=external&log_user=0&signature=0c599df19f41c023c75b69eb74c9c1360bf4caaca80045494969b340a153bb00",
     "path": "public/media/748af0586f32345b.mp4",
     "bytes": 39750246,
-    "sha256": "65a1113689ea0514dc487b12241cc927a183bb9e5a39316dee4148d533d5d9ae"
+    "sha256": "65a1113689ea0514dc487b12241cc927a183bb9e5a39316dee4148d533d5d9ae",
+    "storage": "r2",
+    "key": "videos/vimeo/1168089886-1440p.mp4"
   },
   {
     "source": "https://player.vimeo.com/progressive_redirect/playback/1017156647/rendition/720p/file.mp4?loc=external&log_user=0&signature=13b9e9f5735616c30ccdda6df3760c50b2dc129d3c4922aed9324bfc15337974",
@@ -18081,7 +18085,9 @@
     "source": "https://player.vimeo.com/progressive_redirect/playback/1075238854/rendition/1440p/file.mp4?loc=external&log_user=0&signature=ab2898724061630d120ac55f4d347abc72e77432b75945a58a7436f1975b7a18",
     "path": "public/media/e89d3045a7786331.mp4",
     "bytes": 29125022,
-    "sha256": "e3e79511882cdb9e002deb491aeb624fc81325045a4da3080d7008bcf791198d"
+    "sha256": "e3e79511882cdb9e002deb491aeb624fc81325045a4da3080d7008bcf791198d",
+    "storage": "r2",
+    "key": "videos/vimeo/1075238854-1440p.mp4"
   },
   {
     "source": "https://www.datocms-assets.com/136821/1724340989-episode-8-ken-wong-15sec.mp3",
