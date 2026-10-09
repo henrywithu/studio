@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-09",
+  "mediaFilesMigrated": 3061,
+  "mediaBytesMigrated": 639924419,
+  "packBytesBefore": 637037577,
+  "packBytesAfterRewrite": 2503804,
+  "migratedBlobsAbsent": 3064,
+  "testedTreeUnchanged": true,
+  "purgedPrefixes": [
+    "public/assets/",
+    "public/media/",
+    "public/audio/",
+    "public/images/"
+  ]
+}
